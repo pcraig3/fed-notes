@@ -1,0 +1,25 @@
+@use "../vars";
+@use "../mixins";
+
+.intro {
+  padding-top: map-get(vars.$sp, "xxl");
+  padding-bottom: map-get(vars.$sp, "xxxl");
+
+  background-color: map-get(vars.$c, "blue");
+  color: map-get(vars.$c, "white");
+
+  .wrapper {
+    @include mixins.container;
+    margin-top: map-get(vars.$sp, "xl");
+    margin-bottom: map-get(vars.$sp, "xl");
+  }
+
+  h1 {
+    font-size: map-get(vars.$fs, "xxxl");
+    margin-bottom: map-get(vars.$sp, "xl");
+  }
+
+  .introSummary {
+    font-size: map-get(vars.$fs, "lg");
+  }
+}

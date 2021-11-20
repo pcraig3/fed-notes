@@ -1,0 +1,8 @@
+<header class="intro">
+  <div class="wrapper">
+    <h1>{{ introHeading }}</h1>
+    {% if introSummary %}
+      <div class="introSummary">{{ introSummary | safe }}</div>
+    {% endif %}
+  </div>
+</header>

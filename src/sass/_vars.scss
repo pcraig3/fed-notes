@@ -1,14 +1,23 @@
+$c: (
+  "blue": #26374a,
+  "grey-light": #f8f8f8,
+  "red": #d3080c,
+  "white": #ffffff,
+  "black": #000000,
+);
+
 $fw: (
   "regular": 400,
   "bold": 700,
 );
 
-$font-size: (
+$fs: (
   "sm": 0.8rem,
   "md": 1rem,
-  "lg": 1.563rem,
+  "lg": 1.25rem,
   "xl": 1.953rem,
   "xxl": 2.441rem,
+  "xxxl": 3.052rem,
 );
 
 $sp: (
@@ -18,4 +27,5 @@ $sp: (
   "lg": 1rem,
   "xl": 1.5rem,
   "xxl": 2.5rem,
+  "xxxl": 3.5rem,
 );

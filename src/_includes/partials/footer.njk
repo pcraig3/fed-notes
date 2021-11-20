@@ -1,0 +1,26 @@
+<footer role="contentinfo">
+  <div class="wrapper">
+    <div>
+    {% if site.shortDesc %}
+      <div>
+        <article>
+          <h2>{{ site.name }}</h2>
+          {{ site.shortDesc | markdownFilter | safe }}
+        </article>
+      </div>
+    {% endif %}
+      <div>
+        <nav aria-label="footer navigation">
+          <ul>
+            <li>Home</li>
+            <li>Github</li>
+            <li>Twitter</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <p>
+      Powered by the <a href="https://hylia.website" rel="external">Hylia Eleventy Starter Kit v{{ pkg.version }}</a>.
+    </p>
+  </div>
+</footer>
