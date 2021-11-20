@@ -31,5 +31,8 @@
   "browserslist": [
     "> 0.5%",
     "not IE 11"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
 }
