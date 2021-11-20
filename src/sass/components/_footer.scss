@@ -1,0 +1,10 @@
+@use "../mixins";
+@use "../_vars";
+
+footer[role="contentinfo"] {
+  @include mixins.logo-container;
+}
+
+.tagline {
+  text-align: center;
+}

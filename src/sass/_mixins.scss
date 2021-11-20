@@ -21,3 +21,16 @@
   padding-left: map-get(vars.$sp, "xxl");
   padding-right: map-get(vars.$sp, "xxl");
 }
+
+@mixin logo-container {
+  @include container;
+  margin-top: map-get(vars.$sp, "xl");
+  margin-bottom: map-get(vars.$sp, "xl");
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}

@@ -2,16 +2,7 @@
 @use "../_vars";
 
 header[role="banner"] {
-  @include mixins.container;
-  margin-top: map-get(vars.$sp, "xl");
-  margin-bottom: map-get(vars.$sp, "xl");
-
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-  }
+  @include mixins.logo-container;
 }
 
 .logo {
