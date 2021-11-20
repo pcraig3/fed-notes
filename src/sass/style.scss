@@ -1,5 +1,7 @@
-@use "./reset";
+/* CSS reset */
+@use "./_reset";
 
+/* Sass stuff */
 @use "./_mixins";
 @use "./_vars";
 
