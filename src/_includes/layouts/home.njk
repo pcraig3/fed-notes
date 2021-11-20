@@ -8,13 +8,20 @@
 {% block content %}
   {% include "partials/intro.njk" %}
 
-  ## Posts
+<div class="post--list container">
+  <h2>Articles</h2>
 
-<ul>
-{% for post in collections.posts %}
-<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-{% endfor %}
-</ul>
+  <ul>
+    {% for post in collections.posts %}
+      <li class="post">
+        <h3 class="post--title">
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+        <span class="post--date">8th June 2020</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 
 <hr />
 {% endblock %}

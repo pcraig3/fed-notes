@@ -3,8 +3,12 @@
 @use "./_mixins";
 @use "./_vars";
 
+/* Partials */
 @use "./components/header";
 @use "./components/intro";
+
+/* Pages */
+@use "./pages/home";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -28,4 +32,10 @@ p {
 
 .visually-hidden {
   @include mixins.visually-hidden;
+}
+
+.container {
+  @include mixins.container;
+  margin-top: map-get(vars.$sp, "xl");
+  margin-bottom: map-get(vars.$sp, "xl");
 }

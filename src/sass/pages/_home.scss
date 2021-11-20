@@ -1,0 +1,24 @@
+@use "../vars";
+
+.post--list {
+  h2 {
+    font-size: map-get(vars.$fs, "xxl");
+    margin-bottom: map-get(vars.$fs, "md");
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: map-get(vars.$sp, "xxl");
+    padding: 0;
+  }
+}
+
+.post {
+  font-size: map-get(vars.$fs, "lg");
+  margin-bottom: map-get(vars.$sp, "sm");
+
+  .post--title {
+    display: block;
+  }
+}
