@@ -1,3 +1,4 @@
+// Import data files
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
 

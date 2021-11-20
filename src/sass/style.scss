@@ -1,4 +1,26 @@
+@use "./reset";
+
+@use "./_mixins";
+@use "./_vars";
+
+@use "./components/header";
+
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #f9f9f9;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+.visually-hidden {
+  @include mixins.visually-hidden;
 }
