@@ -1,5 +1,32 @@
 @use "./vars";
 
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobile {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
 @mixin visually-hidden {
   position: absolute !important;
   width: 1px !important;
@@ -18,19 +45,26 @@
   max-width: 58rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: map-get(vars.$sp, "xxl");
-  padding-right: map-get(vars.$sp, "xxl");
+  padding-left: map-get(vars.$sp, "xxxl");
+  padding-right: map-get(vars.$sp, "xxxl");
 }
 
 @mixin logo-container {
   @include container;
-  margin-top: map-get(vars.$sp, "xl");
-  margin-bottom: map-get(vars.$sp, "xl");
+  margin-top: map-get(vars.$sp, "xxl");
+  margin-bottom: map-get(vars.$sp, "xxl");
 
   .flex-wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+
+    @include mobile {
+      flex-direction: column;
+    }
+
+    @include tablet {
+      flex-direction: row;
+      align-items: baseline;
+    }
   }
 }

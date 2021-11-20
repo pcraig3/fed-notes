@@ -4,9 +4,10 @@
 @use "./_vars";
 
 /* Partials */
+@use "./components/footer";
 @use "./components/header";
 @use "./components/intro";
-@use "./components/footer";
+@use "./components/nav";
 
 /* Pages */
 @use "./pages/home";

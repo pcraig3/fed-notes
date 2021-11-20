@@ -1,0 +1,32 @@
+@use "../mixins";
+@use "../_vars";
+
+.logo {
+  font-family: "Lato", sans-serif;
+  font-size: map-get(vars.$fs, "lg");
+  text-decoration: none;
+}
+
+nav {
+  display: inline-block;
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-right: map-get(vars.$sp, "md");
+    }
+  }
+}
+
+@include mixins.mobile {
+  .logo,
+  .logo + p,
+  nav ul {
+    margin-top: 0;
+    margin-bottom: map-get(vars.$sp, "lg");
+  }
+}

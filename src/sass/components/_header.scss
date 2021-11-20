@@ -3,23 +3,8 @@
 
 header[role="banner"] {
   @include mixins.logo-container;
-}
 
-.logo {
-  font-family: "Lato", sans-serif;
-  font-size: map-get(vars.$fs, "lg");
-  text-decoration: none;
-}
-
-nav {
-  display: inline-block;
-
-  ul {
-    list-style-type: none;
-
-    li {
-      display: inline-block;
-      margin-right: map-get(vars.$sp, "md");
-    }
+  nav > ul {
+    margin-bottom: 0;
   }
 }
