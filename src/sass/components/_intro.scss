@@ -11,6 +11,7 @@
   h1 {
     font-size: map-get(vars.$fs, "xxxl");
     margin-bottom: map-get(vars.$sp, "xl");
+    border-bottom: 2px solid map-get(vars.$c, "red-dark");
   }
 
   .introSummary {

@@ -2,10 +2,8 @@
   <div class="flex-wrapper">
   {% if site.shortDesc %}
     <div>
-      <article>
-        <h2 class="logo">{{ site.name }}</h2>
-        {{ site.shortDesc | markdownFilter | safe }}
-      </article>
+      <h2 class="logo">{{ site.name }}</h2>
+      {{ site.shortDesc | markdownFilter | safe }}
     </div>
   {% endif %}
     <div>
