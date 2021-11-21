@@ -1,7 +1,22 @@
+/* Sass stuff */
+@use "../_mixins";
+
 /* Grid system, inspired by SmolCSS */
 .post-list {
-  --min: 22ch;
-  --gap: 1rem;
+  @include mixins.mobile {
+    --min: 100%;
+    --gap: 0;
+  }
+
+  @include mixins.tablet {
+    --min: 45%;
+    --gap: 5%;
+  }
+
+  @include mixins.desktop {
+    --min: 30%;
+    --gap: 3%;
+  }
 
   display: flex;
   flex-wrap: wrap;
@@ -9,8 +24,7 @@
 }
 
 .post-list > .post {
-  width: 40%;
-  flex: 1 1 1;
+  width: var(--min);
 }
 
 .post--list__wrapper {
@@ -22,7 +36,13 @@
 
 .post {
   font-size: var(--font-md);
-  margin-bottom: var(--font-md);
+  margin-bottom: var(--font-lg);
+
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+
+  padding: var(--space-md) var(--space-lg);
 
   .post--title {
     display: block;
@@ -30,7 +50,7 @@
   .post--date {
     display: block;
     font-size: 18px;
-    margin-bottom: var(--space-xs);
+    margin-bottom: var(--space-sm);
   }
 
   p {

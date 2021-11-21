@@ -37,6 +37,15 @@ p {
   margin-bottom: var(--space-lg);
 }
 
+a,
+a:visited {
+  color: var(--color-blue);
+
+  &:hover {
+    color: var(--color-blue-highlight);
+  }
+}
+
 .visually-hidden {
   @include mixins.visually-hidden;
 }
