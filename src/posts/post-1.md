@@ -1,5 +1,6 @@
 ---
-title: "Using mob programming to solve a problem"
+title: "Mobbing at GDS"
+summary: "Using mob programming to solve a problem"
 date: "2021-11-15"
 ---
 

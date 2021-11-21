@@ -8,16 +8,17 @@
 {% block content %}
   {% include "partials/intro.njk" %}
 
-  <div class="post--list container">
+  <div class="post--list__wrapper container">
     <h2>Articles</h2>
 
-    <ul>
+    <ul class="post-list">
       {% for post in collections.posts %}
         <li class="post">
           <h3 class="post--title">
             <a href="{{ post.url }}">{{ post.data.title }}</a>
           </h3>
-          <span class="post--date">8th June 2020</span>
+          <div class="post--date"><time datetime="{{ post.data.date | isoDateFilter }}">{{ post.data.date | displayDateFilter }}</time></div>
+          <p>{{ post.data.summary }}</p>
         </li>
       {% endfor %}
     </ul>

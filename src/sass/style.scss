@@ -34,6 +34,17 @@ p {
   margin-bottom: map-get(vars.$sp, "lg");
 }
 
+.visually-hidden {
+  @include mixins.visually-hidden;
+}
+
+.container {
+  @include mixins.container;
+  margin-top: map-get(vars.$sp, "xl");
+  margin-bottom: map-get(vars.$sp, "xl");
+}
+
+/* Posts */
 article {
   font-size: map-get(vars.$fs, "lg");
   margin-bottom: map-get(vars.$sp, "xxl");
@@ -43,14 +54,4 @@ article {
     margin-top: map-get(vars.$sp, "xl");
     margin-bottom: map-get(vars.$sp, "lg");
   }
-}
-
-.visually-hidden {
-  @include mixins.visually-hidden;
-}
-
-.container {
-  @include mixins.container;
-  margin-top: map-get(vars.$sp, "xl");
-  margin-bottom: map-get(vars.$sp, "xl");
 }
