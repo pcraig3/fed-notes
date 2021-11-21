@@ -1,5 +1,3 @@
-@use "./vars";
-
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
@@ -45,14 +43,14 @@ $desktop-width: 1024px;
   max-width: 58rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: map-get(vars.$sp, "xxxl");
-  padding-right: map-get(vars.$sp, "xxxl");
+  padding-left: var(--space-xxxl);
+  padding-right: var(--space-xxxl);
 }
 
 @mixin logo-container {
   @include container;
-  margin-top: map-get(vars.$sp, "xxl");
-  margin-bottom: map-get(vars.$sp, "xxl");
+  margin-top: var(--space-xxl);
+  margin-bottom: var(--space-xxl);
 
   .flex-wrapper {
     display: flex;

@@ -3,7 +3,6 @@
 
 /* Sass stuff */
 @use "./_mixins";
-@use "./_vars";
 
 /* Partials */
 @use "./components/footer";
@@ -21,6 +20,10 @@ body {
   line-height: 1.5;
 }
 
+// :root {
+//   color-scheme: light dark;
+// }
+
 h1,
 h2,
 h3,
@@ -31,7 +34,7 @@ h6 {
 }
 
 p {
-  margin-bottom: map-get(vars.$sp, "lg");
+  margin-bottom: var(--space-lg);
 }
 
 .visually-hidden {
@@ -40,18 +43,18 @@ p {
 
 .container {
   @include mixins.container;
-  margin-top: map-get(vars.$sp, "xl");
-  margin-bottom: map-get(vars.$sp, "xl");
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xl);
 }
 
 /* Posts */
 article {
-  font-size: map-get(vars.$fs, "lg");
-  margin-bottom: map-get(vars.$sp, "xxl");
+  font-size: var(--font-lg);
+  margin-bottom: var(--space-xxl);
 
   h2,
   h3 {
-    margin-top: map-get(vars.$sp, "xl");
-    margin-bottom: map-get(vars.$sp, "lg");
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-lg);
   }
 }

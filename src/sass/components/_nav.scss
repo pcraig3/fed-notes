@@ -1,9 +1,8 @@
 @use "../mixins";
-@use "../_vars";
 
 .logo {
   font-family: "Lato", sans-serif;
-  font-size: map-get(vars.$fs, "lg");
+  font-size: var(--font-md);
   text-decoration: none;
 }
 
@@ -17,7 +16,7 @@ nav {
 
     li {
       display: inline-block;
-      margin-right: map-get(vars.$sp, "md");
+      margin-right: var(--space-md);
     }
   }
 }
@@ -27,6 +26,6 @@ nav {
   .logo + p,
   nav ul {
     margin-top: 0;
-    margin-bottom: map-get(vars.$sp, "lg");
+    margin-bottom: var(--space-lg);
   }
 }

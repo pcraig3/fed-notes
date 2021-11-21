@@ -1,0 +1,35 @@
+/* wet.css: 👉 kind of like WET */
+:root {
+  /* Colours */
+  --color-blue: #26374a;
+  --color-grey-light: #f8f8f8;
+  --color-red: #d3080c;
+  --color-red-dark: #af3c43;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Typography */
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --font-base-size: 1rem;
+  --font-scale: 1.25;
+
+  --font-xs: calc(var(--font-base-size) / 1.25);
+  --font-sm: var(--font-base-size);
+  --font-md: calc(var(--font-sm) * 1.25);
+  --font-lg: calc(var(--font-md) * 1.25);
+  --font-xl: calc(var(--font-lg) * 1.25);
+  --font-xxl: calc(var(--font-xl) * 1.25);
+  --font-xxxl: calc(var(--font-xxl) * 1.25);
+
+  /* Spacing */
+  --space-base-size: 1rem;
+  --space-xs: calc(0.25 * var(--space-base-size));
+  --space-sm: calc(0.5 * var(--space-base-size));
+  --space-md: calc(0.75 * var(--space-base-size));
+  --space-lg: var(--space-base-size);
+  --space-xl: calc(1.5 * var(--space-base-size));
+  --space-xxl: calc(2.5 * var(--space-base-size));
+  --space-xxxl: calc(3.5 * var(--space-base-size));
+}

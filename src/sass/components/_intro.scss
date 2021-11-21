@@ -1,20 +1,18 @@
-@use "../vars";
-
 .intro {
-  padding-top: map-get(vars.$sp, "xxl");
-  padding-bottom: map-get(vars.$sp, "xxxl");
-  margin-bottom: map-get(vars.$sp, "xxl");
+  padding-top: var(--space-xxl);
+  padding-bottom: var(--space-xxxl);
+  margin-bottom: var(--space-xxl);
 
-  background-color: map-get(vars.$c, "blue");
-  color: map-get(vars.$c, "white");
+  background-color: var(--color-blue);
+  color: var(--color-white);
 
   h1 {
-    font-size: map-get(vars.$fs, "xxxl");
-    margin-bottom: map-get(vars.$sp, "xl");
-    border-bottom: 2px solid map-get(vars.$c, "red-dark");
+    font-size: var(--font-xxxl);
+    margin-bottom: var(--space-xl);
+    border-bottom: 2px solid var(--color-red-dark);
   }
 
   .introSummary {
-    font-size: map-get(vars.$fs, "lg");
+    font-size: var(--font-md);
   }
 }
