@@ -7,7 +7,6 @@
 .article-content {
   flex: 2;
 
-  background: pink;
   font-size: var(--font-md);
   margin-bottom: var(--space-xxl);
 
@@ -15,14 +14,46 @@
   h3 {
     margin-top: var(--space-xl);
     margin-bottom: var(--space-lg);
+
+    border-top: 30px solid transparent;
+    margin-top: calc(-30px + var(--space-xl));
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+
+    a {
+      text-decoration: none;
+      color: var(--color-text);
+      margin-left: calc(-1 * var(--space-xl));
+      padding-left: var(--space-xl);
+      position: relative;
+
+      &::before {
+        content: "#";
+        font-size: var(--font-lg);
+        color: var(--color-grey-light);
+        position: absolute;
+        float: left;
+        left: 0;
+        bottom: -2px;
+      }
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--color-text);
+
+      &::before {
+        color: var(--color-blue-highlight);
+        text-decoration: underline;
+      }
+    }
   }
 }
 
 .sidebar-content {
   flex: 1;
   margin-left: var(--space-lg);
-
-  background: orange;
 
   .sticky {
     position: sticky;
