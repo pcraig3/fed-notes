@@ -1,0 +1,34 @@
+/* Posts */
+.article-content__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.article-content {
+  flex: 2;
+
+  background: pink;
+  font-size: var(--font-md);
+  margin-bottom: var(--space-xxl);
+
+  h2,
+  h3 {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-lg);
+  }
+}
+
+.sidebar-content {
+  flex: 1;
+  margin-left: var(--space-lg);
+
+  background: orange;
+
+  .sticky {
+    position: sticky;
+    top: 5px;
+    z-index: 1;
+    outline: 2px solid black;
+    padding: 5px;
+  }
+}

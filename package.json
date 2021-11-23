@@ -33,6 +33,9 @@
     "not IE 11"
   ],
   "devDependencies": {
-    "prettier": "2.4.1"
+    "markdown-it-anchor": "^8.4.1",
+    "markdown-it-toc-done-right": "^4.2.0",
+    "prettier": "2.4.1",
+    "string": "^3.3.3"
   }
 }

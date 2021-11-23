@@ -12,6 +12,7 @@
 
 /* Pages */
 @use "./pages/home";
+@use "./pages/post";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -54,16 +55,4 @@ a:visited {
   @include mixins.container;
   margin-top: var(--space-xl);
   margin-bottom: var(--space-xl);
-}
-
-/* Posts */
-article {
-  font-size: var(--font-lg);
-  margin-bottom: var(--space-xxl);
-
-  h2,
-  h3 {
-    margin-top: var(--space-xl);
-    margin-bottom: var(--space-lg);
-  }
 }

@@ -4,6 +4,8 @@ summary: "Using mob programming to solve a problem"
 date: "2021-11-15"
 ---
 
+[[toc]]
+
 A lot of the time here at GDS, we think the best way to solve something tricky is to share the problem. Often, it’s not a case of ‘too many cooks spoil the broth’, it’s a chance for us to get as many brains as possible thinking about the same thing. So actually, it’s like ‘a problem shared is a problem…’ well, it’s a smaller challenge for each person.
 
 My name’s Paul and I’m a developer on the Digital Marketplace. Recently, our team of developers has been trying to solve a problem using mob programming. The development team on Verify has been experimenting with mob programming for a while, but this was something new for us. The idea is that “the whole team works on the same thing, at the same time, in the same space, at the same computer,” says Woody Zuill, the self-proclaimed father of mob programming.
