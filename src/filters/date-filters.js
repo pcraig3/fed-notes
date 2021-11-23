@@ -5,7 +5,7 @@ const appendSuffix = (n) => {
   return n + (s[(v - 20) % 10] || s[v] || s[0]);
 };
 
-module.exports = function dateFilter(value) {
+const displayDateFilter = function (value) {
   // const dateObject = new Date(value); previous
   const dateObject = new Date(
     // add 12 hours
@@ -31,4 +31,15 @@ module.exports = function dateFilter(value) {
   return `${dayWithSuffix} ${
     months[dateObject.getMonth()]
   } ${dateObject.getFullYear()}`;
+};
+
+const isoDateFilter = function (value) {
+  const dateObject = new Date(value);
+
+  return dateObject.toISOString().slice(0, 10);
+};
+
+module.exports = {
+  displayDateFilter,
+  isoDateFilter,
 };

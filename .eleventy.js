@@ -20,8 +20,10 @@ function markdownFilter(value) {
 }
 
 // Import filters
-const displayDateFilter = require("./src/filters/display-date-filter.js");
-const isoDateFilter = require("./src/filters/iso-date-filter.js");
+const {
+  displayDateFilter,
+  isoDateFilter,
+} = require("./src/filters/date-filters.js");
 const { onlyToC, noToC } = require("./src/filters/toc-filters.js");
 
 module.exports = function (eleventyConfig) {

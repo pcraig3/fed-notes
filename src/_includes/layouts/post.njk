@@ -5,7 +5,7 @@
 {% set introSummary %}
 <p>
   {% if date %}
-    <time datetime="{{ date }}" class="dt-published">{{ date }}</time>
+    <time datetime="{{ date | isoDateFilter }}" class="dt-published">{{ date | displayDateFilter }}</time>
   {% endif %}
   <span>— 2 minute read</span>
 </p>
