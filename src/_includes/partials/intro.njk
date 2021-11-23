@@ -1,8 +1,11 @@
 <header class="intro">
   <div class="container">
     <h1>{{ introHeading }}</h1>
+    {% if author %}
+      <div class="intro__author">By <a href="https://{{ author }}" target="_blank">Paul Craig</a></div>
+    {% endif %}
     {% if introSummary %}
-      <div class="introSummary">{{ introSummary | safe }}</div>
+      <div class="intro_summary">{{ introSummary | safe }}</div>
     {% endif %}
   </div>
 </header>

@@ -5,14 +5,25 @@
 
   background-color: var(--color-blue);
   color: var(--color-white);
+  font-size: var(--font-md);
 
   h1 {
     font-size: var(--font-xxxl);
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-sm);
     border-bottom: 2px solid var(--color-red-dark);
   }
 
-  .introSummary {
-    font-size: var(--font-md);
+  .intro__author {
+    font-weight: 600;
+    margin-bottom: var(--space-xl);
+
+    a {
+      color: var(--color-white);
+
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
+    }
   }
 }

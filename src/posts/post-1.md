@@ -1,5 +1,6 @@
 ---
 title: "Mobbing at GDS"
+author: pcraig3.ca
 summary: "Using mob programming to solve a problem"
 date: "2021-11-15"
 ---
