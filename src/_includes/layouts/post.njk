@@ -20,9 +20,9 @@
             {{ content | noToC | safe }}
           </div>
           <div class="sidebar-content">
-            <div class="sticky">
-              <h2>Page content</h4>
-              {{ content | onlyToC }}
+            <div class="toc">
+              <h2 class="toc__header">Page content</h4>
+              <div class="toc__content">{{ content | onlyToC | safe }}
             </div>
           </div>
         </div>
@@ -31,4 +31,6 @@
     <hr />
 {% endblock %}
 
-{{ content | safe }}
+{% block scripts %}
+  <script src="{{ '/js/script.js' | url }}" defer></script>
+{% endblock %}

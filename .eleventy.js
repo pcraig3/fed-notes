@@ -26,6 +26,8 @@ const { onlyToC, noToC } = require("./src/filters/toc-filters.js");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
+  // add JS file
+  eleventyConfig.addPassthroughCopy("./src/js/");
 
   // Filters
   eleventyConfig.addFilter("markdownFilter", markdownFilter);
