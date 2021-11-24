@@ -20,7 +20,6 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #f9f9f9;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-text);
@@ -60,4 +59,8 @@ a:visited {
   @include mixins.container;
   margin-top: var(--space-xl);
   margin-bottom: var(--space-xl);
+}
+
+.flex-wrapper {
+  @include mixins.flex-wrapper;
 }

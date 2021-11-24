@@ -1,9 +1,39 @@
 @use "../mixins";
 
 footer[role="contentinfo"] {
-  @include mixins.logo-container;
-}
+  background: var(--color-grey-very-light);
 
-.tagline {
-  text-align: center;
+  > hr {
+    border: 2px solid var(--color-blue);
+  }
+
+  > div.flex-wrapper {
+    @include mixins.container;
+    @include mixins.flex-wrapper;
+    align-items: last baseline !important;
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+  }
+
+  nav {
+    font-size: var(--font-xs);
+    color: var(--color-blue);
+
+    li {
+      margin-right: var(--space-md);
+    }
+
+    li:not(:first-of-type)::before {
+      content: "\2022";
+      margin-right: var(--space-md);
+    }
+  }
+
+  .logo__container {
+    text-align: right;
+
+    p {
+      margin: 0;
+    }
+  }
 }

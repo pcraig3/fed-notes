@@ -69,22 +69,26 @@ $mobile-container: 750px;
   }
 }
 
+@mixin flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  @include tablet {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+
 @mixin logo-container {
   @include container;
   margin-top: var(--space-xxl);
   margin-bottom: var(--space-xxl);
 
   .flex-wrapper {
-    display: flex;
-    justify-content: space-between;
-
-    @include mobile {
-      flex-direction: column;
-    }
-
-    @include tablet {
-      flex-direction: row;
-      align-items: baseline;
-    }
+    @include flex-wrapper;
   }
 }

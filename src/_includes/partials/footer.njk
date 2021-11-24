@@ -1,11 +1,6 @@
 <footer role="contentinfo">
+  <hr />
   <div class="flex-wrapper">
-  {% if site.shortDesc %}
-    <div>
-      <h2 class="logo">{{ site.name }}</h2>
-      {{ site.shortDesc | markdownFilter | safe }}
-    </div>
-  {% endif %}
     <div>
       <nav aria-label="footer navigation">
         <ul>
@@ -15,8 +10,11 @@
         </ul>
       </nav>
     </div>
+    {% if site.shortDesc %}
+    <div class="logo__container">
+      <h2 class="logo">{{ site.name }}</h2>
+      {{ site.shortDesc | markdownFilter | safe }}
+    </div>
+    {% endif %}
   </div>
-  <p class="tagline">
-    Powered by the <a href="https://hylia.website" rel="external">Hylia Eleventy Starter Kit v{{ pkg.version }}</a>.
-  </p>
 </footer>

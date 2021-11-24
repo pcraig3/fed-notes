@@ -3,12 +3,13 @@
   /* Colours */
   --color-blue: #26374a;
   --color-blue-highlight: #0535d2;
-  --color-grey-light: #e3e3e3;
   --color-red: #d3080c;
   --color-red-dark: #af3c43;
   --color-white: #ffffff;
   --color-black: #000000;
   --color-text: #333333;
+  --color-grey-light: #e3e3e3;
+  --color-grey-very-light: #f8f8f8;
 
   /* Typography */
   --font-weight-normal: 400;
@@ -17,7 +18,7 @@
   --font-base-size: 1rem;
   --font-scale: 1.25;
 
-  --font-xs: calc(var(--font-base-size) / 1.25);
+  --font-xs: calc(var(--font-base-size) / 1.15);
   --font-sm: var(--font-base-size);
   --font-md: calc(var(--font-sm) * 1.25);
   --font-lg: calc(var(--font-md) * 1.25);
