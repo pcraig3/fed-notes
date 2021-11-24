@@ -87,8 +87,4 @@ $mobile-container: 750px;
   @include container;
   margin-top: var(--space-xxl);
   margin-bottom: var(--space-xxl);
-
-  .flex-wrapper {
-    @include flex-wrapper;
-  }
 }

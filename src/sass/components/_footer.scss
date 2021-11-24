@@ -9,7 +9,6 @@ footer[role="contentinfo"] {
 
   > div.flex-wrapper {
     @include mixins.container;
-    @include mixins.flex-wrapper;
     align-items: last baseline !important;
     padding-top: var(--space-xl);
     padding-bottom: var(--space-xl);

@@ -58,3 +58,21 @@
     margin: 0;
   }
 }
+
+.subscribe {
+  .flex-wrapper {
+    border-top: 4px dotted var(--color-blue);
+    padding-top: var(--space-xl);
+
+    align-items: initial;
+  }
+
+  h4 {
+    font-size: var(--font-lg);
+    margin-bottom: var(--space-md);
+  }
+
+  p {
+    margin-bottom: var(--space-xs);
+  }
+}
