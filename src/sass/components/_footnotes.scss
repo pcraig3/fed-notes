@@ -1,0 +1,85 @@
+.article-body,
+.Footnotes {
+  counter-reset: footnotes;
+}
+
+.Footnotes {
+  border-top: #ccc 2px solid;
+  margin: var(--space-md) 0;
+  position: relative;
+}
+
+.Footnotes__title {
+  font-size: var(--font-lg);
+}
+
+.Footnotes__list {
+  font-size: 85%;
+}
+
+.Footnotes__list-item {
+  border: 1px solid transparent;
+  position: relative;
+
+  // margin: 0.11em 0 0 3.875em;
+  padding: 0.375em 0 0.375em 4em;
+
+  &:focus,
+  &:target {
+    background-color: #eee;
+    border-color: #555;
+  }
+}
+
+.Footnotes__back-link {
+  margin: -2px 0 0 0;
+  overflow: hidden;
+  padding-right: 0;
+  padding-top: 0.375em;
+  position: absolute;
+  top: 0;
+  width: 3.5em;
+  left: 0;
+
+  &::after {
+    content: counter(footnotes);
+    counter-increment: footnotes;
+    text-decoration: underline;
+    font-size: 85%;
+
+    background-color: #eee;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 1px 10px 2px;
+    padding-bottom: 2px;
+    white-space: nowrap;
+  }
+
+  &:hover::after {
+    background-color: #555;
+    border-color: #555;
+    color: #fff;
+  }
+}
+
+.Footnotes__ref[role="doc-noteref"] {
+  background-image: none;
+  cursor: default;
+  counter-increment: footnotes;
+}
+
+.Footnotes__ref[role="doc-noteref"]::after {
+  content: "[" counter(footnotes) "]";
+  vertical-align: super;
+  font-size: 0.6em;
+  margin-left: 2px;
+  color: #267cb9;
+  text-decoration: underline;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #f2cfe3, #c4e0f3);
+  background-size: 100% 0%;
+}
+
+.Footnotes__ref[role="doc-noteref"]:focus::after {
+  background-size: inherit;
+}

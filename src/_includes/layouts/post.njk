@@ -17,7 +17,11 @@
       <div class="container">
         <div class="article-content__wrapper">
           <div class="article-content" >
-            {{ content | noToC | safe }}
+            <div class="article-body">
+              {{ content | noToC | safe }}
+            </div>
+            {% footnotes %}
+
           </div>
           <div class="sidebar-content">
             <div class="toc">

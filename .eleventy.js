@@ -10,10 +10,14 @@ const {
   markdownLib,
 } = require("./src/filters/markdown-filter.js");
 
+const footnotes = require("eleventy-plugin-footnotes");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   // add JS file
   eleventyConfig.addPassthroughCopy("./src/js/");
+
+  eleventyConfig.addPlugin(footnotes);
 
   // Filters
   eleventyConfig.addFilter("markdownFilter", markdownFilter);
