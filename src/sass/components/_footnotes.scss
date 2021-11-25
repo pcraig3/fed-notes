@@ -4,9 +4,16 @@
 }
 
 .Footnotes {
-  border-top: #ccc 2px solid;
   margin: var(--space-md) 0;
   position: relative;
+
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-left: -500px;
+  padding-left: 500px;
+  padding-right: 30px;
+  background: #f8f8f8;
+  border: 3px dotted #999;
 }
 
 .Footnotes__title {

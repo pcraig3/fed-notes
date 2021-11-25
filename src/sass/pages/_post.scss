@@ -1,3 +1,5 @@
+@use "../_mixins";
+
 /* Posts */
 .article-content__wrapper {
   display: flex;
@@ -96,6 +98,32 @@
         li ol {
           margin: var(--space-xs) 0 0 var(--space-lg);
         }
+      }
+    }
+  }
+}
+
+.next-and-prev {
+  @include mixins.flex-wrapper;
+  margin: var(--space-xxl) 0 var(--space-xl) 0;
+  //outline: 1px solid green;
+
+  @include mixins.tablet {
+    > div {
+      width: 30%;
+    }
+  }
+
+  @include mixins.mobile {
+    > div {
+      width: 80%;
+
+      &.next {
+        margin-bottom: var(--space-lg);
+      }
+
+      &.prev {
+        align-self: end;
       }
     }
   }
