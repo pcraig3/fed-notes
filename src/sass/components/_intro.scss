@@ -13,18 +13,34 @@
     border-bottom: 2px solid var(--color-red-dark);
   }
 
+  a {
+    &:hover,
+    &:focus {
+      color: var(--color-white);
+      opacity: 0.8;
+    }
+  }
+
+  .category-heading {
+    font-size: var(--font-lg);
+    margin-bottom: calc(-1 * var(--space-md));
+    margin-left: 2px;
+
+    a {
+      color: var(--color-grey-light);
+    }
+  }
+
+  .lead-in {
+    font-size: var(--font-md);
+    margin-bottom: var(--space-xl);
+  }
+
   .intro__author {
     font-weight: 600;
-    margin-bottom: var(--space-xl);
 
     a {
       color: var(--color-white);
-
-      &:hover,
-      &:focus {
-        color: var(--color-white);
-        opacity: 0.8;
-      }
     }
   }
 }
