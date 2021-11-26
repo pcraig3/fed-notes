@@ -2,8 +2,10 @@
 
 header[role="banner"] {
   @include mixins.logo-container;
+}
 
-  nav > ul {
-    margin-bottom: 0;
+@include mixins.mobile {
+  header .logo {
+    margin-bottom: var(--space-lg);
   }
 }

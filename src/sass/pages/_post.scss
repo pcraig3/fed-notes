@@ -121,6 +121,10 @@
   margin: var(--space-xxl) 0 var(--space-xl) 0;
   //outline: 1px solid green;
 
+  .prev {
+    text-align: right;
+  }
+
   @include mixins.tablet {
     > div {
       width: 30%;

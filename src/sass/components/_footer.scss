@@ -26,6 +26,10 @@ footer[role="contentinfo"] {
       content: "\2022";
       margin-right: var(--space-md);
     }
+
+    @include mixins.mobile {
+      margin-bottom: var(--space-xl);
+    }
   }
 
   .logo__container {
@@ -33,6 +37,14 @@ footer[role="contentinfo"] {
 
     p {
       margin: 0;
+    }
+  }
+
+  .top-link {
+    margin-top: var(--space-xl);
+
+    @include mixins.tablet {
+      display: none;
     }
   }
 }

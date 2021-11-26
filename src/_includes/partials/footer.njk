@@ -12,8 +12,9 @@
     </div>
     {% if site.shortDesc %}
     <div class="logo__container">
-      <h2 class="logo">{{ site.name }}</h2>
+      <h2 class="logo logo--footer">{{ site.name }}</h2>
       {{ site.shortDesc | markdownFilter | safe }}
+      <div class="top-link"><a href="#top">Top of page</a></div>
     </div>
     {% endif %}
   </div>

@@ -20,12 +20,3 @@ nav {
     }
   }
 }
-
-@include mixins.mobile {
-  .logo,
-  .logo + p,
-  nav ul {
-    margin-top: 0;
-    margin-bottom: var(--space-lg);
-  }
-}
