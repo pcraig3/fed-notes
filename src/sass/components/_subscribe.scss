@@ -1,0 +1,65 @@
+@use "../_mixins";
+
+.subscribe {
+  .flex-wrapper {
+    border-top: 4px dotted var(--color-blue);
+    padding-top: var(--space-xl);
+
+    align-items: initial;
+  }
+
+  h4 {
+    font-size: var(--font-lg);
+    margin-bottom: var(--space-md);
+  }
+
+  p {
+    margin-bottom: var(--space-xs);
+  }
+
+  form {
+    font-size: var(--font-sm);
+
+    .inputs {
+      display: flex;
+    }
+
+    input {
+      flex: 3;
+    }
+    button {
+      flex: 1;
+    }
+
+    @include mixins.tablet {
+      min-width: 400px;
+      max-width: 500px;
+    }
+
+    @include mixins.mobile {
+      max-width: 450px;
+    }
+  }
+
+  @include mixins.tablet-mobile {
+    .flex-wrapper {
+      flex-direction: column;
+    }
+
+    .flex-wrapper > div:first-of-type {
+      margin-bottom: var(--space-lg);
+    }
+
+    h4 {
+      margin-bottom: 0;
+    }
+
+    input {
+      width: 55%;
+    }
+
+    label {
+      @include mixins.visually-hidden;
+    }
+  }
+}

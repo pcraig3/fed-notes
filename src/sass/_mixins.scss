@@ -18,6 +18,12 @@ $mobile-container: 750px;
   }
 }
 
+@mixin tablet-mobile {
+  @media (max-width: #{$tablet-screen}) {
+    @content;
+  }
+}
+
 @mixin tablet-only {
   @media (min-width: #{$mobile-screen}) and (max-width: #{$tablet-screen - 1}) {
     @content;
@@ -53,11 +59,14 @@ $mobile-container: 750px;
 @mixin container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--space-xxxl);
-  padding-right: var(--space-xxxl);
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
 
   @include tablet {
     max-width: $mobile-container;
+
+    padding-left: var(--space-xxxl);
+    padding-right: var(--space-xxxl);
   }
 
   @include desktop {

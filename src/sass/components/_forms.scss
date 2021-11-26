@@ -34,7 +34,6 @@ button {
 }
 
 input[type="text"] {
-  width: 100%;
   color: var(--color-text);
   background-color: #fff;
   border: 2px solid var(--color-text);
@@ -46,20 +45,4 @@ input[type="text"] {
 label {
   display: block;
   margin-bottom: var(--space-xs);
-}
-
-form {
-  min-width: 450px;
-  font-size: var(--font-sm);
-
-  .inputs {
-    display: flex;
-
-    input {
-      flex: 3;
-    }
-    button {
-      flex: 1;
-    }
-  }
 }

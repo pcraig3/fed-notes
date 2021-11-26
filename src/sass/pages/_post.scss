@@ -13,11 +13,15 @@
 .article-content {
   flex: 3;
   font-size: var(--font-md);
-  padding-right: var(--space-xxxl);
+  padding-right: var(--space-md);
 
   @include mixins.tablet-only {
     flex: 2;
     padding-right: var(--space-xxl);
+  }
+
+  @include mixins.desktop {
+    padding-right: var(--space-xxxl);
   }
 
   h2,
