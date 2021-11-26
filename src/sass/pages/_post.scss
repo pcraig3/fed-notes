@@ -4,13 +4,21 @@
 .article-content__wrapper {
   display: flex;
   flex-direction: row;
+
+  @include mixins.mobile {
+    flex-direction: column-reverse;
+  }
 }
 
 .article-content {
   flex: 3;
-
   font-size: var(--font-md);
-  padding-right: var(--space-xxl);
+  padding-right: var(--space-xxxl);
+
+  @include mixins.tablet-only {
+    flex: 2;
+    padding-right: var(--space-xxl);
+  }
 
   h2,
   h3,
@@ -56,7 +64,8 @@
 
 .sidebar-content {
   flex: 1;
-  margin-left: var(--space-lg);
+  margin-left: var(--space-sm);
+  margin-bottom: var(--space-xxl);
 
   .toc {
     position: sticky;

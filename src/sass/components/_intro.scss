@@ -9,7 +9,8 @@
 
   h1 {
     font-size: var(--font-xxxl);
-    margin-bottom: var(--space-sm);
+    line-height: 1.15;
+    margin-bottom: var(--space-md);
     border-bottom: 2px solid var(--color-red-dark);
   }
 
@@ -23,7 +24,7 @@
 
   .category-heading {
     font-size: var(--font-lg);
-    margin-bottom: calc(-1 * var(--space-md));
+    margin-bottom: calc(-1 * var(--space-xs));
     margin-left: 2px;
 
     a {
