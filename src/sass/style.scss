@@ -52,6 +52,10 @@ a:visited {
   &:hover {
     color: var(--color-blue-highlight);
   }
+
+  &:focus {
+    @include mixins.focus;
+  }
 }
 
 .visually-hidden {

@@ -1,3 +1,11 @@
+@use "../mixins";
+
+@mixin focus-footnotes-back-link {
+  background-color: var(--color-focus);
+  border-color: var(--color-black);
+  color: var(--color-black);
+}
+
 .article-body,
 .Footnotes {
   counter-reset: footnotes;
@@ -33,8 +41,11 @@
 
   &:focus,
   &:target {
-    background-color: #eee;
-    border-color: #555;
+    @include mixins.focus;
+
+    .Footnotes__back-link::after {
+      @include focus-footnotes-back-link;
+    }
   }
 }
 
@@ -47,12 +58,14 @@
   top: 0;
   width: 3.5em;
   left: 0;
+  color: transparent;
 
   &::after {
     content: counter(footnotes);
     counter-increment: footnotes;
     text-decoration: underline;
     font-size: 85%;
+    color: var(--color-text);
 
     background-color: #eee;
     border: 1px solid #ccc;
@@ -62,10 +75,13 @@
     white-space: nowrap;
   }
 
-  &:hover::after {
-    background-color: #555;
-    border-color: #555;
-    color: #fff;
+  &:hover,
+  &:focus {
+    color: transparent;
+
+    &::after {
+      @include focus-footnotes-back-link;
+    }
   }
 }
 

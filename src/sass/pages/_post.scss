@@ -64,6 +64,10 @@
       }
     }
   }
+
+  a:target {
+    @include mixins.focus;
+  }
 }
 
 .sidebar-content {

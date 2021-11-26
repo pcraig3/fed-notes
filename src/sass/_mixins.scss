@@ -97,3 +97,13 @@ $mobile-container: 750px;
   margin-top: var(--space-xxl);
   margin-bottom: var(--space-xxl);
 }
+
+/* licked from gov.uk 😈 */
+@mixin focus {
+  outline: 3px solid transparent;
+  color: var(--color-black) !important;
+  background-color: var(--color-focus);
+  -webkit-box-shadow: 0 -2px var(--color-focus), 0 4px var(--color-black);
+  box-shadow: 0 -2px var(--color-focus), 0 4px var(--color-black);
+  text-decoration: none;
+}
