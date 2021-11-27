@@ -1,4 +1,5 @@
 button,
+a.button,
 input[type="text"] {
   background-image: none;
   border-radius: 4px;
@@ -7,44 +8,72 @@ input[type="text"] {
   padding: 10px 14px;
 }
 
-button {
-  vertical-align: middle;
-  touch-action: manipulation;
+button,
+a.button {
+  vertical-align: top;
   cursor: pointer;
-  border: 2px solid transparent;
+  border-style: outset;
   line-height: 1.4375;
   user-select: none;
+  display: inline-block;
+  text-decoration: none;
+
+  &:focus:not(:active) {
+    outline: 0;
+    color: var(--color-black);
+    background-color: var(--color-focus);
+    border-color: var(--color-focus);
+    border-bottom: 1px solid var(--color-black);
+    border-right: 1px solid var(--color-black);
+
+    box-shadow: none;
+  }
+}
+
+.button--primary {
   color: #fff;
   background-color: var(--color-blue);
   border-color: var(--color-blue);
-  border-style: outset;
-  min-width: 36px;
-  white-space: normal;
   border-radius: 0 4px 4px 0;
-
-  &:hover,
-  &:active {
-    border: 2px solid var(--color-blue);
-    outline: 3px solid var(--color-focus);
-  }
 
   &:hover {
     background-color: var(--color-button-hover);
   }
 
   &:active {
+    border-color: var(--color-button-hover);
     background-color: var(--color-button-active);
   }
 
-  &:focus:not(:active):not(:hover) {
-    outline: 0;
-    border-color: var(--color-focus);
-    border-bottom: 1px solid var(--color-black);
-    border-right: 1px solid var(--color-black);
-
-    color: var(--color-black);
-    background-color: var(--color-focus);
+  &:focus:not(:active) {
+    border: 2px solid var(--color-black);
   }
+}
+
+.button--secondary {
+  color: var(--color-text);
+  background-color: #eaebed;
+  border: 1px solid#cfd1d5;
+
+  &::after {
+    content: "»";
+    margin-left: var(--space-sm);
+  }
+
+  &:hover {
+    background-color: #cfd1d5;
+    border-color: #bbbfc5;
+  }
+
+  &:active {
+    background-color: #bbbfc5;
+    border-color: #989da6;
+  }
+}
+
+a.button:hover,
+a.button:visited:hover {
+  color: var(--color-text);
 }
 
 input[type="text"] {
