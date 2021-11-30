@@ -1,8 +1,12 @@
 <header class="intro">
   <div class="container">
-    <div class="category-heading"><a href="#">Article</a></div>
+    {% if type %}
+      <div class="category-heading"><a href="/">{{ type }}</a></div>
+    {% endif %}
     <h1 id="top" tabindex="-1">{{ introHeading }}</h1>
-    <p class="lead-in">When do the costs outweigh the no tangible benefits?</p>
+    {% if leadIn %}
+      <p class="lead-in">{{ leadIn }}</p>
+    {% endif %}
     {% if author %}
       <div class="intro__author">By <a href="https://{{ author }}" target="_blank">Paul Craig</a></div>
     {% endif %}

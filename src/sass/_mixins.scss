@@ -107,3 +107,18 @@ $mobile-container: 750px;
   box-shadow: 0 -2px var(--color-focus), 0 4px var(--color-black);
   text-decoration: none;
 }
+
+/* https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/ */
+@mixin clearfix {
+  zoom: 1;
+
+  &::before,
+  &::after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+
+  &:after {
+    clear: both;
+  }
+}

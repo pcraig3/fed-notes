@@ -11,6 +11,10 @@
 </p>
 {% endset %}
 
+{# Post content #}
+{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.posts | getNextCollectionItem(page) %}
+
 {% block content %}
     <article>
       {% include "partials/intro.njk" %}
@@ -29,8 +33,13 @@
             {% footnotes %}
             <div class="next-and-prev">
               <ul>
-                <li class="next"><a href="#" class="button button--secondary"><span class="visually-hidden">Next: </span>Big IT for small minds</a></li>
-                <li class="prev"><a href="#" class="button button--secondary"><span class="visually-hidden">Previous: </span>Programming in the land that time forgot</a></li>
+                {% if nextPost %}
+                  <li class="next"><a href="{{ nextPost.url }}" class="button button--secondary"><span class="visually-hidden">Next: </span>{{ nextPost.data.title }}</a></li>
+                {% endif %}
+
+                {% if previousPost %}
+                  <li class="prev"><a href="{{ previousPost.url }}" class="button button--secondary"><span class="visually-hidden">Previous: </span>{{ previousPost.data.title }}</a></li>
+                {% endif %}
               </ul>
             </div>
           </div>

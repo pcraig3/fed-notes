@@ -1,8 +1,9 @@
 ---
 title: "Mobbing at GDS"
 author: pcraig3.ca
+leadIn: "When do the costs outweigh the no tangible benefits?"
 summary: "Using mob programming to solve a problem"
-date: "2021-11-15"
+date: "2021-11-20"
 ---
 
 [[toc]]

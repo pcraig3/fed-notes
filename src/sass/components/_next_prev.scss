@@ -1,0 +1,62 @@
+@use "../_mixins";
+
+.next-and-prev {
+  @include mixins.clearfix;
+  margin: var(--space-xxxl) 0 var(--space-xl) 0;
+
+  ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    align-items: flex-start !important;
+
+    li a {
+      text-align: center;
+    }
+  }
+
+  .next {
+    float: left;
+    text-align: left;
+
+    a::before {
+      content: "«";
+      margin-right: var(--space-sm);
+    }
+  }
+
+  .prev {
+    float: right;
+    text-align: right;
+
+    a::after {
+      content: "»";
+      margin-left: var(--space-sm);
+    }
+  }
+
+  @include mixins.desktop {
+    li {
+      width: 30%;
+    }
+  }
+
+  @include mixins.tablet {
+    li {
+      width: 45%;
+    }
+  }
+
+  @include mixins.mobile {
+    li {
+      min-width: 200px;
+      max-width: 90%;
+
+      &.next {
+        margin-bottom: var(--space-lg);
+        margin-right: var(--space-lg);
+      }
+    }
+  }
+}

@@ -55,11 +55,6 @@ a.button {
   background-color: #eaebed;
   border: 1px solid#cfd1d5;
 
-  &::after {
-    content: "»";
-    margin-left: var(--space-sm);
-  }
-
   &:hover {
     background-color: #cfd1d5;
     border-color: #bbbfc5;
