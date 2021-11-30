@@ -3,10 +3,10 @@
 /* Posts */
 .article-content__wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 
   @include mixins.mobile {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 

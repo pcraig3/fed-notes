@@ -16,6 +16,12 @@
       {% include "partials/intro.njk" %}
       <div class="container">
         <div class="article-content__wrapper">
+          <div class="sidebar-content">
+              <div class="toc" aria-hidden="true">
+                <h2 class="toc__header">On this page</h4>
+                <div class="toc__content">{{ content | onlyToC | safe }}</div>
+            </div>
+          </div>
           <div class="article-content" >
             <div class="article-body">
               {{ content | noToC | safe }}
@@ -26,12 +32,6 @@
                 <li class="next"><a href="#" class="button button--secondary"><span class="visually-hidden">Next: </span>Big IT for small minds</a></li>
                 <li class="prev"><a href="#" class="button button--secondary"><span class="visually-hidden">Previous: </span>Programming in the land that time forgot</a></li>
               </ul>
-            </div>
-          </div>
-          <div class="sidebar-content">
-            <div class="toc" aria-hidden="true">
-              <h2 class="toc__header">On this page</h4>
-              <div class="toc__content">{{ content | onlyToC | safe }}
             </div>
           </div>
         </div>
