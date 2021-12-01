@@ -46,5 +46,24 @@ footer[role="contentinfo"] {
     @include mixins.tablet {
       display: none;
     }
+
+    a {
+      padding-left: var(--space-xl);
+
+      &::before {
+        color: currentColor;
+        border-style: solid;
+        border-width: 2px 2px 0 0;
+        content: "";
+        display: inline-block;
+        height: 8px;
+        position: relative;
+        top: 10px;
+        transform: rotate(-45deg);
+        vertical-align: top;
+        width: 8px;
+        left: calc(-1 * var(--space-md));
+      }
+    }
   }
 }
