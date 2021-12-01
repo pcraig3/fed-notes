@@ -18,7 +18,7 @@
     &:hover,
     &:focus {
       color: var(--color-white);
-      opacity: 0.8;
+      opacity: 0.75;
     }
   }
 
@@ -29,6 +29,10 @@
 
     a {
       color: var(--color-grey-light);
+
+      &:hover {
+        color: var(--color-grey-light);
+      }
     }
   }
 
@@ -42,6 +46,10 @@
 
     a {
       color: var(--color-white);
+
+      &:hover {
+        color: var(--color-white);
+      }
     }
   }
 }
