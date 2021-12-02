@@ -2,7 +2,7 @@
 @use "../_mixins";
 
 /* Grid system, inspired by SmolCSS */
-.post-list {
+.article-list {
   @include mixins.mobile {
     --min: 100%;
     --gap: 0;
@@ -23,18 +23,18 @@
   gap: var(--gap);
 }
 
-.post-list > .post {
+.article-list > .article {
   width: var(--min);
 }
 
-.post--list__wrapper {
+.article--list__wrapper {
   h2 {
     font-size: var(--font-xl);
     margin-bottom: var(--font-md);
   }
 }
 
-.post {
+.article {
   font-size: var(--font-md);
   margin-bottom: var(--font-lg);
 
@@ -45,10 +45,10 @@
 
   padding: var(--space-md) var(--space-lg);
 
-  .post--title {
+  .article--title {
     display: block;
   }
-  .post--date {
+  .article--date {
     display: block;
     font-size: 18px;
     margin-bottom: var(--space-sm);

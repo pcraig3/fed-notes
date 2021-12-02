@@ -1,5 +1,5 @@
 /**
- * Set "active" class on post header links
+ * Set "active" class on article header links
  */
 const links = document.querySelectorAll(".table-of-contents li");
 const headings = document.querySelectorAll(".article-content *[tabindex]");

@@ -8,17 +8,17 @@
 {% block content %}
   {% include "partials/intro.njk" %}
 
-  <div class="post--list__wrapper container">
+  <div class="article--list__wrapper container">
     <h2>Articles</h2>
 
-    <ul class="post-list">
-      {% for post in collections.posts | reverse %}
-        <li class="post">
-          <h3 class="post--title">
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
+    <ul class="article-list">
+      {% for article in collections.articles | reverse %}
+        <li class="article">
+          <h3 class="article--title">
+            <a href="{{ article.url }}">{{ article.data.title }}</a>
           </h3>
-          <div class="post--date"><time datetime="{{ post.data.date | isoDateFilter }}">{{ post.data.date | displayDateFilter }}</time></div>
-          <p>{{ post.data.summary }}</p>
+          <div class="article--date"><time datetime="{{ article.data.date | isoDateFilter }}">{{ article.data.date | displayDateFilter }}</time></div>
+          <p>{{ article.data.summary }}</p>
         </li>
       {% endfor %}
     </ul>

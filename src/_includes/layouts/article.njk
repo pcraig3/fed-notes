@@ -11,9 +11,9 @@
 </p>
 {% endset %}
 
-{# Post content #}
-{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-{% set nextPost = collections.posts | getNextCollectionItem(page) %}
+{# article content #}
+{% set previousArticle = collections.articles | getPreviousCollectionItem(page) %}
+{% set nextArticle = collections.articles | getNextCollectionItem(page) %}
 
 {% block content %}
     <article>
@@ -33,12 +33,12 @@
             {% footnotes %}
             <div class="next-and-prev">
               <ul>
-                {% if nextPost %}
-                  <li class="next"><a href="{{ nextPost.url }}" class="button button--secondary"><span class="visually-hidden">Next: </span>{{ nextPost.data.title }}</a></li>
+                {% if nextArticle %}
+                  <li class="next"><a href="{{ nextArticle.url }}" class="button button--secondary"><span class="visually-hidden">Next: </span>{{ nextArticle.data.title }}</a></li>
                 {% endif %}
 
-                {% if previousPost %}
-                  <li class="prev"><a href="{{ previousPost.url }}" class="button button--secondary"><span class="visually-hidden">Previous: </span>{{ previousPost.data.title }}</a></li>
+                {% if previousArticle %}
+                  <li class="prev"><a href="{{ previousArticle.url }}" class="button button--secondary"><span class="visually-hidden">Previous: </span>{{ previousArticle.data.title }}</a></li>
                 {% endif %}
               </ul>
             </div>
