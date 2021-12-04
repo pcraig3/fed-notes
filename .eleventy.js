@@ -16,6 +16,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   // add JS file
   eleventyConfig.addPassthroughCopy("./src/js/");
+  // Copy `img/favicon/` to `_site/`
+  eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
 
   eleventyConfig.addPlugin(footnotes);
 
