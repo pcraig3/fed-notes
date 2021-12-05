@@ -2,22 +2,22 @@
 const {
   displayDateFilter,
   isoDateFilter,
-} = require("./src/filters/date-filters.js");
-const { onlyToC, noToC } = require("./src/filters/toc-filters.js");
-const readingTime = require("./src/filters/reading-time.js");
+} = require("./src/_filters/date-filters.js");
+const { onlyToC, noToC } = require("./src/_filters/toc-filters.js");
+const readingTime = require("./src/_filters/reading-time.js");
 const {
   markdownFilter,
   markdownLib,
-} = require("./src/filters/markdown-filter.js");
+} = require("./src/_filters/markdown-filter.js");
 
 const footnotes = require("eleventy-plugin-footnotes");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addWatchTarget("./src/sass/");
+  eleventyConfig.addWatchTarget("./src/_sass/");
   // add JS file
-  eleventyConfig.addPassthroughCopy("./src/js/");
+  eleventyConfig.addPassthroughCopy("./src/_js/");
   // Copy `img/favicon/` to `_site/`
-  eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
+  eleventyConfig.addPassthroughCopy({ "./src/_img/favicon": "/" });
 
   eleventyConfig.addPlugin(footnotes);
 
