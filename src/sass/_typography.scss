@@ -1,0 +1,58 @@
+@use "./_mixins";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  margin-bottom: var(--space-lg);
+}
+
+a,
+a:visited {
+  color: var(--color-blue);
+
+  &:hover {
+    color: var(--color-blue-highlight);
+  }
+
+  &:focus {
+    @include mixins.focus;
+  }
+}
+
+blockquote {
+  padding: var(--space-md) 0 var(--space-md) var(--space-xxl);
+  border-left: var(--color-grey-light) solid 4px;
+  text-indent: calc(-1 * var(--space-sm));
+
+  &::before {
+    content: open-quote;
+    quotes: "“" "" "‘" "’";
+    position: absolute;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+pre > code {
+  display: block;
+}
+
+code {
+  padding: var(--space-sm) var(--space-xs);
+  border: 1px solid var(--color-grey-light);
+  background: var(--color-grey-very-light);
+  border-radius: 4px;
+}
+
+hr {
+  color: var(--color-grey-light);
+}

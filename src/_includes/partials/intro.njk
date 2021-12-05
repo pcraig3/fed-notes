@@ -1,8 +1,10 @@
 <header class="intro">
   <div class="container">
-    {% if type %}
-      <div class="category-heading"><a href="/">{{ type }}</a></div>
-    {% endif %}
+    {% for tag in tags %}
+      {% if tag === 'articles' %}
+        <div class="category-heading"><a href="/">{{ tag | capitalize }}</a></div>
+      {% endif %}
+    {% endfor %}
     <h1 tabindex="-1">{{ introHeading }}</h1>
     {% if leadIn %}
       <p class="lead-in">{{ leadIn }}</p>

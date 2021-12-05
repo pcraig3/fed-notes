@@ -4,6 +4,10 @@
 /* Sass stuff */
 @use "./_mixins";
 
+/* Generics */
+@use "./typography";
+@use "./tables";
+
 /* Partials */
 @use "./components/footer";
 @use "./components/footnotes";
@@ -32,32 +36,6 @@ body {
 // :root {
 //   color-scheme: light dark;
 // }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Lato", sans-serif;
-}
-
-p {
-  margin-bottom: var(--space-lg);
-}
-
-a,
-a:visited {
-  color: var(--color-blue);
-
-  &:hover {
-    color: var(--color-blue-highlight);
-  }
-
-  &:focus {
-    @include mixins.focus;
-  }
-}
 
 .visually-hidden {
   @include mixins.visually-hidden;
