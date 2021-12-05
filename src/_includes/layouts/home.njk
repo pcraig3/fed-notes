@@ -16,11 +16,13 @@
     <ul class="article-list">
       {% for article in collections.article | reverse %}
         <li class="article">
-          <h3 class="article--title">
-            <a href="{{ article.url }}">{{ article.data.title }}</a>
-          </h3>
-          <div class="article--date"><time datetime="{{ article.data.date | isoDateFilter }}">{{ article.data.date | displayDateFilter }}</time></div>
-          <p>{{ article.data.summary }}</p>
+          <a href="{{ article.url }}">
+            <h3 class="article--title">
+              {{ article.data.title }}
+            </h3>
+            <div class="article--date"><time datetime="{{ article.data.date | isoDateFilter }}">{{ article.data.date | displayDateFilter }}</time></div>
+            <p>{{ article.data.summary }}</p>
+          </a>
         </li>
       {% endfor %}
     </ul>

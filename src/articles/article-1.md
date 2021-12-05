@@ -1,8 +1,8 @@
 ---
 title: "Mobbing at GDS"
 author: pcraig3.ca
-leadIn: "When do the costs outweigh the no tangible benefits?"
-summary: "Using mob programming to solve a problem"
+leadIn: "Using mob programming to solve a problem."
+summary: "Recently, our team of developers has been trying to solve a problem using mob programming. The development team on Verify has been pitching in."
 date: "2021-11-20"
 ---
 

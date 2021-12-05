@@ -122,3 +122,16 @@ $mobile-container: 750px;
     clear: both;
   }
 }
+
+@mixin links {
+  color: var(--color-blue);
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--color-blue-highlight);
+  }
+
+  &:focus {
+    @include focus;
+  }
+}

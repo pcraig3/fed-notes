@@ -15,15 +15,7 @@ p {
 
 a,
 a:visited {
-  color: var(--color-blue);
-
-  &:hover {
-    color: var(--color-blue-highlight);
-  }
-
-  &:focus {
-    @include mixins.focus;
-  }
+  @include mixins.links;
 }
 
 blockquote {
@@ -55,5 +47,6 @@ pre > code {
 }
 
 hr {
-  color: var(--color-grey-light);
+  border: none;
+  border-top: var(--color-grey-light) 2px solid;
 }
