@@ -3,8 +3,8 @@
 {% block body_classes %}home{% endblock body_classes %}
 
 {% set introHeading = title %}
-{% set introSummary %}
-  {{ content | safe }}
+{% set leadIn %}
+  {{ content | markdownFilter | safe }}
 {% endset %}
 
 {% block content %}

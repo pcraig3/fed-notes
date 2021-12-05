@@ -42,10 +42,6 @@ blockquote {
   }
 }
 
-pre > code {
-  display: block;
-}
-
 code {
   padding: var(--space-sm) var(--space-xs);
   border: 1px solid var(--color-grey-light);
