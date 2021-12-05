@@ -12,8 +12,8 @@
 {% endset %}
 
 {# article content #}
-{% set previousArticle = collections.articles | getPreviousCollectionItem(page) %}
-{% set nextArticle = collections.articles | getNextCollectionItem(page) %}
+{% set previousArticle = collections.article | getPreviousCollectionItem(page) %}
+{% set nextArticle = collections.article | getNextCollectionItem(page) %}
 
 {% block content %}
     <article>

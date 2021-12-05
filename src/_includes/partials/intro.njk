@@ -1,7 +1,7 @@
 <header class="intro">
   <div class="container">
     {% for tag in tags %}
-      {% if tag === 'articles' %}
+      {% if tag === 'article' %}
         <div class="category-heading"><a href="/">{{ tag | capitalize }}</a></div>
       {% endif %}
     {% endfor %}

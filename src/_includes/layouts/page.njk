@@ -1,0 +1,26 @@
+{% extends '../base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{# article content #}
+
+{% block content %}
+    <article>
+      {% include "partials/intro.njk" %}
+      <div class="container">
+        <div class="article-content__wrapper">
+          <div class="article-content" >
+            <div class="article-body">
+              {{ content | markdownFilter | safe }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ '/js/script.js' | url }}" defer></script>
+{% endblock %}
