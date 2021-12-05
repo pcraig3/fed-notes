@@ -1,5 +1,7 @@
 {% extends '../base.njk' %}
 
+{% block body_classes %}article{% endblock body_classes %}
+
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
@@ -11,7 +13,7 @@
 </p>
 {% endset %}
 
-{# article content #}
+{# Article content #}
 {% set previousArticle = collections.article | getPreviousCollectionItem(page) %}
 {% set nextArticle = collections.article | getNextCollectionItem(page) %}
 

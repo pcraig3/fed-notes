@@ -1,5 +1,7 @@
 {% extends '../base.njk' %}
 
+{% block body_classes %}home{% endblock body_classes %}
+
 {% set introHeading = title %}
 {% set introSummary %}
   {{ content | safe }}

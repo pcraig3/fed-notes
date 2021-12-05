@@ -23,7 +23,7 @@
   <!--link rel="stylesheet" href="{{ '/css/dark.css' | url }}" media="(prefers-color-scheme: dark)" -->
   <!--script type="module" src="https://unpkg.com/dark-mode-toggle"></script-->
 </head>
-<body id="body">
+<body id="body" class="{% block body_classes %}{% endblock body_classes %}">
   <!--dark-mode-toggle></dark-mode-toggle -->
   {% include "partials/header.njk" %}
   <main id="main-content" tabindex="-1">

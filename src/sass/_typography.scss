@@ -53,6 +53,11 @@ code {
   border-radius: 4px;
 }
 
+pre > code {
+  display: block;
+  padding: var(--space-sm) var(--space-md);
+}
+
 hr {
   color: var(--color-grey-light);
 }

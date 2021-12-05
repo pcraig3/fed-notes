@@ -1,10 +1,11 @@
 {% extends '../base.njk' %}
 
+{% block body_classes %}page{% endblock body_classes %}
+
 {# Intro content #}
 {% set introHeading = title %}
 
-{# article content #}
-
+{# Page content #}
 {% block content %}
     <article>
       {% include "partials/intro.njk" %}
