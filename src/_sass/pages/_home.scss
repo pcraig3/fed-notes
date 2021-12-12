@@ -63,9 +63,11 @@
     }
   }
 
-  .article--title {
+  &:not(.article--placeholder) .article--title {
     @include mixins.links;
+  }
 
+  .article--title {
     display: block;
     margin-bottom: var(--space-xs);
     line-height: 1.35;
@@ -82,4 +84,17 @@
     margin: 0;
     font-size: var(--font-sm);
   }
+}
+
+.home .article.article--placeholder {
+  font-size: var(--font-md);
+  margin-bottom: var(--space-xl);
+
+  background: var(--color-grey-light);
+  opacity: 0.8;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: 4px;
+  border: 2px solid var(--color-grey-light);
+
+  cursor: wait;
 }
