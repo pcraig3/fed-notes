@@ -1,5 +1,5 @@
 ---
-title: "Federal Field Notes: an introduction"
+title: "Introducing Federal Field Notes"
 author: "@pcraig3"
 leadIn: "Open for discussion: a declaration of intent."
 summary: "Federal Field Notes is a newsletter for an open discussion about digital transformation in the federal Government of Canada."
@@ -24,7 +24,7 @@ Fair question. I’ve worked in government for the better part of a decade now: 
 
 ### Open by default
 
-At GDS, I spent the majority of my time working as a Developer on the ({% footnoteref "digital-marketplace" "Canada also has something called the “Digital Marketplace” (https://technationportal.ca), but the one in the UK is actually useful. " %}UK’s{% endfootnoteref %}) [Digital Marketplace](https://www.digitalmarketplace.service.gov.uk), but also [the (erstwhile) Performance Platform](https://gds.blog.gov.uk/tag/performance-platform/) (<abbr title="Rest in Peace">RIP</abbr>), and, very briefly, on [GOV.UK Notify](https://www.notifications.service.gov.uk). As a civil servant for the UK government, I was always on design-led multidisciplinary teams with autonomy over their technical stack and product decisions. We used modern technology, regularly tested upcoming features with users, set up continuous integration for daily releases, and put nearly all of our work on into public Github repositories. In sum, we were following the [the Government of Canada’s Digital Standards Playbook](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html) pretty faithfully. <span aria-hidden="true">😉</span>
+At GDS, I spent the majority of my time working as a Developer on the ({% footnoteref "digital-marketplace" "Canada also has something called the “Digital Marketplace” (https://technationportal.ca), but the one in the UK is actually useful." %}UK’s{% endfootnoteref %}) [Digital Marketplace](https://www.digitalmarketplace.service.gov.uk), but also [the (erstwhile) Performance Platform](https://gds.blog.gov.uk/tag/performance-platform/) (<abbr title="Rest in Peace">RIP</abbr>), and, very briefly, on [GOV.UK Notify](https://www.notifications.service.gov.uk). As a civil servant for the UK government, I was always on design-led multidisciplinary teams with autonomy over their technical stack and product decisions. We used modern technology, regularly tested upcoming features with users, set up continuous integration for daily releases, and put nearly all of our work on into public Github repositories. In sum, we were following the [the Government of Canada’s Digital Standards Playbook](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html) pretty faithfully. <span aria-hidden="true">😉</span>
 
 Moving back to Canada in 2018, I was surprised to learn how closed-off our government culture is, where many (most?) federal public servants don’t have an easy way to publicly share the work they do everyday.
 

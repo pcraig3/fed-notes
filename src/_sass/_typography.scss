@@ -40,10 +40,11 @@ blockquote {
 }
 
 code {
-  padding: var(--space-sm) var(--space-xs);
+  padding: 0 var(--space-xs);
   border: 1px solid var(--color-grey-light);
   background: var(--color-grey-very-light);
   border-radius: 4px;
+  line-height: 1.65;
 }
 
 pre > code {
