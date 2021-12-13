@@ -9,9 +9,13 @@ footer[role="contentinfo"] {
 
   > div.flex-wrapper {
     @include mixins.container;
-    align-items: last baseline !important;
+    align-items: baseline;
     padding-top: var(--space-xl);
     padding-bottom: var(--space-xl);
+
+    @include mixins.mobile {
+      align-items: flex-end;
+    }
   }
 
   nav {
@@ -37,6 +41,10 @@ footer[role="contentinfo"] {
 
     p {
       margin: 0;
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 

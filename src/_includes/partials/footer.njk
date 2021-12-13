@@ -4,15 +4,15 @@
     <div>
       <nav aria-label="footer navigation">
         <ul>
-          <li>Home</li>
-          <li>Github</li>
-          <li>Twitter</li>
+          <li><a href="/pages/about">About</a></li>
+          <li><a href="/pages/contact">Contact</a></li>
+          <li><a href="https://github.com/pcraig3/fed-notes" target="_blank">Github</a></li>
         </ul>
       </nav>
     </div>
     {% if site.shortDesc %}
     <div class="logo__container">
-      <h2 class="logo logo--footer">{{ site.name }}</h2>
+      <h2 class="logo logo--footer"><a href="/">{{ site.name }}</a></h2>
       {{ site.shortDesc | markdownFilter | safe }}
       <div class="top-link"><a href="#body">Top of page</a></div>
     </div>

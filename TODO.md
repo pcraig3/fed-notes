@@ -5,12 +5,9 @@
 - Analytics, get it working
 - Meta stuff for social
   - Including a big image
-- Link sitename in the footer
-  - Is that a good subtext?
 - Remove Robots.txt
 - Images?
   - (And on mobile)
-- Footer links
 - Add paperweight article
 - Update README, do the bare minimum
 
@@ -36,6 +33,9 @@
 
 # DONE
 
+- Link sitename in the footer
+  - Is that a good subtext?
+- Footer links
 - Update the subscribe subtext
 - Buttondown, get it working
   - How does signup actually look?
