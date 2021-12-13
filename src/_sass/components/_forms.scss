@@ -1,18 +1,20 @@
 button,
 a.button,
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   background-image: none;
   border-radius: 4px;
   line-height: 1.4375;
   min-height: 36px;
   padding: 10px 14px;
+  margin: 0;
 }
 
 button,
 a.button {
   vertical-align: top;
   cursor: pointer;
-  border-style: outset;
+  border-style: solid;
   line-height: 1.4375;
   user-select: none;
   display: inline-block;
@@ -71,7 +73,8 @@ a.button:visited:hover {
   color: var(--color-text);
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   color: var(--color-text);
   background-color: #fff;
   border: 2px solid var(--color-text);

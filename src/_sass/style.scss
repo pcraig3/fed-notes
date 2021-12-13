@@ -5,8 +5,8 @@
 @use "./_mixins";
 
 /* Generics */
+@use "./core";
 @use "./typography";
-@use "./tables";
 
 /* Partials */
 @use "./components/footer";

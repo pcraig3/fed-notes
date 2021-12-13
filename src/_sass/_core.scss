@@ -1,3 +1,12 @@
+main:focus {
+  outline: 0;
+}
+
+hr {
+  border: none;
+  border-top: var(--color-grey-light) 2px solid;
+}
+
 table {
   min-height: 0.01%;
   overflow-x: auto;
