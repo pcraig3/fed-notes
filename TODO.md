@@ -16,9 +16,11 @@
   - (And on mobile)
 - Footer links
 - Add paperweight article
+- Update README, do the bare minimum
 
 ## Later
 
+- Update README, make it a bit nicer
 - 404 page
 - Skip link
 - Comments?
