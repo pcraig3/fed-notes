@@ -34,9 +34,9 @@
       </a>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Github</li>
+          <li><a href="/pages/about">About</a></li>
           <li><a href="/pages/contact">Contact</a></li>
+          <li><a href="https://github.com/pcraig3/fed-notes" target="_blank">Github</a></li>
         </ul>
       </nav>
   </div>
@@ -56,7 +56,7 @@
       <div class="lead-in">Using mob programming to solve a problem.</div>
     
     
-      <div class="intro__author">By <a href="https://pcraig3.ca" target="_blank">Paul Craig</a></div>
+      <div class="intro__author">By <a href="https://twitter.com/@pcraig3" target="_blank">Paul Craig</a></div>
     
   </div>
 </header>
@@ -97,6 +97,8 @@
             <div class="next-and-prev">
               <ul>
                 
+                  <li class="next"><a href="/articles/2021-12-12-federal-field-notes-an-introduction/" class="button button--secondary"><span class="visually-hidden">Next: </span>Federal Field Notes: an introduction</a></li>
+                
 
                 
                   <li class="prev"><a href="/articles/article-2/" class="button button--secondary"><span class="visually-hidden">Previous: </span>Article 2: the articliest article I&#39;ve yet articled</a></li>
@@ -110,20 +112,26 @@
     <div class="container subscribe">
   <div class="flex-wrapper">
     <div>
-      <h4>Slam that subscribe button</h4>
+      <h4 id="subscribe">Slam that subscribe button</h4>
       <p>No spam, head empty. Infrequent updates only.</p>
     </div>
     <div>
-      <form>
-        <label for="email">Email address</label>
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/pcraig3"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/pcraig3', 'popupwindow')"
+      >
+        <label for="bd-email">Email address</label>
         <div class="inputs">
-          <input type="text" name="email" id="email" />
+          <input type="email" name="email" id="bd-email" />
           <button class="button--primary">Submit</button>
         </div>
       </form>
     </div>
   </div>
 </div>
+
 
 
   </main>

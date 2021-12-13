@@ -34,9 +34,9 @@
       </a>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Github</li>
+          <li><a href="/pages/about">About</a></li>
           <li><a href="/pages/contact">Contact</a></li>
+          <li><a href="https://github.com/pcraig3/fed-notes" target="_blank">Github</a></li>
         </ul>
       </nav>
   </div>
@@ -54,7 +54,7 @@
     <h1 tabindex="-1">Article 2: the articliest article I&#39;ve yet articled</h1>
     
     
-      <div class="intro__author">By <a href="https://pcraig3.ca" target="_blank">Paul Craig</a></div>
+      <div class="intro__author">By <a href="https://twitter.com/@pcraig3" target="_blank">Paul Craig</a></div>
     
   </div>
 </header>
@@ -237,20 +237,26 @@ a start and end fence lines to delimit the code block.
     <div class="container subscribe">
   <div class="flex-wrapper">
     <div>
-      <h4>Slam that subscribe button</h4>
+      <h4 id="subscribe">Slam that subscribe button</h4>
       <p>No spam, head empty. Infrequent updates only.</p>
     </div>
     <div>
-      <form>
-        <label for="email">Email address</label>
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/pcraig3"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/pcraig3', 'popupwindow')"
+      >
+        <label for="bd-email">Email address</label>
         <div class="inputs">
-          <input type="text" name="email" id="email" />
+          <input type="email" name="email" id="bd-email" />
           <button class="button--primary">Submit</button>
         </div>
       </form>
     </div>
   </div>
 </div>
+
 
 
   </main>

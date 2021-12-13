@@ -34,9 +34,9 @@
       </a>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Github</li>
+          <li><a href="/pages/about">About</a></li>
           <li><a href="/pages/contact">Contact</a></li>
+          <li><a href="https://github.com/pcraig3/fed-notes" target="_blank">Github</a></li>
         </ul>
       </nav>
   </div>
@@ -63,6 +63,16 @@
     <h2>Articles</h2>
 
     <ul class="article-list">
+      
+        <li class="article">
+          <a href="/articles/2021-12-12-federal-field-notes-an-introduction/">
+            <h3 class="article--title">
+              Federal Field Notes: an introduction
+            </h3>
+            <div class="article--date"><time datetime="2021-12-12">12th December 2021</time></div>
+            <p>Federal Field Notes is a newsletter for an open discussion about digital transformation in the federal Government of Canada.</p>
+          </a>
+        </li>
       
         <li class="article">
           <a href="/articles/article-1/">
@@ -117,20 +127,26 @@
   <div class="container subscribe">
   <div class="flex-wrapper">
     <div>
-      <h4>Slam that subscribe button</h4>
+      <h4 id="subscribe">Slam that subscribe button</h4>
       <p>No spam, head empty. Infrequent updates only.</p>
     </div>
     <div>
-      <form>
-        <label for="email">Email address</label>
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/pcraig3"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/pcraig3', 'popupwindow')"
+      >
+        <label for="bd-email">Email address</label>
         <div class="inputs">
-          <input type="text" name="email" id="email" />
+          <input type="email" name="email" id="bd-email" />
           <button class="button--primary">Submit</button>
         </div>
       </form>
     </div>
   </div>
 </div>
+
 
   </main>
     <footer role="contentinfo">
