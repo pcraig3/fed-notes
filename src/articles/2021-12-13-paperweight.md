@@ -1,8 +1,9 @@
 ---
-title: "Paperweight: a tale of onerous compliance"
+title: "Paperweight: a cautionary tale of onerous oversight"
 author: "@pcraig3"
 leadIn: "When the costs outweigh the no discernible benefits"
-summary: "Why is it so hard to make a website for the government? Let’s see if we can measure it."
+metaDescription: "Why is it so hard to make a website for the government? Let’s investigate, using data."
+ogDescription: "Why is it so hard to make a website for the government?"
 date: "2021-12-13"
 ---
 
@@ -18,21 +19,23 @@ Was it easy to get there? F\*ck no.
 
 ## Why is it so hard?
 
-“[Why is it so hard to make a website for the government?](https://www.nytimes.com/interactive/2016/11/13/magazine/design-issue-code-for-america.html)” asks a twirling ASCII banana in a 2016 New York Magazine feature — something many of us have surely wondered. Well, this is the kind of deceptively simple question that probably merits a working group or at least 3 committees with overlapping acronyms. But since I don’t have 3 years to not come up with an answer, let’s see if we can glean any wisdom from my experience building and releasing a small site in a large federal department.
+“[Why is it so hard to make a website for the government?](https://www.nytimes.com/interactive/2016/11/13/magazine/design-issue-code-for-america.html)” asks a twirling ASCII banana in a 2016 New York Magazine feature — something many of us have surely wondered. Well, this is the kind of deceptively simple question that probably merits a working group or at least 3 committees with overlapping acronyms. But since I don’t have 3 years to not come up with an answer, let’s see if we can glean any wisdom from my experience building and releasing a small cloud-hosted site in a large federal department.
 
-### Closed off vs opening up
+### Old approaches to new ideas
 
-Government tends to be pretty buttoned up about what it’s working on and how things are going. Sometimes this is justified: state secrets, upcoming changes to the tax code, military evacuations — there are definitely things that need to be closely guarded lest they put people in danger or let people game the system. Building a small website to ask Canadians for feedback on prototypes is absolutely **not** something that belongs in that category.
+About a decade ago, the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service/about) in the UK spearheaded a new style of online service delivery characterized by smaller, autonomous teams making quick, iterative releases and [openly talking about their work](/articles/2021-12-12-federal-field-notes-an-introduction/#open-by-default). Rather than burning heaps of time writing make-work documents for internal committees, digital product teams in the UK focus on quickly building services and then testing them with actual citizens. It was found to be a successful model — leading to cheaper, faster, and better quality online services — and they haven’t looked back since.
 
-About a decade ago, the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service/about) in the UK spearheaded a new style of online service delivery characterized by quick, iterative releases and [a commitment to openness](https://designnotes.blog.gov.uk/2017/03/24/doing-the-hard-work-to-make-things-open/). It was found to be a successful model — leading to cheaper, faster, and better quality online service delivery — and they haven’t looked back.
+The Government of Canada has not yet undergone a large-scale transition in this direction, although there are some attempts being made ([COVID Alert](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html), for example, was [built quickly and in the open](https://sboots.ca/2020/10/30/working-in-the-open-firsts-for-covid-alert/)). More commonly, however, Canadian federal government IT projects can easily spend months or years and (tens of) millions of dollars in “planning phases” before any part of the service is actually ready to be used by actual Canadian citizens.
 
-Today, most new digital services in the UK government are built by teams that publish their progress and proactively reach out to citizens: they quickly build services that users like. Imagine if applying for a passport was like signing up for Instagram: easy to complete on your phone by following a clear set of steps. This is how the majority of online government services in the UK are to use.
+Traditional IT government projects try to guard against the possibility of costly mistakes by requiring product teams to seek approvals from a revolving door of committees and groups. Unfortunately, all the time and energy spent appeasing these various gatekeepers can end up being just as costly to the team as the mistakes they are trying to prevent. In our case, our 12-page website needed approval from at least 8 different groups over a 6-month period.
 
-The Government of Canada has not yet undergone a large-scale transition in this direction, although there are some attempts being made ([COVID Alert](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html), for example, was [built quickly and in the open](https://sboots.ca/2020/10/30/working-in-the-open-firsts-for-covid-alert/)). More commonly, however, many Canadian federal government IT projects spend over a year and tens of millions of dollars before any part of the service is actually ready to be tested by actual Canadian citizens.
+In the alternative team-based model widely used in the UK, the possibility of costly mistakes is mitigated by actively reaching out to and testing the service with its eventual users. By focusing on getting feedback early and often from end users, mistaken assumptions are corrected early in the process by those whose opinions will ultimately matter the most.
 
-Our “Labs” site is a small but important step in creating a more responsive, more accountable government. Being able to demo ongoing work and talk publicly about progress is an important aspect of this.
+Our “Labs” site, intended to facilitate exactly this kind of citizen engagement and testing, is a small but important step in creating a more responsive, more accountable government. Unfortunately, actually launching it meant slogging through a morass of meetings and meddlers. It’s all well and good to champion tomorrow’s leaner and faster ways of working, but in our present context, we were firmly trapped in the past.
 
 ## Talking about what we do
+
+Government tends to be pretty buttoned up about what it’s working on and how things are going. Sometimes this is justified: state secrets, upcoming changes to the tax code, military evacuations — there are definitely things that need to be closely guarded lest they put people in danger or let people game the system. Building a small website to ask Canadians for feedback on prototypes is absolutely not something that belongs in that category. Rather, my experience points at something that is common across government: [onerous levels of oversight](https://sboots.ca/2021/01/12/onerous-levels-of-oversight/). As in our case, it often happens that the compliance activities demand more time and energy than actually delivering the outcome.
 
 The kernel of this post is a presentation I gave a week after launch. Our core product team was deliberately small enough to get things done without getting in each other’s way, but this means you have to talk about what you do if you want people to hear about it.
 
@@ -76,7 +79,7 @@ Maybe it seems kind of nerdy, but public source code is really valuable for gove
 - [How many people have worked on it](https://github.com/DTS-STN/Alpha-Site/graphs/contributors): 15
 - [If the team works on Sundays](https://github.com/DTS-STN/Alpha-Site/graphs/commit-activity): Only once (week of June 11)
 
-When Canada’s federal Digital Standards call for “[work[ing] in the open by default](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html#ds3)”, this is exactly what they are referring to. By making source code publicly available, we can get really good insights into the technical portion of the product. However, this is only half the story: there is also a submerged body of governance and compliance work that is much harder to quantify.
+When Canada’s federal Digital Standards call for “[work[ing] in the open by default,](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html#ds3),” this is exactly what they are referring to. By making source code publicly available, we can get really good insights into the technical portion of the product. However, this is only half the story: there is also a submerged body of governance and compliance work that is much harder to quantify.
 
 ### Measuring the hard to measure
 
@@ -88,9 +91,9 @@ For our website, it would be really interesting to measure things like:
 - How many emails were sent
 - Total number of people involved outside of the core team
 
-However, given the crush of meetings and emails many of my collagues have on a daily basis, reliably collecting this data isn’t really practical. My colleague [Sean Boots](https://twitter.com/sboots) built a [Meeting Cost Calculator](https://meetingcostcalculator.ca), but the underlying data we would need to plug into it isn’t available.
+However, given the crush of meetings and emails many of my colleagues have on a daily basis, reliably collecting this data isn’t really practical. My colleague [Sean Boots](https://twitter.com/sboots) built a [Meeting Cost Calculator](https://meetingcostcalculator.ca), but the underlying data we would need to plug into it isn’t available.
 
-So what _can_ we measure related to project governance? Well, let’s look at some artefacts we **do** have: project documentation.
+So what _can_ we measure related to project governance? Well, let’s look at some artifacts we **do** have: project documentation.
 
 ### Documented words
 
@@ -146,16 +149,16 @@ In our case, it meant that for our 12-page site, we ended up writing almost as m
 
 ## The way forward
 
-In the department, building cloud-centric applications was correctly understood to be a new technological paradigm about _speeding up_ development cycles and managing _less_ infrastructure. However, accompanying changes to internal compliance were [a purely additive process](https://sboots.ca/2020/01/28/introducing-agile-to-large-organizations-is-a-subtractive-process-not-an-additive-one/) that _slowed down_ the team and created _more_ paperwork.
+In the department, developing cloud-centric applications was correctly understood to be a new technological paradigm about _speeding up_ development cycles and managing _less_ infrastructure. However, accompanying changes to internal compliance were [a purely additive process](https://sboots.ca/2020/01/28/introducing-agile-to-large-organizations-is-a-subtractive-process-not-an-additive-one/) that _slowed down_ the team and created _more_ paperwork.
 
-Instead of adopting an attitude of ‘let’s see what makes sense for this application’, it was treated more like ‘let’s do everything we currently do, plus extra documentation now that we’re adding new technology.’
+Instead of adopting an attitude of ‘let’s see what makes sense for this application,’ it was treated more like ‘let’s do everything we currently do, plus extra documentation now that we’re adding new technology.’
 
-I’m not saying we shouldn’t have _any_ compliance processes — of course we need security reviews and internal documentation? But we need procedures that are _proportional_ to the outcomes, and that adapt to changing situations.
+I’m not saying we shouldn’t have _any_ compliance processes — of course we need security reviews and internal documentation of some kind. But above all we need procedures that are _proportional_ to the outcomes, and that adapt to changing situations.
 
 I am saying we should _not accept_ rapacious, unmanaged internal processes that consume ever more time and paper for smaller and smaller outcomes, that take the energy and enthusiasm of motivated teams and feed them into a woodchipper.
 
 Instead of adding ever more checks and imbalances to procedures created decades ago, we need to engage with the question of whether burying teams under reams of paper results in _any_ measurably better outcomes for Canadians.
 
-“But isn’t excessive paperwork just ‘how government works’?”, I hear you asking. Well, it depends. Small, nimble teams with more autonomy and dramatically less overhead have become a norm in the UK, a larger government than ours. This is the same model used to successfully build and release COVID Alert — a much more complex, nationwide application.
+“But isn’t excessive paperwork just ‘how government works?’”, I hear you asking. Well, it depends. Small, nimble teams with more autonomy and dramatically less overhead have become a norm in the UK, a larger government than ours. This is the same model used to successfully build and release COVID Alert — a much more complex, nationwide application.
 
 There _is_ a better way, we just aren’t using it.

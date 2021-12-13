@@ -4,6 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title and title != env.site.name %}{{ title }} — {% endif %}{{ env.site.name }}</title>
+  <meta name="description" content="{{ metaDescription or title }}">
+  
+  {% if env.isProd %}
+    {% set canonicalUrl = [env.url, page.url] | join %}
+    <link rel="canonical" href="{{ canonicalUrl }}"/>
+  {% endif %}
+
+  <!-- open graph tags -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="{{ env.url }}"/>
+  <meta property="og:title" content="{{ title }}"/>
+  <meta property="og:description" content="{{ ogDescription or metaDescription }}"/>
+
+  {% set imgUrl = [env.url, "/federal-field-notes.png"] | join %}
+  <meta property="og:image" content="{{ imgUrl }}"/>
+  <meta property="og:image:type" content="image/png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="627"/>
+
+  <!-- twitter card tags additive with the og: tags -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:creator" content="@pcraig3"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image" content="{{ imgUrl }}"/>
 
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

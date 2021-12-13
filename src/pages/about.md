@@ -1,7 +1,7 @@
 ---
 title: "About (& FAQ)"
 leadIn: "Everything you could possibly want to know."
-summary: "What’sg"
+metaDescription: "Federal Field Notes is a newsletter about digital transformation in Canada’s federal government."
 date: "2021-11-20"
 ---
 

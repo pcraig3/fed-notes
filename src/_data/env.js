@@ -1,12 +1,6 @@
 const environment = process.env.NODE_ENV;
-const prodUrl = "https://federal-field-notes.ca";
-const devUrl = "http://localhost:8080";
-const baseUrl = environment === "production" ? prodUrl : devUrl;
+const url = "https://federal-field-notes.ca";
 const isProd = environment === "production";
-
-const dir = {
-  img: `/img/`,
-};
 
 module.exports = {
   site: {
@@ -15,9 +9,6 @@ module.exports = {
   },
   environment,
   isProd,
-  base: {
-    site: baseUrl,
-    img: `${baseUrl}${dir.img}`,
-  },
+  url,
   ga: "G-SG73J2PLSV",
 };

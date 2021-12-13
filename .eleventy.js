@@ -18,6 +18,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "./src/_js/": "/js" });
   // Copy `img/favicon/` to `public/`
   eleventyConfig.addPassthroughCopy({ "./src/_img/favicon": "/" });
+  // Copy `img/og/` to `public/`
+  eleventyConfig.addPassthroughCopy({ "./src/_img/og": "/" });
 
   eleventyConfig.addPlugin(footnotes);
 

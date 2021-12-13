@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 leadIn: "Get @ me, yo. 🤙"
-summary: "This will be in the meta tag"
+metaDescription: "Get in touch! Always glad to chat to fans."
 date: "2021-11-20"
 ---
 

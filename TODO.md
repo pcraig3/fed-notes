@@ -2,11 +2,7 @@
 
 ## Launch
 
-- Meta stuff for social
-  - Including a big image
 - Remove Robots.txt
-- Images?
-  - (And on mobile)
 - Add paperweight article
 - Clean up junk articles
   - Create 2 "coming soons"
@@ -15,6 +11,8 @@
 
 ## Later
 
+- Images?
+  - (And on mobile)
 - Axe all the pages
 - Pagespeed
 - Validate HTML
@@ -38,6 +36,8 @@
 
 # DONE
 
+- Meta stuff for social
+  - Including a big image
 - Analytics, get it working
   - Not on local
 - Set up `<title>` tags
