@@ -7,9 +7,14 @@ h4,
 h5,
 h6 {
   font-family: "Lato", sans-serif;
+
+  &:focus {
+    outline: 0;
+  }
 }
 
-p {
+p,
+blockquote {
   margin-bottom: var(--space-lg);
 }
 
@@ -19,15 +24,15 @@ a:visited {
 }
 
 blockquote {
-  padding: var(--space-md) 0 var(--space-md) var(--space-xxl);
-  border-left: var(--color-grey-light) solid 4px;
-  text-indent: calc(-1 * var(--space-sm));
+  padding: var(--space-md) 0 var(--space-md) var(--space-xl);
+  border-left: var(--color-grey-light) solid 6px;
+  // text-indent: calc(-1 * var(--space-sm));
 
-  &::before {
-    content: open-quote;
-    quotes: "“" "" "‘" "’";
-    position: absolute;
-  }
+  // &::before {
+  //   content: open-quote;
+  //   quotes: "“" "" "‘" "’";
+  //   position: absolute;
+  // }
 
   > *:last-child {
     margin-bottom: 0;

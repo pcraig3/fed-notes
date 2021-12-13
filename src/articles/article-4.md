@@ -1,6 +1,6 @@
 ---
 title: "Article 4"
-author: pcraig3.ca
+author: "@pcraig3"
 summary: "This is my fourth Article"
 date: "2021-11-17"
 ---

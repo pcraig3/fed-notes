@@ -69,6 +69,10 @@
   a:target {
     @include mixins.focus;
   }
+
+  .article-body {
+    margin-bottom: var(--space-xxl);
+  }
 }
 
 .sidebar-content {

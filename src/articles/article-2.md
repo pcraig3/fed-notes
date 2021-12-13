@@ -1,6 +1,6 @@
 ---
 title: "Article 2: the articliest article I've yet articled"
-author: pcraig3.ca
+author: "@pcraig3"
 summary: "This is my second article"
 date: "2021-11-19"
 ---

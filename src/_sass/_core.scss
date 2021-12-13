@@ -46,3 +46,26 @@ table {
     border-top: 1px solid var(--color-grey-md);
   }
 }
+
+abbr[title] {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  cursor: help;
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+@supports (
+  (-webkit-text-decoration: underline dotted) or
+    (text-decoration: underline dotted)
+) {
+  abbr[title] {
+    border-bottom: 0;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+  }
+}
