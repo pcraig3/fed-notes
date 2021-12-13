@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.name }}</title>
+  <title>{% if title and title != env.site.name %}{{ title }} — {% endif %}{{ env.site.name }}</title>
 
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -22,6 +22,18 @@
   <link rel="stylesheet" href="{{ '/css/wet.css' | url }}" media="(prefers-color-scheme: light)">
   <!--link rel="stylesheet" href="{{ '/css/dark.css' | url }}" media="(prefers-color-scheme: dark)" -->
   <!--script type="module" src="https://unpkg.com/dark-mode-toggle"></script-->
+
+  {% if env.isProd %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ env.ga }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ env.ga }}');
+    </script>
+  {% endif %}
 </head>
 <body id="body" class="{% block body_classes %}{% endblock body_classes %}">
   <!--dark-mode-toggle></dark-mode-toggle -->

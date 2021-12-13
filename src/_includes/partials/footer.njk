@@ -10,10 +10,10 @@
         </ul>
       </nav>
     </div>
-    {% if site.shortDesc %}
+    {% if env.site.shortDesc %}
     <div class="logo__container">
-      <h2 class="logo logo--footer"><a href="/">{{ site.name }}</a></h2>
-      {{ site.shortDesc | markdownFilter | safe }}
+      <h2 class="logo logo--footer"><a href="/">{{ env.site.name }}</a></h2>
+      {{ env.site.shortDesc | markdownFilter | safe }}
       <div class="top-link"><a href="#body">Top of page</a></div>
     </div>
     {% endif %}

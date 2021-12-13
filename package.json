@@ -5,9 +5,9 @@
   "main": "index.html",
   "scripts": {
     "watch:sass": "sass  --no-source-map --watch src/_sass:public/css",
-    "watch:eleventy": "eleventy --serve",
+    "watch:eleventy": "NODE_ENV=development eleventy --serve",
     "build:sass": "sass  --no-source-map src/_sass:public/css",
-    "build:eleventy": "eleventy",
+    "build:eleventy": "NODE_ENV=production eleventy",
     "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass build:eleventy"

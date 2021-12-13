@@ -2,17 +2,22 @@
 
 ## Launch
 
-- Analytics, get it working
 - Meta stuff for social
   - Including a big image
 - Remove Robots.txt
 - Images?
   - (And on mobile)
 - Add paperweight article
+- Clean up junk articles
+  - Create 2 "coming soons"
 - Update README, do the bare minimum
+- Axe the main pages
 
 ## Later
 
+- Axe all the pages
+- Pagespeed
+- Validate HTML
 - Footer links
   - Bold if active
 - Header links
@@ -33,6 +38,9 @@
 
 # DONE
 
+- Analytics, get it working
+  - Not on local
+- Set up `<title>` tags
 - Link sitename in the footer
   - Is that a good subtext?
 - Footer links
