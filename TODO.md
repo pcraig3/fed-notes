@@ -5,7 +5,6 @@
 - Analytics, get it working
 - Meta stuff for social
   - Including a big image
-- Update the subscribe subtext
 - Link sitename in the footer
   - Is that a good subtext?
 - Remove Robots.txt
@@ -17,6 +16,10 @@
 
 ## Later
 
+- Footer links
+  - Bold if active
+- Header links
+  - Bold if active
 - Update README, make it a bit nicer
 - 404 page
 - Skip link
@@ -33,6 +36,7 @@
 
 # DONE
 
+- Update the subscribe subtext
 - Buttondown, get it working
   - How does signup actually look?
   - Unsubscribe page, test it
