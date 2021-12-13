@@ -44,7 +44,7 @@ Federal Field Notes continues that all-important tradition of government transpa
 
 ## What’s the angle?
 
-What I’m aiming to do here is open up a place to talk about digital government in Canada in a way that’s [honest](https://sboots.ca/2020/03/03/find-the-truth-tell-the-truth/), insightful, and interesting. Government IT transformation is hard, but it doesn’t have to be boring.
+What I’m aiming to do here is open up a place to talk about digital government in Canada in a way that’s [honest](https://sboots.ca/2020/03/03/find-the-truth-tell-the-truth/), insightful, and a little irreverent. Government IT transformation is hard, but it doesn’t have to be boring.
 
 ### The whole story
 

@@ -2,9 +2,6 @@
 
 ## Launch
 
-- Buttondown, get it working
-  - How does signup actually look?
-  - Unsubscribe page, test it
 - Analytics, get it working
 - Meta stuff for social
   - Including a big image
@@ -36,6 +33,9 @@
 
 # DONE
 
+- Buttondown, get it working
+  - How does signup actually look?
+  - Unsubscribe page, test it
 - Check if links are actually working
 - TODO file
   - Just create one at all
