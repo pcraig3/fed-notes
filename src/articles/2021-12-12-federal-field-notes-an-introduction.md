@@ -12,7 +12,7 @@ date: "2021-12-12"
 
 This should go without saying, but just to be totally explicit:
 
-**The views and observations here expressed are credited to individual authors (currently: [me](https://twitter.com/pcraig3)) and don’t reflect the views of teammates or employers**.
+**The views and opinions expressed here are credited to individual authors (currently: [me](https://twitter.com/pcraig3)) and don’t reflect the views of teammates or employers**.
 
 ## The pitch
 
@@ -44,7 +44,7 @@ Federal Field Notes continues that all-important tradition of government transpa
 
 ## What’s the angle?
 
-What I’m aiming to do here is open up a place to talk about digital government in Canada in a way that’s [honest](https://sboots.ca/2020/03/03/find-the-truth-tell-the-truth/), insightful, and interesting. Just because government IT is hard, doesn’t mean it has to be dull.
+What I’m aiming to do here is open up a place to talk about digital government in Canada in a way that’s [honest](https://sboots.ca/2020/03/03/find-the-truth-tell-the-truth/), insightful, and interesting. Government IT transformation is hard, but it doesn’t have to be boring.
 
 ### The whole story
 

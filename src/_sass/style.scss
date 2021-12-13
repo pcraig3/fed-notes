@@ -21,6 +21,7 @@
 /* Pages */
 @use "./pages/home";
 @use "./pages/article";
+@use "./pages/page";
 
 html {
   scroll-behavior: smooth;

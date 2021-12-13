@@ -1,0 +1,18 @@
+@use "../_mixins";
+
+.page .article-content {
+  padding-right: var(--space-md);
+
+  @include mixins.tablet {
+    width: 75%;
+    padding-right: var(--space-xxl);
+  }
+
+  @include mixins.desktop {
+    padding-right: var(--space-xxxl);
+  }
+
+  .article-body {
+    margin-bottom: var(--space-xxxl);
+  }
+}

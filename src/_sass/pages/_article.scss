@@ -1,28 +1,31 @@
 @use "../_mixins";
 
 /* Articles */
-.article-content__wrapper {
+.article .article-content__wrapper {
   display: flex;
   flex-direction: row-reverse;
 
   @include mixins.mobile {
     flex-direction: column;
   }
+
+  .article-content {
+    flex: 3;
+    padding-right: var(--space-md);
+
+    @include mixins.tablet-only {
+      flex: 2;
+      padding-right: var(--space-xxl);
+    }
+
+    @include mixins.desktop {
+      padding-right: var(--space-xxxl);
+    }
+  }
 }
 
 .article-content {
-  flex: 3;
   font-size: var(--font-md);
-  padding-right: var(--space-md);
-
-  @include mixins.tablet-only {
-    flex: 2;
-    padding-right: var(--space-xxl);
-  }
-
-  @include mixins.desktop {
-    padding-right: var(--space-xxxl);
-  }
 
   h1,
   h2,

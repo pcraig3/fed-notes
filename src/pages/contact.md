@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-leadIn: "Get @ me, yo 🤙"
+leadIn: "Get @ me, yo. 🤙"
 summary: "This will be in the meta tag"
 date: "2021-11-20"
 ---
