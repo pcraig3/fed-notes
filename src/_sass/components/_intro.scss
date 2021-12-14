@@ -1,3 +1,5 @@
+@use "../mixins";
+
 .intro {
   padding-top: var(--space-xxl);
   padding-bottom: var(--space-xxxl);
@@ -12,9 +14,15 @@
     line-height: 1.15;
     margin-bottom: var(--space-md);
     border-bottom: 2px solid var(--color-red-dark);
+
+    @include mixins.mobile {
+      font-size: var(--font-xxl);
+    }
   }
 
   a {
+    color: var(--color-white);
+
     &:hover,
     &:focus {
       color: var(--color-white);
@@ -44,13 +52,5 @@
 
   .intro__author {
     font-weight: 600;
-
-    a {
-      color: var(--color-white);
-
-      &:hover {
-        color: var(--color-white);
-      }
-    }
   }
 }

@@ -7,9 +7,19 @@
       </a>
       <nav>
         <ul>
-          <li><a href="/pages/about">About</a></li>
-          <li><a href="/pages/contact">Contact</a></li>
-          <li><a href="https://github.com/pcraig3/fed-notes" target="_blank">Github</a></li>
+          {% set aboutLink = '/pages/about/'%}
+          <li {% if page.url == aboutLink %}class="active"{% endif %}>
+            <a href="{{ aboutLink }}">About
+              {% if page.url == aboutLink %} <span class="visually-hidden">(current)</span>{% endif %}
+            </a>
+          </li>
+          {% set contactLink = '/pages/contact/' %}
+          <li {% if page.url == contactLink %}class="active"{% endif %}>
+            <a href="{{ contactLink }}">Contact
+              {% if page.url == contactLink %} <span class="visually-hidden">(current)</span>{% endif %}
+            </a>
+          </li>
+          <li><a href="https://github.com/pcraig3/fed-notes">Github</a></li>
         </ul>
       </nav>
   </div>

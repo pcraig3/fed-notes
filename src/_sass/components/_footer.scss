@@ -57,6 +57,7 @@ footer[role="contentinfo"] {
 
     a {
       padding-left: var(--space-xl);
+      text-decoration: underline;
 
       &::before {
         color: currentColor;

@@ -47,11 +47,11 @@
     }
 
     .flex-wrapper > div:first-of-type {
-      margin-bottom: var(--space-lg);
+      margin-bottom: var(--space-xl);
     }
 
     h4 {
-      margin-bottom: 0;
+      margin-bottom: var(--space-xs);
     }
 
     input {

@@ -7,6 +7,7 @@
 - Clean up junk articles
   - Create 2 "coming soons"
 - Update README, do the bare minimum
+- Update the package.json stuff
 - Axe the main pages
 
 ## Later
@@ -16,10 +17,6 @@
 - Axe all the pages
 - Pagespeed
 - Validate HTML
-- Footer links
-  - Bold if active
-- Header links
-  - Bold if active
 - Update README, make it a bit nicer
 - 404 page
 - Skip link
@@ -32,10 +29,12 @@
   - Submit to search console
 - Local fonts?
 - Reading time? Maybe put it back?
-- Links about blank markdown
 
 # DONE
 
+- Links about blank markdown
+- Header links
+  - Bold if active
 - Meta stuff for social
   - Including a big image
 - Analytics, get it working
