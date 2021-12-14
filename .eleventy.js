@@ -11,6 +11,7 @@ const {
 } = require("./src/_filters/markdown-filter.js");
 
 const footnotes = require("eleventy-plugin-footnotes");
+const externalLinks = require("@aloskutov/eleventy-plugin-external-links");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/_sass/");
@@ -22,6 +23,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "./src/_img/og": "/" });
 
   eleventyConfig.addPlugin(footnotes);
+  eleventyConfig.addPlugin(externalLinks, {
+    url: "https://federal-field-notes.ca",
+    rel: ["noopener", "external"],
+  });
 
   // Filters
   eleventyConfig.addFilter("markdownFilter", markdownFilter);
