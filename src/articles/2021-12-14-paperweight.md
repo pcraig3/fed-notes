@@ -2,7 +2,7 @@
 title: "Paperweight: a cautionary tale of onerous oversight"
 author: "@pcraig3"
 leadIn: "When the costs outweigh the no discernible benefits"
-metaDescription: "Why is it so hard to make a website for the government? Let’s investigate, using data."
+metaDescription: "Why is it so hard to make a website for the government? Let’s investigate."
 ogDescription: "Why is it so hard to make a website for the government?"
 date: "2021-12-14"
 ---
