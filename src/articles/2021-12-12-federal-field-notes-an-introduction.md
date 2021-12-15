@@ -52,10 +52,12 @@ I find a lot of public discussions about digital transformation in the GoC are c
 
 While there have been many successful modern digital services released in Canada, there are also years-long initiatives that don’t ever seem to ship, and motivated teams who end up stalled or burnt out under reams of [onerous oversight](/articles/2021-12-13-paperweight/). All to say, there are _plenty_ of lessons being learned across government that would be helpful to share with other culturally-aligned teams.
 
-This site is **not** about criticizing specific individuals or committees, leaking secret or upcoming projects, or for commenting on government policies. Rather, its intent is to highlight on structural tendencies and patterns of behaviour, and to propose possible strategies that may, ultimately, help to improve service delivery for all of us.
+This site is **not** about criticizing specific individuals or committees, leaking secret or upcoming projects, or for commenting on government policies. Rather, my intent is to highlight structural tendencies and patterns of behaviour, and to propose possible strategies that may, ultimately, help to improve service delivery for all of us.
 
 My colleague [Sean Boots](https://twitter.com/sboots) has a great blog post [on blogging as a public servant](https://sboots.ca/2020/01/21/principles-for-blogging-as-a-public-servant/), where he effectively sums up the goal as:
 
 > The approach I want to champion is: openly criticizing things that are systemically broken, while still acting with the respect and integrity that public servants are meant to embody.
 
 That is to say, it’s not about airing dirty laundry, more about pointing out how the washing machine shreds all of our good shirts.
+
+If that sounds interesting to you, give it a try and subscribe <span aria-hidden="true">👇</span>. If not, well, you should subscribe anyway: you will rarely get emails from me and [you just might win an iPod](/pages/about/#what-happens-if-i-subscribe).
