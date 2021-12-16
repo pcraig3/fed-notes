@@ -1,3 +1,4 @@
+@use "../_vars";
 @use "../_mixins";
 
 /* Articles */
@@ -11,46 +12,46 @@
 
   .article-content {
     flex: 3;
-    padding-right: var(--space-md);
+    padding-right: vars.$space-md;
 
     @include mixins.tablet-only {
       flex: 2;
-      padding-right: var(--space-xxl);
+      padding-right: vars.$space-xxl;
     }
 
     @include mixins.desktop {
-      padding-right: var(--space-xxxl);
+      padding-right: vars.$space-xxxl;
     }
   }
 }
 
 .article-content {
-  font-size: var(--font-md);
+  font-size: vars.$font-md;
 
   h1,
   h2,
   h3,
   h4 {
-    margin-top: var(--space-xl);
-    margin-bottom: var(--space-lg);
+    margin-top: vars.$space-xl;
+    margin-bottom: vars.$space-lg;
 
     border-top: 30px solid transparent;
-    margin-top: calc(-30px + var(--space-xl));
+    margin-top: calc(-30px + vars.$space-xl);
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
 
     a {
       text-decoration: none;
-      color: var(--color-text);
-      margin-left: calc(-1 * var(--space-xl));
-      padding-left: var(--space-xl);
+      color: vars.$color-text;
+      margin-left: calc(-1 * vars.$space-xl);
+      padding-left: vars.$space-xl;
       position: relative;
 
       &::before {
         content: "#";
-        font-size: var(--font-lg);
-        color: var(--color-grey-light);
+        font-size: vars.$font-lg;
+        color: vars.$color-grey-light;
         position: absolute;
         float: left;
         left: 0;
@@ -60,10 +61,10 @@
 
     a:hover,
     a:focus {
-      color: var(--color-text);
+      color: vars.$color-text;
 
       &::before {
-        color: var(--color-blue-highlight);
+        color: vars.$color-blue-highlight;
         text-decoration: underline;
       }
     }
@@ -74,14 +75,14 @@
   }
 
   .article-body {
-    margin-bottom: var(--space-xxl);
+    margin-bottom: vars.$space-xxl;
   }
 }
 
 .sidebar-content {
   flex: 1;
-  margin-left: var(--space-sm);
-  margin-bottom: var(--space-xxl);
+  margin-left: vars.$space-sm;
+  margin-bottom: vars.$space-xxl;
 
   .toc {
     position: sticky;
@@ -89,8 +90,8 @@
     z-index: 1;
 
     .toc__header {
-      font-size: var(--font-lg);
-      margin-bottom: var(--space-sm);
+      font-size: vars.$font-lg;
+      margin-bottom: vars.$space-sm;
     }
 
     .toc__content {
@@ -100,28 +101,28 @@
         list-style-type: none;
 
         li {
-          margin-bottom: var(--space-xs);
+          margin-bottom: vars.$space-xs;
 
           &::before {
             content: "—";
-            color: var(--color-blue);
-            margin-right: var(--space-sm);
+            color: vars.$color-blue;
+            margin-right: vars.$space-sm;
           }
 
           &.active {
             &::before {
-              color: var(--color-blue-highlight);
+              color: vars.$color-blue-highlight;
             }
 
             > a {
               font-weight: 600;
-              color: var(--color-blue-highlight);
+              color: vars.$color-blue-highlight;
             }
           }
         }
 
         li ol {
-          margin: var(--space-xs) 0 0 var(--space-lg);
+          margin: vars.$space-xs 0 0 vars.$space-lg;
         }
       }
     }

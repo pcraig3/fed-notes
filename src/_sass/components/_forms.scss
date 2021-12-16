@@ -1,3 +1,5 @@
+@use "../_vars";
+
 button,
 a.button,
 input[type="text"],
@@ -22,11 +24,11 @@ a.button {
 
   &:focus:not(:active) {
     outline: 0;
-    color: var(--color-black);
-    background-color: var(--color-focus);
-    border-color: var(--color-focus);
-    border-bottom: 1px solid var(--color-black);
-    border-right: 1px solid var(--color-black);
+    color: vars.$color-black;
+    background-color: vars.$color-focus;
+    border-color: vars.$color-focus;
+    border-bottom: 1px solid vars.$color-black;
+    border-right: 1px solid vars.$color-black;
 
     box-shadow: none;
   }
@@ -34,26 +36,26 @@ a.button {
 
 .button--primary {
   color: #fff;
-  background-color: var(--color-blue);
-  border-color: var(--color-blue);
+  background-color: vars.$color-blue;
+  border-color: vars.$color-blue;
   border-radius: 0 4px 4px 0;
 
   &:hover {
-    background-color: var(--color-button-hover);
+    background-color: vars.$color-button-hover;
   }
 
   &:active {
-    border-color: var(--color-button-hover);
-    background-color: var(--color-button-active);
+    border-color: vars.$color-button-hover;
+    background-color: vars.$color-button-active;
   }
 
   &:focus:not(:active) {
-    border: 2px solid var(--color-black);
+    border: 2px solid vars.$color-black;
   }
 }
 
 .button--secondary {
-  color: var(--color-text);
+  color: vars.$color-text;
   background-color: #eaebed;
   border: 1px solid#cfd1d5;
 
@@ -70,24 +72,24 @@ a.button {
 
 a.button:hover,
 a.button:visited:hover {
-  color: var(--color-text);
+  color: vars.$color-text;
 }
 
 input[type="text"],
 input[type="email"] {
-  color: var(--color-text);
+  color: vars.$color-text;
   background-color: #fff;
-  border: 2px solid var(--color-text);
+  border: 2px solid vars.$color-text;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   z-index: 1;
   border-radius: 4px 0 0 4px;
 
   &:focus {
-    outline: 3px solid var(--color-focus);
+    outline: 3px solid vars.$color-focus;
   }
 }
 
 label {
   display: block;
-  margin-bottom: var(--space-xs);
+  margin-bottom: vars.$space-xs;
 }

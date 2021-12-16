@@ -1,8 +1,9 @@
+@use "../_vars";
 @use "../_mixins";
 
 .next-and-prev {
   @include mixins.clearfix;
-  margin: var(--space-xxxl) 0 var(--space-xl) 0;
+  margin: vars.$space-xxxl 0 vars.$space-xl 0;
 
   ul {
     width: 100%;
@@ -22,7 +23,7 @@
 
     a::before {
       content: "«";
-      margin-right: var(--space-sm);
+      margin-right: vars.$space-sm;
     }
   }
 
@@ -32,7 +33,7 @@
 
     a::after {
       content: "»";
-      margin-left: var(--space-sm);
+      margin-left: vars.$space-sm;
     }
   }
 
@@ -54,8 +55,8 @@
       max-width: 90%;
 
       &.next {
-        margin-bottom: var(--space-lg);
-        margin-right: var(--space-lg);
+        margin-bottom: vars.$space-lg;
+        margin-right: vars.$space-lg;
       }
     }
   }

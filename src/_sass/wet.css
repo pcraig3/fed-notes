@@ -25,11 +25,11 @@
 
   --font-xs: calc(var(--font-base-size) / 1.15);
   --font-sm: var(--font-base-size);
-  --font-md: calc(var(--font-sm) * 1.25);
-  --font-lg: calc(var(--font-md) * 1.25);
-  --font-xl: calc(var(--font-lg) * 1.25);
-  --font-xxl: calc(var(--font-xl) * 1.25);
-  --font-xxxl: calc(var(--font-xxl) * 1.25);
+  --font-md: calc(var(--font-base-size) * 1.25);
+  --font-lg: calc(var(--font-base-size) * 1.25);
+  --font-xl: calc(var(--font-base-size) * 1.25);
+  --font-xxl: calc(var(--font-base-size) * 1.25);
+  --font-xxxl: calc(var(--font-base-size) * 1.25);
 
   /* Spacing */
   --space-base-size: 1rem;

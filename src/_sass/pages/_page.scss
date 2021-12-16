@@ -1,18 +1,19 @@
+@use "../_vars";
 @use "../_mixins";
 
 .page .article-content {
-  padding-right: var(--space-md);
+  padding-right: vars.$space-md;
 
   @include mixins.tablet {
     width: 75%;
-    padding-right: var(--space-xxl);
+    padding-right: vars.$space-xxl;
   }
 
   @include mixins.desktop {
-    padding-right: var(--space-xxxl);
+    padding-right: vars.$space-xxxl;
   }
 
   .article-body {
-    margin-bottom: var(--space-xxxl);
+    margin-bottom: vars.$space-xxxl;
   }
 }

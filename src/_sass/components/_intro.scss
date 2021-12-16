@@ -1,53 +1,54 @@
+@use "../_vars";
 @use "../mixins";
 
 .intro {
-  padding-top: var(--space-xxl);
-  padding-bottom: var(--space-xxxl);
-  margin-bottom: var(--space-xxl);
+  padding-top: vars.$space-xxl;
+  padding-bottom: vars.$space-xxxl;
+  margin-bottom: vars.$space-xxl;
 
-  background-color: var(--color-blue);
-  color: var(--color-white);
-  font-size: var(--font-md);
+  background-color: vars.$color-blue;
+  color: vars.$color-white;
+  font-size: vars.$font-md;
 
   h1 {
-    font-size: var(--font-xxxl);
+    font-size: vars.$font-xxxl;
     line-height: 1.15;
-    margin-bottom: var(--space-md);
-    border-bottom: 2px solid var(--color-red-dark);
+    margin-bottom: vars.$space-md;
+    border-bottom: 2px solid vars.$color-red-dark;
 
     @include mixins.mobile {
-      font-size: var(--font-xxl);
+      font-size: vars.$font-xxl;
     }
   }
 
   a {
-    color: var(--color-white);
+    color: vars.$color-white;
 
     &:hover,
     &:focus {
-      color: var(--color-white);
+      color: vars.$color-white;
       opacity: 0.75;
     }
   }
 
   .category-heading {
-    font-size: var(--font-lg);
-    margin-bottom: calc(-1 * var(--space-xs));
+    font-size: vars.$font-lg;
+    margin-bottom: calc(-1 * vars.$space-xs);
     margin-left: 2px;
 
     a {
-      color: var(--color-grey-light);
+      color: vars.$color-grey-light;
 
       &:hover {
-        color: var(--color-grey-light);
+        color: vars.$color-grey-light;
       }
     }
   }
 
   .lead-in {
     max-width: 65ch;
-    font-size: var(--font-md);
-    margin-bottom: var(--space-xl);
+    font-size: vars.$font-md;
+    margin-bottom: vars.$space-xl;
   }
 
   .intro__author {

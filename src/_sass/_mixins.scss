@@ -1,3 +1,5 @@
+@use "./_vars";
+
 /* Mixins are compiled ahead of time, so we can't use CSS vars in our mq mixins */
 $desktop-screen: 1200px;
 $desktop-container: 1170px;
@@ -59,14 +61,14 @@ $mobile-container: 750px;
 @mixin container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--space-lg);
-  padding-right: var(--space-lg);
+  padding-left: vars.$space-lg;
+  padding-right: vars.$space-lg;
 
   @include tablet {
     max-width: $mobile-container;
 
-    padding-left: var(--space-xxxl);
-    padding-right: var(--space-xxxl);
+    padding-left: vars.$space-xxxl;
+    padding-right: vars.$space-xxxl;
   }
 
   @include desktop {
@@ -94,17 +96,17 @@ $mobile-container: 750px;
 
 @mixin logo-container {
   @include container;
-  margin-top: var(--space-xxl);
-  margin-bottom: var(--space-xxl);
+  margin-top: vars.$space-xxl;
+  margin-bottom: vars.$space-xxl;
 }
 
 /* licked from gov.uk 😈 */
 @mixin focus {
   outline: 3px solid transparent;
-  color: var(--color-black) !important;
-  background-color: var(--color-focus);
-  -webkit-box-shadow: 0 -2px var(--color-focus), 0 4px var(--color-black);
-  box-shadow: 0 -2px var(--color-focus), 0 4px var(--color-black);
+  color: vars.$color-black !important;
+  background-color: vars.$color-focus;
+  -webkit-box-shadow: 0 -2px vars.$color-focus, 0 4px vars.$color-black;
+  box-shadow: 0 -2px vars.$color-focus, 0 4px vars.$color-black;
   text-decoration: none;
 }
 
@@ -124,11 +126,11 @@ $mobile-container: 750px;
 }
 
 @mixin links {
-  color: var(--color-blue);
+  color: vars.$color-blue;
   text-decoration: underline;
 
   &:hover {
-    color: var(--color-blue-highlight);
+    color: vars.$color-blue-highlight;
   }
 
   &:focus {

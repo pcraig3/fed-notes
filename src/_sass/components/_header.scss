@@ -1,3 +1,4 @@
+@use "../_vars";
 @use "../mixins";
 
 header[role="banner"] {
@@ -6,6 +7,6 @@ header[role="banner"] {
 
 @include mixins.mobile {
   header .logo {
-    margin-bottom: var(--space-lg);
+    margin-bottom: vars.$space-lg;
   }
 }

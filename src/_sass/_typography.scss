@@ -1,3 +1,4 @@
+@use "./_vars";
 @use "./_mixins";
 
 h1,
@@ -15,7 +16,7 @@ h6 {
 
 p,
 blockquote {
-  margin-bottom: var(--space-lg);
+  margin-bottom: vars.$space-lg;
 }
 
 a,
@@ -24,9 +25,9 @@ a:visited {
 }
 
 blockquote {
-  padding: var(--space-md) 0 var(--space-md) var(--space-xl);
-  border-left: var(--color-grey-light) solid 6px;
-  // text-indent: calc(-1 * var(--space-sm));
+  padding: vars.$space-md 0 vars.$space-md vars.$space-xl;
+  border-left: vars.$color-grey-light solid 6px;
+  // text-indent: calc(-1 * vars.$space-sm);
 
   // &::before {
   //   content: open-quote;
@@ -40,14 +41,14 @@ blockquote {
 }
 
 code {
-  padding: 0 var(--space-xs);
-  border: 1px solid var(--color-grey-light);
-  background: var(--color-grey-very-light);
+  padding: 0 vars.$space-xs;
+  border: 1px solid vars.$color-grey-light;
+  background: vars.$color-grey-very-light;
   border-radius: 4px;
   line-height: 1.65;
 }
 
 pre > code {
   display: block;
-  padding: var(--space-sm) var(--space-md);
+  padding: vars.$space-sm vars.$space-md;
 }

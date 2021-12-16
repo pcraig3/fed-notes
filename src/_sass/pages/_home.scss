@@ -1,4 +1,5 @@
 /* Sass stuff */
+@use "../_vars";
 @use "../_mixins";
 
 /* Grid system, inspired by SmolCSS */
@@ -29,37 +30,37 @@
 
 .article--list__wrapper {
   h2 {
-    font-size: var(--font-xl);
-    margin-bottom: var(--space-lg);
+    font-size: vars.$font-xl;
+    margin-bottom: vars.$space-lg;
   }
 }
 
 .home .article {
-  font-size: var(--font-md);
-  margin-bottom: var(--space-xl);
+  font-size: vars.$font-md;
+  margin-bottom: vars.$space-xl;
 
   > a {
-    color: var(--color-text);
+    color: vars.$color-text;
     text-decoration: none;
     display: block;
     height: 100%;
-    padding: var(--space-md) var(--space-lg);
+    padding: vars.$space-md vars.$space-lg;
     border-radius: 4px;
-    border: 2px solid var(--color-grey-light);
+    border: 2px solid vars.$color-grey-light;
 
     &:hover,
     &:focus {
-      background-color: var(--color-grey-very-light);
-      border: 2px solid var(--color-grey-md);
+      background-color: vars.$color-grey-very-light;
+      border: 2px solid vars.$color-grey-md;
       box-shadow: none;
 
       .article--title {
-        color: var(--color-blue-highlight);
+        color: vars.$color-blue-highlight;
       }
     }
 
     &:focus {
-      outline: var(--color-focus) 2px solid;
+      outline: vars.$color-focus 2px solid;
     }
   }
 
@@ -69,32 +70,32 @@
 
   .article--title {
     display: block;
-    margin-bottom: var(--space-xs);
+    margin-bottom: vars.$space-xs;
     line-height: 1.35;
   }
 
   .article--date {
     display: block;
     font-size: 18px;
-    font-size: var(--font-sm);
-    margin-bottom: var(--space-md);
+    font-size: vars.$font-sm;
+    margin-bottom: vars.$space-md;
   }
 
   p {
     margin: 0;
-    font-size: var(--font-sm);
+    font-size: vars.$font-sm;
   }
 }
 
 .home .article.article--placeholder {
-  font-size: var(--font-md);
-  margin-bottom: var(--space-xl);
+  font-size: vars.$font-md;
+  margin-bottom: vars.$space-xl;
 
-  background: var(--color-grey-light);
+  background: vars.$color-grey-light;
   opacity: 0.8;
-  padding: var(--space-md) var(--space-lg);
+  padding: vars.$space-md vars.$space-lg;
   border-radius: 4px;
-  border: 2px solid var(--color-grey-light);
+  border: 2px solid vars.$color-grey-light;
 
   cursor: wait;
 }

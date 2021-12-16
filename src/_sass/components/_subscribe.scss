@@ -1,24 +1,25 @@
+@use "../_vars";
 @use "../_mixins";
 
 .subscribe {
   .flex-wrapper {
-    border-top: 4px dotted var(--color-blue);
-    padding-top: var(--space-xl);
+    border-top: 4px dotted vars.$color-blue;
+    padding-top: vars.$space-xl;
 
     align-items: initial;
   }
 
   h4 {
-    font-size: var(--font-lg);
-    margin-bottom: var(--space-md);
+    font-size: vars.$font-lg;
+    margin-bottom: vars.$space-md;
   }
 
   p {
-    margin-bottom: var(--space-xs);
+    margin-bottom: vars.$space-xs;
   }
 
   form {
-    font-size: var(--font-sm);
+    font-size: vars.$font-sm;
 
     .inputs {
       display: flex;
@@ -47,11 +48,11 @@
     }
 
     .flex-wrapper > div:first-of-type {
-      margin-bottom: var(--space-xl);
+      margin-bottom: vars.$space-xl;
     }
 
     h4 {
-      margin-bottom: var(--space-xs);
+      margin-bottom: vars.$space-xs;
     }
 
     input {
