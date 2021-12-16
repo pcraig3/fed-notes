@@ -1,12 +1,10 @@
-![logo](https://repository-images.githubusercontent.com/302921248/58478900-0adf-11eb-8f0b-74be58a898ef)
+![logo](https://user-images.githubusercontent.com/2454380/146298507-5977f314-5c53-4b3d-a9f7-003364e6faaa.png)
 
-# 11ty Sass Skeleton
+# Federal Field Notes
 
-Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.
+[Federal Field Notes](httpsL://federal-field-notes.ca) is a newsletter about digital transformation in the federal Government of Canada (GoC), drawing lessons from first-hand experience. It discusses digital government in Canada in a way that’s honest, insightful, and a little irreverent.
 
-Includes minifiying and autoprefixing of styles `postbuild`.
-
-<small>Created by [@5t3ph](https://twitter.com/5t3ph)</small>
+<small>Forked from <a href="https://github.com/5t3ph">@5t3ph's</a> <a href="https://github.com/5t3ph/11ty-sass-skeleton" target="blank">11ty-sass-skeleton</a>, thanks for the starter project!</small>
 
 ## Development Scripts
 
@@ -18,16 +16,8 @@ Includes minifiying and autoprefixing of styles `postbuild`.
 
 > Production build includes minified, autoprefixed CSS
 
-Use this as the "Publish command" if needed by hosting such as Netlify.
+Use this as the "Publish command".
 
-## Resources to extend this and learn 11ty
+### Publishing to Github Pages
 
-**Ensure accessible colors** by adding my [a11y-color-tokens package](https://www.npmjs.com/package/a11y-color-tokens)
-
-**Learn to build an 11ty site in 20 mins** with my [egghead video course](https://5t3ph.dev/learn-11ty) and see how to add a blog and custom data.
-
-**Add auto-generated social media images** with [my plugin](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-social-images)
-
-**Explore advanced setup of custom data** through my [tutorial on building a community site](https://css-tricks.com/a-community-driven-site-with-eleventy-building-the-site/)
-
-**For a more full-featured starter** check out my [11ty Netlify Jumpstart](https://11ty-netlify-jumpstart.netlify.app/) (also works for hosts other than Netlify).
+[How to Deploy Eleventy to GitHub Pages With GitHub Actions](https://www.rockyourcode.com/how-to-deploy-eleventy-to-github-pages-with-github-actions/) is super helpful in setting up an eleventy site to publish automatically.

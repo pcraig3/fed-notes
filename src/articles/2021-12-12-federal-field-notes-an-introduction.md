@@ -40,7 +40,7 @@ A culture of silence is bad for all of us: for public servants who can’t (or d
 
 ### Make things open
 
-The UK’s highly successful government digital transformation was predicated on [a culture of transparency](https://gds.blog.gov.uk/2014/07/22/making-things-open-making-things-better/): working in the open, blogging frequently, encouraging public involvement/discussion, and a strong commitment to plain language. (Check out GDS’ “[Words to avoid](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#words-to-avoid)” in their plain-language guide — see how many you come across regularly.)
+The UK’s highly successful government digital transformation was predicated on [a culture of transparency](https://gds.blog.gov.uk/2014/07/22/making-things-open-making-things-better/): working in the open, blogging frequently, encouraging public involvement/discussion, and a strong commitment to plain language. (Check out GDS’ “[Words to avoid](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#words-to-avoid)” in their plain-language guide — see how many you come across regularly.)
 
 As an example of this, the UK team working on a new government identity platform [is blogging openly about their progress](https://gds.blog.gov.uk/category/id-assurance/), even [talking to an impressive 720 _end users_ in 7 months](https://gds.blog.gov.uk/2021/12/01/one-login-for-government-december-2021-update/).
 

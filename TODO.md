@@ -3,7 +3,6 @@
 ## Launch
 
 - Remove Robots.txt
-- Update README, do the bare minimum
 - Axe the main pages
 
 ## Later
@@ -28,6 +27,7 @@
 
 # DONE
 
+- Update README, do the bare minimum
 - Update the package.json stuff
 - Add paperweight article
 - Clean up junk articles
