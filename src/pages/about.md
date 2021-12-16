@@ -21,6 +21,10 @@ No.
 
 Sounds good. I’m [easy to reach](/pages/contact).
 
+### “I have a comment about \_\_\_\_”
+
+I am around on Twitter ([@pcraig3](https://twitter.com/pcraig3)), and I have opened up [Discussions on Github](https://github.com/pcraig3/fed-notes/discussions).
+
 ### “I have a great idea. Can I contribute a post?”
 
 Email me.

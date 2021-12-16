@@ -65,3 +65,5 @@ My colleague [Sean Boots](https://twitter.com/sboots) has a great blog post [on 
 That is to say, it’s not about airing dirty laundry, more about pointing out how the washing machine shreds all of our good shirts.
 
 If that sounds interesting to you, give it a try and subscribe <span aria-hidden="true">👇</span>. If not, well, you should subscribe anyway: you will rarely get emails from me and [you just might win an iPod](/pages/about/#what-happens-if-i-subscribe).
+
+Have feedback, or want to leave a comment? I couldn’t figure out how to set up commenting with eleventy (might do it later if comments are something people want), but I have opened up [Discussions in the Github repo](https://github.com/pcraig3/fed-notes/discussions). Feel free to leave a comment in there, or you can always [Contact me](/pages/contact) directly.
