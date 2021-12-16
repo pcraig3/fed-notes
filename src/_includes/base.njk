@@ -10,6 +10,10 @@
     {% set canonicalUrl = [env.url, page.url] | join %}
     <link rel="canonical" href="{{ canonicalUrl }}"/>
   {% endif %}
+  
+  {% if ignore %}
+    <meta name="robots" content="noindex"/>
+  {% endif %}
 
   <!-- open graph tags -->
   <meta property="og:type" content="website"/>
@@ -34,7 +38,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="manifest" href="/site.webmanifest">
   <meta name="apple-mobile-web-app-title" content="Federal Field Notes">
-  <meta name="application-name" content="Federal Field Notes">
   <meta name="msapplication-TileColor" content="#26374a">
   <meta name="theme-color" content="#26374a">
 
