@@ -3,11 +3,7 @@
 ## Launch
 
 - Remove Robots.txt
-- Add paperweight article
-- Clean up junk articles
-  - Create 2 "coming soons"
 - Update README, do the bare minimum
-- Update the package.json stuff
 - Axe the main pages
 
 ## Later
@@ -32,6 +28,10 @@
 
 # DONE
 
+- Update the package.json stuff
+- Add paperweight article
+- Clean up junk articles
+  - Create 2 "coming soons"
 - Links about blank markdown
 - Header links
   - Bold if active
