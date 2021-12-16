@@ -1,10 +1,10 @@
 ---
 title: "Paperweight: a cautionary tale of onerous oversight"
 author: "@pcraig3"
-leadIn: "When the costs outweigh the no discernible benefits"
+leadIn: "Why is it so hard to make a website for the government?"
 metaDescription: "Why is it so hard to make a website for the government? Let’s investigate."
 ogDescription: "Why is it so hard to make a website for the government?"
-date: "2021-12-14"
+date: "2021-12-15"
 ---
 
 [[toc]]
@@ -23,11 +23,11 @@ Was it easy to get there? F\*ck no.
 
 ### Old approaches to new ideas
 
-About a decade ago, the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service/about) in the UK spearheaded a new style of online service delivery characterized by smaller, autonomous teams making quick, iterative releases and [openly talking about their work](/articles/2021-12-12-federal-field-notes-an-introduction/#open-by-default). Rather than burning heaps of time writing make-work documents for internal committees, digital product teams in the UK focus on quickly building services and then testing them with actual citizens. It was found to be a successful model — leading to cheaper, faster, and better quality online services — and they haven’t looked back since.
+About a decade ago, the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service/about) in the UK spearheaded a new style of online service delivery characterized by smaller, autonomous teams making quick, iterative releases and [openly talking about their work](/articles/2021-12-12-federal-field-notes-an-introduction/#open-by-default). Rather than burning heaps of time writing ‘make-work’ documents for internal committees, digital product teams in the UK (and I worked on several) focus on quickly building services and then testing them with actual citizens. It was found to be a successful model — leading to cheaper, faster, and better quality online services — and they haven’t looked back since.
 
 The Government of Canada has not yet undergone a large-scale transition in this direction, although there are some attempts being made ([COVID Alert](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html), for example, was [built quickly and in the open](https://sboots.ca/2020/10/30/working-in-the-open-firsts-for-covid-alert/)). More commonly, however, Canadian federal government IT projects can easily spend months or years and (tens of) millions of dollars in “planning phases” before any part of the service is actually ready to be used by actual Canadian citizens.
 
-Traditional IT government projects try to guard against the possibility of costly mistakes by requiring product teams to seek approvals from a revolving door of committees and groups. Unfortunately, all the time and energy spent appeasing these various gatekeepers can end up being just as costly to the team as the mistakes they are trying to prevent. In our case, our 12-page website needed approval from at least 8 different groups over a 6-month period.
+Traditional IT government projects try to guard against the possibility of costly mistakes by requiring product teams to seek approvals from a revolving door of committees and groups. Unfortunately, the accumulated time and energy spent appeasing these various gatekeepers can be just as costly to the team as the mistakes they are trying to prevent. In our case, our 12-page website needed approval from around 8 different groups over a 6-month period.
 
 In the alternative team-based model widely used in the UK, {% footnoteref "users" "Not all potential issues can be addressed this way: eg, mitigating security and privacy concerns requires specialists. But, in my time there, the emphasis was on speaking to end users, with lightweight processes around internal compliance." %}the possibility of costly mistakes is mitigated by actively reaching out to and testing the service with its eventual users{% endfootnoteref %}. By focusing on getting feedback early and often from end users, mistaken assumptions are corrected early in the process by those whose opinions will ultimately matter the most.
 
@@ -35,7 +35,7 @@ Our “Labs” site, intended to facilitate exactly this kind of citizen engagem
 
 ## Talking about what we do
 
-Government tends to be pretty buttoned up about what it’s working on and how things are going. Sometimes this is justified: state secrets, upcoming changes to the tax code, military evacuations — there are definitely things that need to be closely guarded lest they put people in danger or let people game the system. Building a small website to ask Canadians for feedback on prototypes is absolutely **not** something that belongs in that category. Rather, my experience points at something that is common across government: [onerous levels of oversight](https://sboots.ca/2021/01/12/onerous-levels-of-oversight/).
+[The federal government tends to be pretty buttoned up](/articles/2021-12-12-federal-field-notes-an-introduction/#closed-by-default) about what it’s working on and how things are going. Sometimes this is justified: state secrets, upcoming changes to the tax code, military evacuations — there are definitely things that need to be closely guarded lest they put people in danger or let people game the system. Building a small website to ask Canadians for feedback on prototypes is absolutely **not** something that belongs in that category. Rather, my experience reveals something common across government: [onerous levels of oversight](https://sboots.ca/2021/01/12/onerous-levels-of-oversight/).
 
 As in our case, it often happens that the compliance activities demand more time and energy than actually delivering the outcome. But how can we attempt to measure this, and what are the factors that lead to this outcome? Well, I’m glad you asked.
 
@@ -47,11 +47,11 @@ The kernel of this post is a presentation I gave a week after launch. Our core p
 
 Having a small, multidisciplinary team meant we could quickly build the site itself, but it also resulted in our nearly getting snowed under as we progressed through the various internal gatekeepers.
 
-My sense was that most of our compliance activities were based on inertia rather than utility, and I didn’t believe it was widely understood how much was being asked of us. So after the launch I put some numbers together (ie, data) to at least partially answer the question: “Why is it so hard to make a website for the government?”
+My sense was that most of our compliance activities were based on inertia rather than utility, and I didn’t believe it was widely understood how much was being asked of us. So after the launch I put some numbers together to at least partially answer the question: “Why is it so hard to make a website for the government?”
 
 So! With no further ado, this is a numbers-centric look at what it took to launch our “Labs” site inside a large federal department.
 
-## Adding it up
+## Summing up
 
 To recap, we launched a user engagement site for the teams working on the next iteration of the department’s user portal. The site hosts [a public listing of prototypes](https://alpha.service.canada.ca/projects) — ‘sneak previews’ of new services being worked on. You can also [sign up to be a ‘user research participant’](https://alpha.service.canada.ca/signup) and give feedback on early versions of new services.
 
@@ -83,11 +83,11 @@ Maybe it seems kind of nerdy, but public source code is really valuable for gove
 - [How many people have worked on it](https://github.com/DTS-STN/Alpha-Site/graphs/contributors): 15
 - [If the team works on Sundays](https://github.com/DTS-STN/Alpha-Site/graphs/commit-activity): Only once (week of June 11)
 
-When Canada’s federal Digital Standards call for “[work[ing] in the open by default,](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html#ds3),” this is exactly what they are referring to. By making source code publicly available, we can get really good insights into the technical portion of the product. However, this is only half the story: there is also a submerged body of governance and compliance work that is much harder to quantify.
+When Canada’s federal Digital Standards call for “[work[ing] in the open by default](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html#ds3),” this is exactly what they are referring to. By making source code publicly available, we can get really good insights into the technical portion of the product. However, this is only half the story: there is also a submerged body of governance and compliance work that is much harder to quantify.
 
 ### Measuring the hard to measure
 
-When we talk about ‘data’, we’re usually talking about things that are easy to count and measure, but — as the cast of Rent knows — how do you measure a year(ly release)? ([In midnights? In cups of coffee?](https://www.youtube.com/watch?v=XNbwiGbETSQ)) Activities that don’t leave behind structured records can be pretty hard to quantify.
+When we talk about ‘data’, we’re usually talking about things that are easy to count and measure, but — as the cast of Rent knows — how do you measure a year(ly release)? ([In midnights? In cups of coffee?](https://www.youtube.com/watch?v=XNbwiGbETSQ)) Activities that don’t leave behind structured data can be pretty hard to quantify.
 
 For our website, it would be really interesting to measure things like:
 
@@ -95,7 +95,7 @@ For our website, it would be really interesting to measure things like:
 - How many emails were sent
 - Total number of people involved outside of the core team
 
-However, given the crush of meetings and emails many of my colleagues have on a daily basis, reliably collecting this data isn’t really practical. My colleague [Sean Boots](https://twitter.com/sboots) built a [Meeting Cost Calculator](https://meetingcostcalculator.ca), but the underlying data we would need to plug into it isn’t available.
+However, given the crush of meetings and emails that myself and many of my colleagues had on a daily basis, reliably collecting this data isn’t really practical. My colleague [Sean Boots](https://twitter.com/sboots) built a [Meeting Cost Calculator](https://meetingcostcalculator.ca), but the underlying data we would need to plug into it isn’t available.
 
 So what _can_ we measure related to project governance? Well, let’s look at some artifacts we **do** have: project documentation.
 
@@ -115,7 +115,7 @@ When you add up all the original (_non copy+pasted_) text in our various documen
 
 #### How many words is a lot of words?
 
-But _is it_ a lot of words? Of course, thirty-nine thousand and change sounds like a lot but what can we compare this to? It’s a good question.
+But _is it_ a lot of words? Of course, thirty-nine thousand and change sounds like a lot but what can we compare this to?
 
 I went looking for comparisons and I found a listing of [word counts for famous novels](http://commonplacebook.com/art/books/word-count-for-famous-novels/). If we pull out a couple, this is where we sit.
 
@@ -125,7 +125,7 @@ I went looking for comparisons and I found a listing of [word counts for famous 
 
 So we are in good company here, sandwiched between a beloved children’s novel and a classic tale of superficial excess.
 
-Incidentally, November (so recently past) is “[National Novel Writing Month](https://nanowrimo.org)”: the goal of which is to write a 50k word novel, which it seems like we were only a few documents short of achieving.
+Incidentally, November (so recently past) is “[National Novel Writing Month](https://nanowrimo.org)”: the goal of which is to write a 50k word novel, something we were only a few documents short of achieving.
 
 And none of this is user-facing, mind you. Those 39,230 words represent only _the tax_ we paid to move our project through all the various internal groups and committees. Since none of that work is available to the public, even if we were writing the next Great Canadian Federal Novel (we weren’t), you would never get to see it.
 
@@ -150,9 +150,9 @@ In our case, it meant that for our 12-page site, we ended up writing almost as m
 
 ## How did we get here?
 
-So I’ve written a lot about the volume of documentation, but I haven’t touched on the content itself. We were building a small site which, at launch, was assessed as **not** holding sensitive data, greatly reducing potential security and privacy concerns. How did we end up writing so much for such a small deliverable? For me, the answer stems from systemic assumptions — what you might call an ‘organizational common sense’ — around managing risk, which, over time, have created a culture of amateur novel writing.
+So I’ve written a lot about the _volume_ of documentation, but I haven’t touched on the content itself. We were building a small site which, at launch, was assessed having **no** sensitive data — in theory this should mitigate potential security and privacy concerns. Given that, how was it that we ended up writing so much for such a small deliverable? For me, the answer stems from systemic assumptions — what you might call an ‘organizational common sense’ — around managing risk, which, over time, have created a culture of amateur novel writing.
 
-I’ll give you an example.
+Here’s an example.
 
 ### The Content Management System: an example
 
@@ -160,7 +160,7 @@ On our team, we had several developers and two content writers. When a content w
 
 Enabling content writers to edit the content directly relieves this tension: by using a Content Management System (CMS), a content writer can log in, update the text, and press “Publish”. Now developers can work on other tasks and content writers can make changes whenever they want. But there is a tradeoff here: setting up and maintaining a CMS creates work for developers. If the content doesn’t change that often, maybe sending emails is good enough. Ultimately, it comes down to team preference. Does it save us time? Is this how we want to work together? What if we try it out? If it works, let’s keep using it. If it doesn’t work, let’s get rid of it.
 
-Our team eventually decided to add a CMS, so we picked one that met our use case and got it working.
+Our team eventually decided to add a CMS, so we picked one that worked for us and set it up.
 
 There are a bunch of (valid) questions that arise when adding a CMS:
 
@@ -177,10 +177,10 @@ There are a bunch of (valid) questions that arise when adding a CMS:
 - What was your analyses of the other CMSes?
 - (etc.)
 
-These are the kinds of questions internal compliance teams will ask (and more!). But is it worth asking them all in our case? Let’s imagine two opposing opinions:
+These are the kinds of questions internal compliance teams will ask (and many more!). But is it worth asking them all in our case? Let’s imagine two opposing opinions:
 
 - **Opinion 1**: These are all important and necessary questions to have answered before a site can be released, _especially_ in a government context where we have to consider any possible security implications and/or a loss of reputation. This CMS is new to the organization. All new technology requires need comprehensive documentation around how it works, how it will be used, by whom, and how it will be supported in the future.
-- **Opinion 2**: The team has found something that improves their workflow and only 5 people on the team have accounts. The site is assessed as _not_ having sensitive data and the ‘reputational risk’ of an occasional typo isn’t that serious. Yes, it’s a new CMS but it only affects this one team, and they don’t even know if they want to keep using this 6 months down the road. Let’s skip the documentation for now and see how it goes.
+- **Opinion 2**: The team has found something that improves their workflow and it is only being used by the 5 people on the team. The site is assessed as _not_ having sensitive data and the ‘reputational risk’ of an occasional typo isn’t that serious. Yes, it’s a new CMS but it only affects this one team, and they don’t even know if they want to keep using this 6 months down the road. Let’s skip the documentation for now and see how it goes.
 
 There is plenty of middle ground in the space between each of these perspectives, but, in practice, we ended up very close to Opinion 1. While there is an important principle represented by the “comprehensive documentation” opinion, there is almost no consideration given to the context of the project. The CMS _was_ a new technology, so that represented a risk. However, there were significant mitigating factors. It didn’t impact any other teams, it didn’t have any sensitive data, and there were only 5 accounts — all for people we worked with directly.
 
@@ -192,7 +192,7 @@ The ‘organizational common-sense’ operating here is that **more** documentat
 
 Unfortunately, the unaccounted-for long-term risk is one where high-effort processes suffocate grassroots learning and experimentation, leading to organizational stagnation. Our team was looking to save ~45 minutes a week, so we picked up a new technology as a potential remediation. Unwittingly, this meant signing up for ~40-60 hours of documenting, diagraming, presenting, justifying, etc — far outweighing the potential benefit of the CMS. Something that was meant to optimize the team’s workflow and relieve a mild inefficiency turned into a black hole of effort: consuming hours and hours of time for documentation that few people will ever read.
 
-When the cost of trialling new things is so punishing, it is not practical or even rational to try. Eventually, you end up in a situation where “[some systems are pushing 60 years old and built on ‘outdated technology’ that can no longer be maintained](https://www.cbc.ca/news/politics/federal-it-systems-critical-failure-1.5448871).”
+When the cost of trialling new things is so punishing, it is not practical or even rational to try. Eventually, you end up in a situation where “[aging government computer systems [...] are pushing 60 years old and built on ‘outdated technology’ that can no longer be maintained](https://www.cbc.ca/news/politics/federal-it-systems-critical-failure-1.5448871),” as reported by the CBC.
 
 ## The way forward: when less is better
 
@@ -202,8 +202,8 @@ Instead of adopting an attitude of ‘let’s see what makes sense for this appl
 
 Again, I’m not saying we shouldn’t have _any_ compliance processes — of course we need security reviews and internal documentation of some kind. But above all we need procedures that are _proportional_ to the outcomes, that _adapt_ to changing situations.
 
-“But isn’t excessive paperwork just ‘how government works?’”, I hear you asking. Well, ‘how government works’ changes over time. Small, nimble teams with more autonomy and dramatically less overhead have become a norm in the UK, where they have an even larger government than ours. In my previous life as a UK civil servant, if I had wanted to introduce a CMS to a small site without sensitive data, I would have needed team buy-in and to write maybe 1 page of explanation. There’s no reason we can’t take the same approach here in Canada.
+“But isn’t excessive paperwork just ‘how government works?’”, I hear you asking. Well, ‘how government works’ changes over time. Small, nimble teams with more autonomy and dramatically less overhead have become a norm in the UK, where they have an even larger government than ours. In my previous life as a UK civil servant, if I had wanted to introduce a CMS to a small site with no sensitive data, I would have needed buy-in from my team and to write maybe 1 page of explanation. There’s no reason we can’t take the same approach here in Canada.
 
-Hoping for different outcomes without updating our internal procedures will only get us so far. Currently, many government teams spend an inordinate proportion of effort managing internal stakholders instead of focusing on external users. We need to create space for teams to use their judgement and lower the cost of experimentation if we are to realize the ideal of a truely responsive, citizen-centric government.
+Hoping for different outcomes without reducing the overhead of internal procedures will only get us so far. Currently, many government teams spend an inordinate proportion of effort managing internal stakeholders instead of focusing on external users. We need to **create space for teams to use their judgement** and **lower the cost of experimentation** if we are to realize the ideal of a truly responsive, citizen-centric government.
 
 Ultimately, we can’t build the services of the future without letting go of the assumptions of the past.
