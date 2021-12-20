@@ -1,0 +1,42 @@
+---
+permalink: 'feed.xml'
+eleventyExcludeFromCollections: true
+metadata:
+  title: Federal Field Notes
+  subtitle: Dispatches from the front lines of Canada's federal digital transformation.
+  url: 'https:/federal-field-notes.ca'
+  feedUrl: 'https://federal-field-notes.cafeed.xml'
+  author:
+    name: 'Paul Craig'
+    email: 'paul@pcraig3.ca'
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ metadata.feedUrl }}" rel="self" />
+  <link href="{{ metadata.url }}" />
+  <updated>
+      {{ collections.article | getNewestCollectionItemDate | dateToRfc3339 }}
+  </updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for article in collections.article %}
+  {% set absolutePostUrl %}
+    {{ article.url | url | absoluteUrl(metadata.url) }}
+  {% endset %}
+  <entry>
+    <title>{{ article.data.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ article.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">
+        {{ article.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+    </content>
+  </entry>
+  {%- endfor %}
+</feed>
