@@ -14,6 +14,8 @@ const footnotes = require("eleventy-plugin-footnotes");
 const externalLinks = require("@aloskutov/eleventy-plugin-external-links");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setDataDeepMerge(true);
+
   eleventyConfig.addWatchTarget("./src/_sass/");
   // add JS file
   eleventyConfig.addPassthroughCopy({ "./src/_js/": "/js" });
