@@ -6,14 +6,14 @@
   <title>{% if title and title != env.site.name %}{{ title }} — {% endif %}{{ env.site.name }}</title>
   <meta name="description" content="{{ metaDescription or title }}">
   
-  {% set canonicalUrl = [env.url, page.url] | join %}
-  {% if env.isProd %}
+  {%- set canonicalUrl = (canonicalUrl) or ([env.url, page.url] | join) -%}
+  {%- if env.isProd -%}
     <link rel="canonical" href="{{ canonicalUrl }}"/>
-  {% endif %}
+  {%- endif -%}
   
-  {% if ignore %}
+  {%- if ignore -%}
     <meta name="robots" content="noindex"/>
-  {% endif %}
+  {%- endif -%}
 
   <!-- open graph tags -->
   <meta property="og:type" content="website"/>
