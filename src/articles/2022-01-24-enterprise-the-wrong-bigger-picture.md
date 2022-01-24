@@ -1,11 +1,10 @@
 ---
 title: "Enterprise: the wrong bigger picture"
 author: "@pcraig3"
-leadIn: "When you can’t see the forest or the trees"
-metaDescription: "Taking an enterprise approach: when you can’t see the forest or the trees."
-ogDescription: "Taking an enterprise approach: when you can’t see the forest or the trees."
+leadIn: "When you can’t see the forest or the trees."
+metaDescription: "Taking (on) the enterprise approach: when you can’t see the forest or the trees."
+ogDescription: "When you can’t see the forest or the trees."
 date: "2022-01-24"
-ignore: true
 ---
 
 [[toc]]
