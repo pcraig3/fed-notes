@@ -52,3 +52,10 @@ pre > code {
   display: block;
   padding: vars.$space-sm vars.$space-md;
 }
+
+s,
+del {
+  text-decoration: line-through;
+  text-decoration-style: double;
+  text-decoration-thickness: 2px;
+}

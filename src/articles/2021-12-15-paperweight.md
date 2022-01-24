@@ -145,7 +145,7 @@ Rounding down, we’re looking at roughly a 9:1 ratio of internal vs. external c
 
 In our case, it meant that for our 12-page site, we ended up writing almost as much as the Great Gatsby.
 
-> "Never was so much written by so few for no reason."
+> “Never was so much written by so few for no reason.”
 > — Winston Churchill once said, referring to our website.
 
 ## How did we get here?
