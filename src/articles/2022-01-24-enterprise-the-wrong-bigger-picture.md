@@ -5,6 +5,7 @@ leadIn: "When you can’t see the forest or the trees"
 metaDescription: "Taking an enterprise approach: when you can’t see the forest or the trees."
 ogDescription: "Taking an enterprise approach: when you can’t see the forest or the trees."
 date: "2022-01-24"
+ignore: true
 ---
 
 [[toc]]
