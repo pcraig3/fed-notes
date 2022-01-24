@@ -12,5 +12,8 @@
     {% if author %}
       <div class="intro__author">By <a href="https://twitter.com/{{ author }}" target="_blank">Paul Craig</a></div>
     {% endif %}
+    {% if date %}
+      <div class="intro__date"><time datetime="{{ date | isoDateFilter }}">{{ date | displayDateFilter }}</time></div>
+    {% endif %}
   </div>
 </header>
