@@ -1,0 +1,35 @@
+@use "../_vars";
+
+details {
+  display: block;
+  margin-bottom: vars.$space-md;
+  padding: 0 vars.$space-lg;
+
+  border: solid 1px vars.$color-grey-md;
+  border-radius: 4px;
+
+  summary {
+    margin: 0 calc(-1 * vars.$space-lg);
+    padding: vars.$space-sm vars.$space-lg;
+
+    color: vars.$color-blue;
+    cursor: pointer;
+    text-align: left;
+
+    &:hover,
+    &:focus {
+      color: vars.$color-blue-highlight;
+      text-decoration: underline;
+    }
+
+    &:focus {
+      outline-style: dotted;
+      outline-width: 1px;
+    }
+  }
+
+  &[open] > summary {
+    margin-bottom: vars.$space-md;
+    border-bottom: 1px solid #ddd;
+  }
+}

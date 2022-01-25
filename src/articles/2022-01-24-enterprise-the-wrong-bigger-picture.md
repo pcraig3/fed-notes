@@ -87,13 +87,37 @@ Under the ‘enterprise’ model, this is no good. We don’t want each designer
 
 If we imagine each of our products as a pie, we started with 5 pies and each pie had 1 designer assigned to it. Now, we have 1 consolidated design team responsible for a 10% slice of _every_ pie — but only for how the pie looks, it doesn’t matter how it tastes.
 
-Now that the design problem is solved, we want to do this with other roles too. Let’s create a legal team, a marketing team, and an architecture team. Instead of working on specific products from start to finish, each of these specialized teams is responsible for a slice of all products, so now all of our pies look like pie graphs.
+Now that the design problem is solved, we want to do this with other roles too. Let’s create a legal team, a marketing team, and an architecture team. Instead of working on specific products from start to finish, each of these specialized teams is responsible for a slice of all products, so now all of our pies look like pie graphs (see figures below).
+
+<details>
+    <summary>Figure 1: Product teams with clear responsibility</summary>
+    <div>
+      <figure>
+      <img alt="Figure 1: Autonomous teams with clear responsibility" src="{{ '/img/articles/pies.png' | url }}" />
+      <figcaption>
+      <p>3 autonomous product teams, each responsible for 1 product. Arrows represent responsibility for products. Responsibility is clear: there are 3 arrows, each product team is totally responsible for 1 product.</p>
+      </figcaption>
+      </figure>
+    </div>
+</details>
+
+<details>
+    <summary>Figure 2: Advisory teams with complex responsibilities</summary>
+    <div>
+      <figure>
+      <img alt="Figure 2: Advisory teams with complex responsibilities" src="{{ '/img/articles/pies-2.png' | url }}" />
+      <figcaption>
+      <p>3 product teams and 3 advisory teams, sharing responsibility for 3 products. Arrows represent responsibility for products. Responsibility is complex: there are 12 arrows, each product team is mostly responsible for 1 product, and each advisory team is partially responsible for every product.</p>
+      </figcaption>
+      </figure>
+    </div>
+</details>
 
 Each time we create a new centralized oversight team, the actual team doing the work gets smaller, while the number of people “[involved in oversight, gate-keeping, and green-lighting](https://sboots.ca/2021/10/04/if-your-technology-leadership-is-more-into-blockchain-than-user-needs-youre-doomed/#leadership-density-or-leadership-signal-vs-noise)” increases. The upshot of this process is that **we are losing more time in meetings while reducing overall team capacity.**
 
 With all of our oversight teams ‘advising’ on every product, things start getting pretty confusing. (Imagine organizing an enterprise-style potluck where each person invited needs to provide 1 ingredient for every dish.) A lot of time is lost emailing to coordinate reviews and approvals for all our ongoing work. To address this, let’s come up with _a really clear and detailed plan_ that outlines exactly what everyone needs to do at every step.
 
-[Here is an example of what our really detailed and not-confusing plan might look like](https://docs.google.com/presentation/d/1HqtvTM7MksL6DpXXBxVut_6HuzGN-dH9KBtIlB5emAY/edit#slide=id.gf933083904_0_39) (_psst, read the notes for the slide_). It’s a little hard to see in the diagram, but it visualizes an internal release pipeline that includes 93 discrete steps.
+[Here is an example of what our really detailed and not-confusing plan might look like](https://docs.google.com/presentation/d/1HqtvTM7MksL6DpXXBxVut_6HuzGN-dH9KBtIlB5emAY/edit#slide=id.gf933083904_0_39). (_psst, read the notes for the slide_.) It’s a little hard to see in the diagram, but it visualizes an internal release pipeline that includes 93 discrete steps.
 
 So, in this thought experiment, what started as a fairly intuitive team structure where everyone works together on a shared goal has turned into a highly choreographed performance where products ping-pong around between [teams that mostly watch, rather than do](https://twitter.com/honeygolightly/status/1225095639144550400).
 

@@ -1,0 +1,18 @@
+@use "../_vars";
+
+figure {
+  max-width: 600px;
+  margin-bottom: vars.$space-xl;
+
+  figcaption {
+    margin-top: vars.$space-md;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border: solid 1px vars.$color-grey-md;
+  border-radius: 4px;
+}
