@@ -35,7 +35,7 @@
             {% footnotes %}
             <div class="next-and-prev">
               <ul>
-                {% if nextArticle %}
+                {% if nextArticle and not nextArticle.data.ignore %}
                   <li class="next"><a href="{{ nextArticle.url }}" class="button button--secondary"><span class="visually-hidden">Next: </span>{{ nextArticle.data.title }}</a></li>
                 {% endif %}
 

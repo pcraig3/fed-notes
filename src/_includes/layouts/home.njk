@@ -11,11 +11,11 @@
   {% include "partials/intro.njk" %}
 
   <div class="article--list__wrapper container">
-    <h2>Articles</h2>
+    <h2 id="articles" tabindex="-1"><a class="header-anchor" href="#articles"><span>Articles</span></a></h2>
 
     <ul class="article-list">
-      {% for article in collections.article %}
-        {% if not article.data.ignore %}
+      {%- for article in collections.article | reverse -%}
+        {%- if not article.data.ignore -%}
         <li class="article">
           <a href="{{ article.url }}">
             <h3 class="article--title">
@@ -25,13 +25,13 @@
             <p>{{ article.data.metaDescription }}</p>
           </a>
         </li>
-        {% endif %}
-      {% endfor %}
+        {%- endif -%}
+      {%- endfor -%}
       <li class="article article--placeholder">
         <h3 class="article--title">
           Coming soon: a strategy for agile teams in waterfall orgs
         </h3>
-        <div class="article--date"><time datetime="2021">In like a week or so (?)</time></div>
+        <div class="article--date"><time datetime="2022-02">before Valentine’s Day</time></div>
         <p>How might we square this circle? Subscribe to be the first to know.</p>
       </li>
     </ul>

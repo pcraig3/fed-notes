@@ -10,10 +10,12 @@
 @use "./typography";
 
 /* Partials */
+@use "./components/details";
 @use "./components/footer";
 @use "./components/footnotes";
 @use "./components/forms";
 @use "./components/header";
+@use "./components/img";
 @use "./components/intro";
 @use "./components/nav";
 @use "./components/next_prev";

@@ -24,6 +24,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "./src/_img/favicon": "/" });
   // Copy `img/og/` to `public/`
   eleventyConfig.addPassthroughCopy({ "./src/_img/og": "/" });
+  eleventyConfig.addPassthroughCopy({ "./src/_img/articles": "/img/articles" });
 
   eleventyConfig.addPlugin(footnotes);
   eleventyConfig.addPlugin(pluginRss);

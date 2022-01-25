@@ -2,7 +2,7 @@
   <div class="container">
     {% for tag in tags %}
       {% if tag === 'article' %}
-        <div class="category-heading"><a href="/">{{ tag | capitalize }}</a></div>
+        <div class="category-heading"><a href="/#articles">{{ tag | capitalize }}</a></div>
       {% endif %}
     {% endfor %}
     <h1 tabindex="-1">{{ introHeading }}</h1>
@@ -11,6 +11,9 @@
     {% endif %}
     {% if author %}
       <div class="intro__author">By <a href="https://twitter.com/{{ author }}" target="_blank">Paul Craig</a></div>
+    {% endif %}
+    {% if date %}
+      <div class="intro__date"><time datetime="{{ date | isoDateFilter }}">{{ date | displayDateFilter }}</time></div>
     {% endif %}
   </div>
 </header>

@@ -25,12 +25,13 @@
   }
 }
 
-.article-content {
+.article-content,
+.article--list__wrapper {
   font-size: vars.$font-md;
 
   h1,
   h2,
-  h3,
+  h3:not(.article--title),
   h4 {
     margin-top: vars.$space-xl;
     margin-bottom: vars.$space-lg;
