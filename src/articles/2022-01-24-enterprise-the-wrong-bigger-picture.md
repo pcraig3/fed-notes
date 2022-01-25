@@ -11,17 +11,17 @@ date: "2022-01-24"
 
 ## Introduction
 
-Frequent visitors to my blog will know that I essentially have [one other post](/articles/2021-12-15-paperweight/) about how needlessly hard and slow it was to make a small website in a federal department. Over the summer, I was <s>complaining about</s> describing the compliance process to my sister and she was like, “Yeah Paul, it’s the government. If you don’t like paperwork, why do you work there?”
+Frequent visitors to my blog will know that essentially I have [one other post](/articles/2021-12-15-paperweight/) about how hard and slow it was making a small website in a federal department. Over the summer, I was <s>complaining about</s> describing the compliance process to my sister and she was like, “Yeah Paul, it’s the government. If you don’t like paperwork, why do you work there?”
 
 Wow, Julia, go for the jugular, why don’t you?
 
-I’ve been a civil servant my whole working life — in Canada, in the UK, at [Western U’s ‘student government’](https://westernusc.ca/) — and I’ve always had great colleagues and interesting stuff to work on. In fact, the public servants I know regularly go above and beyond — often overcoming awful processes and dated technology to get things done.
+I’ve been a civil servant my whole working life — in Canada, in the UK, at [Western U’s ‘student government’](https://twitter.com/westernusc) — and I’ve always had interesting stuff to work on and great colleagues. In fact, the public servants I know regularly go above and beyond — often overcoming awful processes and dated technology to get things done.
 
 But let’s not get the wrong end of the stick here: it’s obvious to anyone with any sustained interaction with the Canadian government that our public service isn’t out here winning [Design of the Year](https://www.gov.uk/government/news/govuk-wins-design-of-the-year-2013) or [automatically filing our taxes](https://www.cbc.ca/news/politics/free-automatic-tax-returns-benefits-1.5739678) (yet). More often we see stories about [big, expensive IT failures](https://www.theglobeandmail.com/politics/article-ottawa-paid-out-400-million-in-phoenix-pay-compensation-to-federal/) and generalized anxiety about “[old mainframes and technology, some on the verge of collapse](https://policyoptions.irpp.org/magazines/november-2021/speaking-tech-to-power/).”
 
 My sister’s perspective that ‘government is just inherently slow and paperwork-heavy’ isn’t what you would call deeply nuanced, but there’s definitely a link between her pessimism and a pattern of costly failures. So how do we square this circle: how is it that so many dedicated and well-meaning public servants working all over the government deliver so much crappy software?
 
-When we start seeing patterns like this, similar outcomes from disparate departments, it’s a pretty sure sign that we are dealing with _systems_ rather than particular teams or individuals. A strong swimmer traveling _against_ the current will always go slower and use more energy than a swimmer of average ability (like me) swimming _with_ the current. When a system works against you, you spend more energy and get less done — eventually wearing down even the most talented folks.
+When we start seeing _patterns_ like this — similar outcomes from disparate departments — it’s a pretty sure sign that we are dealing with _systems_ rather than particular teams or individuals. A strong swimmer traveling against the current will always go slower and use more energy than an average swimmer (like me) swimming _with_ the current. When a system works against you, you spend more energy and get less done — eventually wearing down even the most talented folks.
 
 So let’s talk about systems: what they are, what they do, and how, sometimes, the problem isn’t when our systems stop working, it’s when they work too well.
 
@@ -29,21 +29,21 @@ So let’s talk about systems: what they are, what they do, and how, sometimes, 
 
 A system is a set of parts working together. Broadly speaking, systems are created when you need to do something more than once. Systems can be composed of physical parts (like a car), but for this post I will focus on systems as sequences of actions. For example, [Basically Spaghetti Pomodoro](https://www.bonappetit.com/recipe/basically-spaghetti-pomodoro) is a sequence of actions resulting in, arguably, “THE best pomodoro sauce I’ve tasted at home.”
 
-Good systems know what ‘good’ looks like and have the flexibility needed to be able to improve over time. In the UK, anyone can [apply for a new passport](https://www.gov.uk/apply-renew-passport) entirely online by [submitting a digital photo from their smartphone](https://www.gov.uk/photos-for-passports#how-to-get-a-digital-photo). In Canada, you need to bring in a [physical regulation-sized photograph with a stamp and a ‘wet-ink’ signature on the back](https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html). Obviously, whoever designed the passport system several decades ago didn’t anticipate ubiquitous digital photography, but a good system adapts to a changing context.
+Good systems know what ‘good’ looks like and have the flexibility needed to improve over time. In the UK, anyone can [apply for a new passport](https://www.gov.uk/apply-renew-passport) entirely online by [submitting a digital photo from their smartphone](https://www.gov.uk/photos-for-passports#how-to-get-a-digital-photo). In Canada, you need to bring in a [physical regulation-sized photograph with a stamp and a ‘wet-ink’ signature on the back](https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html). Obviously, whoever designed the passport system several decades ago didn’t anticipate ubiquitous digital photography, but a good system adapts to a changing context.
 
 If good systems have clear priorities and are adaptable, bad systems are inflexible and confused about what is important. Even systems created with the best intentions degrade over time, so being able to cope with new situations is crucial.
 
 ### What does this have to do with government?
 
-Systems have everything to do with government. I’ve defined a system as a set of parts working together to achieve a goal — in a broad sense, a government is the same thing. In a narrower sense, governments love a good recipe. Whether you call them ‘policies,’ ‘processes,’ ‘procedures,’ or ‘paperwork,’ (or [any other thesaurus.com alternative](https://www.thesaurus.com/browse/plan)), government is stuffed with systematized ways of completing tasks.
+Systems have everything to do with government. I’ve defined a system as a set of parts working together to achieve a goal — in a broad sense, a government is the same thing. More narrowly, governments love a good recipe. Whether you call them ‘policies,’ ‘processes,’ ‘procedures,’ or ‘paperwork,’ (or [any other thesaurus.com alternative](https://www.thesaurus.com/browse/plan)), government is stuffed with systematized ways of completing tasks.
 
 Sometimes these heavily-routinized approaches get out of hand, like [when releasing a small website means writing a novel’s worth of paperwork](/articles/2021-12-15-paperweight/#internal-words). Governments are notorious for this kind of over-the-top bureaucratic process (known as ‘red-tape’).
 
-While writing 36 thousand words is obviously too much for a simple website, this isn’t a post to make that argument. What I want to talk about instead is _why is it like this_? How did we end up with a set of rules where writing 36 thousand words is okay?
+While writing 36 thousand words is obviously too much for a simple website, this isn’t a post to make that argument. Instead, I want to talk about _why is it like this_? How did we end up with processes that are okay with writing 36 thousand words?
 
-Systems don’t always work that well, but they are always _supposed to_. Processes we encounter — even if they seem illogical — were all deliberately introduced and there’s a reason they are still around. Usually there is an important principle they are meant to upload, it’s just a matter of finding it.
+Systems don’t always work that well, but they are always _supposed to_. The processes we encounter — even if they seem illogical — were all deliberately introduced and there’s a reason they are still around. Usually there is an important principle they are meant to upload, it’s just a matter of finding it.
 
-In the world of traditional government IT, there is one fundamental principle that almost no amount of usable software is worth trading for, and that principle is “enterprise.” Investigating what it means to be ‘enterprise’ (and build ‘enterprise software’) helps us to better understand the processes we have, the teams created to enforce those processes, and how, ultimately, we get the outcomes we deserve.
+In the world of traditional government IT, there is one fundamental principle that almost no amount of usable software is worth trading for, and that principle is “**enterprise**.” Investigating what it means to be ‘enterprise’ (and build ‘enterprise software’) helps us to better understand the processes we have, the teams created to enforce those processes, and how, ultimately, we get the outcomes we deserve.
 
 ## The Enterprise approach
 
@@ -65,7 +65,7 @@ But processes and principles are just words; organizations are made up of people
 
 ### Single-disciplinary teams
 
-Enterprise environments love creating _single-disciplinary teams_: teams in which everyone has the same skill set (eg, a legal team of lawyers, for example). {% footnoteref "single-disiplinary-teams" "An alternate descriptor I’ve come across is “functional teams” (vs “cross-functional teams”). ‘Functional’ refers to everyone having the same skillset (everyone performs the same “function”), but I have avoided this terminology because the alternate meaning of ‘functional’ is “something that works well” and I prefer to avoid that association." %}Single-disciplinary teams{% endfootnoteref %} come from a desire to ensure consistency across a line of products. These teams are responsible for creating org-wide standards, and for _advising_ and _approving_ products (but rarely for building them).
+Enterprise environments love creating _single-disciplinary teams_: teams in which everyone has the same skill set (eg, a legal team of lawyers). {% footnoteref "single-disiplinary-teams" "An alternate descriptor I’ve come across is “functional teams” (vs “cross-functional teams”). ‘Functional’ refers to everyone having the same skillset (everyone performs the same “function”), but I have avoided this terminology because the alternate meaning of ‘functional’ is “something that works well” and I prefer to avoid that association." %}Single-disciplinary teams{% endfootnoteref %} are rooted in a desire to ensure consistency across a line of products. These teams are responsible for creating org-wide standards, and for _advising_ and _approving_ products (but rarely for building them).
 
 On first blush, grouping people by role and giving them oversight across a range of products might not seem like too bad of an idea, but pretty quickly you start losing time and context as projects bounce around between these narrowly-focused teams. However, these are _emergent_ problems: they aren’t obvious at the outset but get worse as organizations grow. Let’s see how some of these dynamics play out by running through an imagined scenario.
 
@@ -95,7 +95,7 @@ Now that the design problem is solved, we want to do this with other roles too. 
       <figure>
       <img alt="Figure 1: Autonomous teams with clear responsibility" src="{{ '/img/articles/pies.png' | url }}" />
       <figcaption>
-      <p>3 autonomous product teams, each responsible for 1 product. Arrows represent responsibility for products. Responsibility is clear: there are 3 arrows, each product team is totally responsible for 1 product.</p>
+      <p>3 autonomous product teams, each responsible for 1 product. Arrows represent responsibility for products. Responsibility is clear: there are 3 arrows, each product team is responsible for 1 product.</p>
       </figcaption>
       </figure>
     </div>
@@ -121,7 +121,7 @@ With all of our oversight teams ‘advising’ on every product, things start ge
 
 So, in this thought experiment, what started as a fairly intuitive team structure where everyone works together on a shared goal has turned into a highly choreographed performance where products ping-pong around between [teams that mostly watch, rather than do](https://twitter.com/honeygolightly/status/1225095639144550400).
 
-By breaking up our product teams into siloed teams of specialists, we _do_ have clearer standards in place although now everything takes longer. But is this actually a problem? Things _are_ slower with all the extra meetings, but isn’t this preferable to an organization of uncoordinated, independent teams potentially overlooking the bigger picture?
+In breaking up our product teams into siloed teams of specialists, we _do_ have clearer standards in place although now everything takes longer. But is this actually a problem? Things _are_ slower with all the extra meetings, but isn’t this preferable to an organization of uncoordinated, independent teams potentially overlooking the bigger picture?
 
 Well, it turns out there is more than just one bigger picture. There is a short-term and a long-term cost to this kind of org structure. In the short term, teams narrowly-focused on a single domain can end up missing the forest for the wrong forest. And in the long term, an over-emphasis on following standards can easily lead to internal stagnation.
 
@@ -131,9 +131,9 @@ Once upon a time, I was on a team building a user recruitment site. After puttin
 
 The group advising on data security looked over our designs and frowned at the signup form. They strongly advised us to remove the ‘email’ field. If we did that, they said, it would be easier to approve our project because not collecting personal data is better for data security.
 
-But _the whole point of our site_ was to collect the emails of interested users, we rebutted. How would we follow up with people without a way to contact them?
+But _the whole point of our site_ was to collect the emails of interested users, we rebutted. How would we follow up with people if we had no way to contact them?
 
-‘Well, I am just telling you, it will be harder to get it approved this way,’ came the response.
+‘Well, I am just telling you, it will be harder to get it approved this way,’ was the response.
 
 Well-meaning advice, to be sure, but it completely overlooked our team’s goal. It didn’t make sense to build a user recruitment website that couldn’t actually recruit users. From our perspective, this group didn’t understand the bigger picture of what our site was for.
 
@@ -163,19 +163,19 @@ In my past job at the UK government, we would have made our decision in the morn
 
 In the short/medium term, problems like these can often be resolved. However, the pernicious long-term effect is one where it costs so much time and energy to introduce new ideas or processes that eventually your whole tech stack (and maybe [your homepage](https://www.justice.gc.ca/eng/index.html)) looks like it came out of a time capsule. The ‘enterprise’ preference for layering on oversight and approvals is essentially a kind of bureaucratic cement that slows down your organizational agility over time.
 
-**Without an easy way for teams to try out new technologies, new software, and new designs, you wind up stifling your long-term ability to incrementally modernize.** It’s true that consistency is important, but, taken to an extreme, it can lead to a situation where teams are structurally unable to introduce new ideas. Once that happens, you end up relying on massively expensive, hugely disruptive ‘transformation/modernization’ megaprojects, which try to introduce a raft of new technologies and process changes all at once. In other words, [exactly the type of large IT projects that fail most often](https://large-government-of-canada-it-projects.github.io/#are-large-it-projects-likely-to-be-successful).
+**Without an easy way for teams to try out new technologies, new software, and new designs, you wind up stifling your long-term ability to incrementally modernize.** It’s true that consistency is important, but, taken to an extreme, it can lead to a situation where teams are structurally unable to introduce new ideas. Once that happens, you end up relying on massively expensive, hugely disruptive ‘transformation/modernization’ megaprojects, which try to introduce a raft of new technologies and process changes all at once. In other words, [exactly the kind of large IT projects that fail most often](https://large-government-of-canada-it-projects.github.io/#are-large-it-projects-likely-to-be-successful).
 
 ## An enterprise exit plan
 
-Hopefully by this point you’re open to the idea that ‘enterprise’ is Not That Chill. Consistent look and feel and standardized outcomes are important principles, but not when it means multiplying all your timelines by a factor of 10 and reducing internal cohesion by creating information silos.
+Hopefully by this point you’re open to the idea that ‘enterprise’ is Not That Chill. Consistent look and feel and standardized outcomes are important principles, but not when it means multiplying all your timelines by a factor of 10 and losing internal cohesion to information silos.
 
-However, as Billy McFarland famously says “[We’re not a problems-focused group, we’re a solutions-oriented group, we need to have a positive attitude about this](https://www.rollingstone.com/culture/culture-features/fyre-festival-billy-mcfarland-cult-positivity-optimism-783443/).” It’s all well and good to burn down 50 years’ worth of organizational theory in a blog post, but what are my solutions?
+However, as Billy McFarland famously said “[We’re not a problems-focused group, we’re a solutions-oriented group, we need to have a positive attitude about this](https://www.rollingstone.com/culture/culture-features/fyre-festival-billy-mcfarland-cult-positivity-optimism-783443/).” It’s all well and good to burn down 50 years’ worth of organizational theory in a blog post, but what are my solutions?
 
-It’s a fairly long post already, so I will be (relatively) brief — but I plan to expand on these themes in future posts ([sign up](#bd-email)! It will be a hoot!).
+It’s a fairly long post already, so I will be (relatively) brief — but I plan to expand on these themes in future posts ([sign up](#bd-email)! It will be a hoot! <span aria-hidden="true">🦉</span>).
 
 This post has focused on two problematic aspects of ‘enterprise’ culture:
 
-1. ‘Consistency’ as the all-important principle to uphold
+1. ‘Consistency’ as _the_ all-important principle to uphold
 2. Single-disciplinary teams that approve products but don‘t build them
 
 Let’s address them in reverse order.
@@ -186,13 +186,13 @@ Let’s address them in reverse order.
 
 Importantly, these teams must have authority over their products. Multidisciplinary teams working in an oversight-centric ‘enterprise’ environment _are_ able to design and build their own products to some degree, but team decisions can always be vetoed by groups with approval authority. Creating multidisciplinary teams is a good start, but their effectiveness will be limited if they can still be overruled later.
 
-If we rewind to the start of our EasyTax thought experiment, this is exactly the kind of team we started with. Small, multidisciplinary product teams that chat with each other have less meetings, and all team members understand the overall goal they are trying to achieve. By keeping teams nimble and reducing organizational gatekeeping, we end up with teams that are more effective: taking less time to deliver services that users prefer.
+If we rewind to the start of our EasyTax thought experiment, this is exactly the kind of team we started with. Small, multidisciplinary product teams chat with each other instead of booking meetings, and all team members understand the overall goal they are trying to achieve. By keeping teams nimble and reducing organizational gatekeeping, we end up with teams that are more effective: taking less time to deliver services that users prefer.
 
 ### A better principle: User needs over consistency
 
-In an enterprise organization, ‘consistency’ isn’t just a ‘nice-to-have’, it’s the central assumption from which everything flows. The standards-centric approach of enterprise development is a really clear principle: it helps us structure teams, put together policies, and suggests how to approach decisions. To quote Archimedes, “Give me but one firm spot on which to stand and I will move the earth.” If we scrap ‘consistency,’ where do we stand?
+In an enterprise organization, ‘consistency’ isn’t just a ‘nice-to-have’, it’s the central assumption from which everything flows. The standards-centric mindset of the enterprise approach is a really clear principle: it helps us structure teams, put together policies, and suggests how to approach decisions. To quote Archimedes, “Give me but one firm spot on which to stand and I will move the earth.” If we scrap ‘consistency,’ where do we stand?
 
-The answer is ‘user needs’. User needs is the [#1 design principle in the UK government](https://www.gov.uk/guidance/government-design-principles#start-with-user-needs), and incidentally, it’s also at [the top of the Government of Canada’s Digital Playbook](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html#ds1). Whenever you ever find yourself at a crossroads, ask yourself ‘What is best from a user’s perspective?’
+The answer is ‘user needs’. User needs is the [#1 design principle in the UK government](https://www.gov.uk/guidance/government-design-principles#start-with-user-needs), and incidentally, it’s also at [the top of the Government of Canada’s Digital Playbook](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html#ds1). Whenever you find yourself at a crossroads, ask ‘What is best from a user’s perspective?’
 
 Let’s think about applying for a passport in Canada: would it be better to allow digital uploads or to stick with physical photos? Taking a departmental perspective, physical photos are harder to fabricate and we currently have the resources and expertise to manage them. But let’s reframe this from the end user’s perspective: What will make this service the easiest to use for the most people? If we asked 10 people at the mall right now, what would they tell us? Undoubtedly, we will find that digital uploads are preferred by people applying for passports in Canada today.
 
@@ -202,6 +202,6 @@ The example of the user recruitment site I worked on is revealing here too. You 
 
 ## Better systems for better systemic outcomes
 
-Of course we should always keep an eye on the big picture, but we have more than one bigger picture to choose from. The best bigger picture is the one that puts end users first — it’s the most likely to lead to services that are clear and easy to use. Under an ‘enterprise-first’ organization, many of the procedures set up are internally-focused, with compliance teams asking themselves ‘What is best for this department?’ We need to transition to processes that look outwards, asking what is best for Canadians.
+Keeping an eye on the big picture is important, but we have multiple bigger pictures to choose from. The best bigger picture is the one that puts end users first — it’s the most likely to lead to services that are clear and easy to use. Under an ‘enterprise-first’ organization, many of the procedures set up are internally-focused, with compliance teams asking themselves ‘What is best for this department?’ We need to transition to processes that look outwards, asking what is best for Canadians.
 
 The systems we encounter at work are not inevitable or eternal. They are designed and implemented by human beings, and when they work properly, they help us get things done more easily than if we didn’t have them. Good systems are useful, adaptable, and consistently deliver good outcomes. Once a system is none of these things, it’s time to change.
