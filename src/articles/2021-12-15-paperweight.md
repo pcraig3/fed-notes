@@ -23,7 +23,7 @@ Was it easy to get there? F\*ck no.
 
 ### Old approaches to new ideas
 
-About a decade ago, the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service/about) in the UK spearheaded a new style of online service delivery characterized by smaller, autonomous teams making quick, iterative releases and [openly talking about their work](/articles/2021-12-12-federal-field-notes-an-introduction/#open-by-default). Rather than burning heaps of time writing ‘make-work’ documents for internal committees, digital product teams in the UK (and I worked on several) focus on quickly building services and then testing them with actual citizens. It was found to be a successful model — leading to cheaper, faster, and better quality online services — and they haven’t looked back since.
+About a decade ago, the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service/about) in the UK spearheaded a new style of online service delivery characterized by smaller, autonomous teams making quick, iterative releases and [openly talking about their work](/articles/2021-12-12-introducing-federal-field-notes/#open-by-default). Rather than burning heaps of time writing ‘make-work’ documents for internal committees, digital product teams in the UK (and I worked on several) focus on quickly building services and then testing them with actual citizens. It was found to be a successful model — leading to cheaper, faster, and better quality online services — and they haven’t looked back since.
 
 The Government of Canada has not yet undergone a large-scale transition in this direction, although there are some attempts being made ([COVID Alert](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html), for example, was [built quickly and in the open](https://sboots.ca/2020/10/30/working-in-the-open-firsts-for-covid-alert/)). More commonly, however, Canadian federal government IT projects can easily spend months or years and (tens of) millions of dollars in “planning phases” before any part of the service is actually ready to be used by actual Canadian citizens.
 
@@ -35,7 +35,7 @@ Our “Labs” site, intended to facilitate exactly this kind of citizen engagem
 
 ## Talking about what we do
 
-[The federal government tends to be pretty buttoned up](/articles/2021-12-12-federal-field-notes-an-introduction/#closed-by-default) about what it’s working on and how things are going. Sometimes this is justified: state secrets, upcoming changes to the tax code, military evacuations — there are definitely things that need to be closely guarded lest they put people in danger or let people game the system. Building a small website to ask Canadians for feedback on prototypes is absolutely **not** something that belongs in that category. Rather, my experience reveals something common across government: [onerous levels of oversight](https://sboots.ca/2021/01/12/onerous-levels-of-oversight/).
+[The federal government tends to be pretty buttoned up](/articles/2021-12-12-introducing-federal-field-notes/#closed-by-default) about what it’s working on and how things are going. Sometimes this is justified: state secrets, upcoming changes to the tax code, military evacuations — there are definitely things that need to be closely guarded lest they put people in danger or let people game the system. Building a small website to ask Canadians for feedback on prototypes is absolutely **not** something that belongs in that category. Rather, my experience reveals something common across government: [onerous levels of oversight](https://sboots.ca/2021/01/12/onerous-levels-of-oversight/).
 
 As in our case, it often happens that the compliance activities demand more time and energy than actually delivering the outcome. But how can we attempt to measure this, and what are the factors that lead to this outcome? Well, I’m glad you asked.
 
@@ -145,7 +145,7 @@ Rounding down, we’re looking at roughly a 9:1 ratio of internal vs. external c
 
 In our case, it meant that for our 12-page site, we ended up writing almost as much as the Great Gatsby.
 
-> "Never was so much written by so few for no reason."
+> “Never was so much written by so few for no reason.”
 > — Winston Churchill once said, referring to our website.
 
 ## How did we get here?

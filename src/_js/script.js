@@ -38,5 +38,7 @@ function changeLinkState() {
   }
 }
 
-changeLinkState();
-window.addEventListener("scroll", throttle(changeLinkState, 150));
+if (links.length > 0) {
+  changeLinkState();
+  window.addEventListener("scroll", throttle(changeLinkState, 150));
+}
