@@ -15,6 +15,9 @@
     <meta name="robots" content="noindex"/>
   {%- endif -%}
 
+  <!-- RSS feed -->
+  <link rel="alternate" href="{{ env.url }}/feed.xml" type="application/atom+xml" title="{{ env.site.name }}">
+
   <!-- open graph tags -->
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="{{ canonicalUrl }}"/>
