@@ -6,6 +6,9 @@ module.exports = {
   site: {
     name: "Federal Field Notes",
     shortDesc: "Occasional insights from the land before cloud",
+    authorName: "Paul Craig",
+    authorHandle: "@pcraig3",
+    authorUrl: "https://twitter.com/pcraig3",
   },
   environment,
   isProd,

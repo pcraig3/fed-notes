@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title and title != env.site.name %}{{ title }} — {% endif %}{{ env.site.name }}</title>
   <meta name="description" content="{{ metaDescription or title }}">
-  
+  <meta name="author" content="{{ env.site.authorName }}">
+
   {%- set canonicalUrl = (canonicalUrl) or ([env.url, page.url] | join) -%}
   {%- if env.isProd -%}
     <link rel="canonical" href="{{ canonicalUrl }}"/>
@@ -13,7 +14,7 @@
   
   {%- if ignore -%}
     <meta name="robots" content="noindex"/>
-  {%- endif -%}
+  {%- endif %}
 
   <!-- RSS feed -->
   <link rel="alternate" href="{{ env.url }}/feed.xml" type="application/atom+xml" title="{{ env.site.name }}">
@@ -34,7 +35,7 @@
   <meta name="twitter:title" content="{{ title }}"/>
   <meta name="twitter:description" content="{{ ogDescription or metaDescription }}"/>
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:creator" content="@pcraig3"/>
+  <meta name="twitter:creator" content="{{ env.site.authorHandle }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:image" content="{{ imgUrl }}"/>
 
