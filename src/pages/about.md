@@ -25,6 +25,10 @@ Sounds good. I’m [easy to reach](/pages/contact).
 
 I am around on Twitter ([@pcraig3](https://twitter.com/pcraig3)), and I have opened up [Discussions on Github](https://github.com/pcraig3/fed-notes/discussions).
 
+### “What are you hoping to achieve by this?”
+
+The goal was always that you would end up on this About page.
+
 ### “I have a great idea. Can I contribute a post?”
 
 Email me.
@@ -40,7 +44,7 @@ Because “[Maple Story](https://maplestory.nexon.net/landing)” was already ta
 ### What happens if I subscribe?
 
 Expect great content in your inbox every 2-4 weeks!
-Also, if you are my 1 millionth subscriber, you win an iPod!!
+Also, if you are my 1 thousandth subscriber, you win an iPod!!
 
 ### I mean, what happens to my data if I subscribe?
 
