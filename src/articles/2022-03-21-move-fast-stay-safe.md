@@ -43,7 +43,7 @@ Agile teams are the real deal. Some of today’s largest companies got to where 
 
 Demonstrating ‘what good looks like’ will buy you credibility in the long term, making things easier for your team and similar teams in the future. But in the short term, the only game in town is the poorly-designed Hasbro classic: “[Risk](<https://en.wikipedia.org/wiki/Risk_(game)>)”.
 
-### The docs problem: performative risk management
+### The docs blocker
 
 [Despite an estimated ~14% success rate](https://zenexmachina.com/waterfall-vs-agile-a-knowledge-problem-not-a-requirements-problem/), enterprise processes are viewed as ‘safe’ because the many documents produced in the planning phases give the impression of reducing risk. Any and all uncertainty requires an elaborate cover-up — large “modernization” IT projects are breeding grounds for PowerPoint decks crammed with dates that slip, cost estimates that increase, and features that never materialize. Paradoxically, while this culture of misleading documentation is a contributing factor for large and expensive failures, it also poses a serious obstacle to agile teams looking to improve how projects are delivered.
 
@@ -61,7 +61,7 @@ This is why you _need_ to **move fast**. In general, you want to define your MVP
 
 Of course, the tradeoff with ‘fast’ is that, conventionally understood, it means compromising on safety. Oversight groups are likely to portray you as risky cowpokes who want to launch first and ask questions later, which they balance out with a measured, impartial analysis that protects the department from potential embarrassment. This is a dangerous characterization to have applied to you in the risk-paranoid context of a large department, so you need to do what you can to guard against this perception.
 
-## Being safe: why releasing early and often is important
+## Being safe: why we don’t want to ‘break things’
 
 When Mark Zuckerberg coined the phrase “move fast, break things,” he wasn’t talking to teams that need approval from an [Enterprise Architecture Review Board](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32602#secA.2). [“Move fast, break things”](https://qr.ae/pGLA6x) essentially means that you should prioritize speed over reliability: that it’s better to build and release your software super fast — even if not everything works yet or it breaks in older versions of Android.
 
@@ -69,17 +69,17 @@ This is great advice for a typical startup, but in government this is exactly wh
 
 When we compare smartphone apps to typical government services, it is clear that the ‘enterprise’ culture of oversight committees and architecture boards in no way guarantees great outcomes. But the thing is, nobody defends the status quo as the best possible system — in a government context, _it’s always about what could go wrong_. Sure, occasionally a bug makes it through 10 different oversight committees, but imagine the plague of locusts you would invite without them. Your agile team needs to demonstrate that what you’re doing isn’t _dangerous_. While it’s important to be fast, you also have to **be safe**.
 
-## Managing internal relationships: the oversight sheriffs
+## Empowered teams vs. oversight committees
 
-Waterfall governance creates extremely long (read: impractical) timelines, which means slow and expensive product development — but they are always justified in terms of safety. The fact that a team like yours exists means there is some desire to improve existing processes, but how to go about this is rarely spelled-out. Assuming you have some high-level buy-in from an executive sponsor, you are probably going to be granted _some_ leeway to skip parts of the existing governance process. However, this sets up a pretty obvious antagonistic relationship between your team and the various oversight groups, which becomes one of the primary challenges for you to manage.
+Waterfall governance creates extremely long (read: impractical) timelines, which means slow and expensive product development — but they are always justified in terms of safety. The fact that a team like yours exists means there is some desire to improve existing processes, but how to go about this is rarely spelled-out. Assuming you have some high-level buy-in from an executive sponsor, you are probably going to be granted _some_ leeway to skip parts of the existing governance process. However, this sets up a pretty obvious antagonistic relationship between your team and the various oversight committees, which becomes one of the primary challenges for you to manage.
 
-The less ‘enterprise’ documentation you write, the more you’ll provoke {% footnoteref "docs" "They _could_ look at your open-source codebase instead of relying exclusely on Word docs, but that’s another issue altogether." %}oversight groups who use that documentation to determine how ‘safe’ your product is{% endfootnoteref %}. Oversight committees are used to teams attempting these kinds of shortcuts, and they are justifiably suspicious. To them, you are just another version of ‘let’s skip this boring governance stuff so we can ship a bunch of untested and risky software’, or — more colloquially — ‘let us skip the vegetables and go straight to dessert’. For them, it’s a question of who takes the fall: if there is a problem later on, they are likely to be blamed for not vetting you properly.
+The less ‘enterprise’ documentation you write, the more you’ll provoke {% footnoteref "docs" "They _could_ look at your open-source codebase instead of relying exclusively on Word docs, but that’s another issue." %}oversight groups who use that documentation to determine how ‘safe’ your product is{% endfootnoteref %}. Oversight committees are used to teams attempting these kinds of shortcuts, and they are justifiably suspicious. To them, you are just another version of ‘let’s skip this boring governance stuff so we can ship a bunch of untested and risky software’, or — more colloquially — ‘let us skip the vegetables and go straight to dessert’. For them, it’s a question of who takes the fall: if there is a problem later on, they are likely to be blamed for not vetting you properly.
 
 Furthermore, these groups will be apprehensive about your ‘empowered product team’ model because, ultimately, it removes them from the picture. Therefore, they have an incentive to prove they are a valuable and necessary part of the IT delivery pipeline by catching you out on any mistakes you make or bugs that slip through.
 
 This means that you are likely to be closely scrutinized for any parts of the existing process that you skip, or are asking to skip. Even with a mandate to “push back” against existing governance, you can be sure that your push back will be pushed back. Any leeway you have is likely to be rolled back if problems are discovered that would theoretically have been prevented if you didn’t get the leeway.
 
-## Getting off the ranch: avoiding the ‘cowboy coder’ stereotype
+## ‘Being safe’ in agile
 
 For agile teams, there are 3 stock responses to how you are safer than traditional linear product development.
 
@@ -107,7 +107,7 @@ It is very common for security documentation to be out of date — once written,
 
 However, even with a comprehensive suite of tests, you still need to engage with oversight groups who will expect you to go through the same steps as other teams. From their perspective, they are responsible for deciding if your product is safe or not, and just because you have built your own competing set of checks (which — big surprise — you managed to pass), it doesn’t exempt you from the ‘official’ process.
 
-4. Agile is, above all, a flexible approach that adapts quickly
+### 4. Agile is flexible
 
 [As I have previously written](/articles/2022-01-24-enterprise-the-wrong-bigger-picture/#long-term-oversight-as-bureaucratic-cement), enterprise departments give oversight groups authority over product teams. If an oversight group takes issue with something, they can advise against a particular product going ahead until specific conditions are met. Sometimes, senior executives will disregard this and just launch anyway, but most of the time a negative recommendation is enough to block a product’s release.
 
@@ -132,13 +132,11 @@ These two points appear to be in tension with each other. If you want maximum ve
 
 So where should you come down on the ‘fast’ vs. ‘safe’ continuum? To answer this, figure out what you are up against. You don’t need to be at ‘maximum velocity,’ you just need to beat some of the slowest development timelines on earth. Plenty of internal strategy groups will be advocating some version of Ford’s “faster horses,” saying things like: ‘we can make this 2-year process take 22 months’. You don’t need to be lightning fast, you just need to improve on existing expectations.
 
-## A practical example: launching a website with a federal department
+## A practical example: launching a website in a federal department
 
 [In a previous post](/articles/2021-12-15-paperweight/), I wrote about launching a citizen-engagement website in a federal department, so let’s take that as an example. Sure, it set some important precedents for the department (open source project, public prototypes, user research, etc), but as a technical product, it wasn’t that complex. Working full-time, it’s the kind of thing you could build in 3-4 weeks with a small team. But it didn’t take us 3-4 weeks, it took us 5 months.
 
-Just looking at that timeline, you might be like “wow Paul, that sucks,” which would be rude of you to say, but it’s a fair critique. Here’s the thing though, it’s still twice as fast as the typical 1-year turnaround time that the department is used to. Moreover, our site was one of the only on-time deliverables in a much larger programme where everything else was delayed.
-
-We could have launched it sooner if we hadn’t had to write all that documentation and skimped on writing tests, but even still we shot past our competition. Admittedly, we paid a heavy tax burden if you look at [all the writing we had to do](/2021-12-15-paperweight/#internal-words), but it got the job done. In the end, rather than getting into an imbroglio about documentation as ‘security theatre,’ it was easier to just write the damn things, get them reviewed, and get the site out.
+Just looking at that timeline, you might be like “wow Paul, that sucks,” which would be rude of you to say, but it’s a fair critique. Here’s the thing though, it’s still twice as fast as the typical 1-year turnaround time that the department is used to. We could have launched it sooner if we hadn’t had to write all that documentation and skimped on writing tests, but even still we shot past our competition. Admittedly, we paid a heavy tax burden if you look at [all the writing we had to do](/2021-12-15-paperweight/#internal-words), but it got the job done. In the end, rather than getting into an imbroglio about documentation as ‘security theatre,’ it was easier to just write the damn things, get them reviewed, and get the site out.
 
 We were just one team, we were brand new in the department, and we were using an approach people weren’t familiar with. We didn’t have the authority or credibility to change existing processes or discard rules we didn’t agree with. We needed to get the site out by working with oversight groups who, like a Roman emperor in a coliseum, could cause us major headaches with a thumbs-down. In our case, we got there in the end by doing the work to avoid the perception that we represented a major risk, but not at the cost of exploding our timeline. We were able to be both **fast** (by comparison), and **safe** (writing tests and documenting our approach).
 
