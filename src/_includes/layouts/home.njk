@@ -18,9 +18,17 @@
         {%- if not article.data.ignore -%}
         <li class="article">
           <a href="{{ article.url }}">
-            <h3 class="article--title">
-              {{ article.data.title }}
-            </h3>
+            <div class="article--title">
+              {% if article.data.date | isRecentDate %}
+                <span class="chiclet--new">New
+                  <span class="visually-hidden">post:</span>
+                  <span aria-hidden="true">⚡️</span>
+                </span>
+              {% endif %}
+              <h3>
+                {{ article.data.title }}
+              </h3>
+            </div>
             <div class="article--date"><time datetime="{{ article.data.date | isoDateFilter }}">{{ article.data.date | displayDateFilter }}</time></div>
             <p>{{ article.data.metaDescription }}</p>
           </a>
@@ -28,11 +36,11 @@
         {%- endif -%}
       {%- endfor -%}
       <li class="article article--placeholder">
-        <h3 class="article--title">
-          Coming soon: a strategy for agile teams in waterfall orgs
-        </h3>
-        <div class="article--date"><time datetime="2022-02">before Valentine’s Day</time></div>
-        <p>How might we square this circle? Subscribe to be the first to know.</p>
+        <div class="article--title">
+          <h3>Coming soon: why ‘alphas’ are next-to impossible in big, honkin’ departments</h3>
+        </div>
+        <div class="article--date"><time datetime="2022-04">before Easter</time></div>
+        <p>What is the deal?? Subscribe to be the first to know.</p>
       </li>
     </ul>
   </div>

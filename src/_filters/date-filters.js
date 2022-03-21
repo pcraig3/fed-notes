@@ -6,7 +6,6 @@ const appendSuffix = (n) => {
 };
 
 const displayDateFilter = function (value) {
-  // const dateObject = new Date(value); previous
   const dateObject = new Date(
     // add 12 hours
     new Date(value).setHours(new Date(value).getHours() + 12)
@@ -39,7 +38,24 @@ const isoDateFilter = function (value) {
   return dateObject.toISOString().slice(0, 10);
 };
 
+const isRecentDate = function (value) {
+  const publishDate = new Date(
+    // add 12 hours
+    new Date(value).setHours(new Date(value).getHours() + 12)
+  );
+
+  const now = new Date();
+  const lastWeek = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate() - 7
+  );
+
+  return publishDate >= lastWeek;
+};
+
 module.exports = {
   displayDateFilter,
   isoDateFilter,
+  isRecentDate,
 };

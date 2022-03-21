@@ -2,6 +2,7 @@
 const {
   displayDateFilter,
   isoDateFilter,
+  isRecentDate,
 } = require("./src/_filters/date-filters.js");
 const { onlyToC, noToC } = require("./src/_filters/toc-filters.js");
 const readingTime = require("./src/_filters/reading-time.js");
@@ -37,6 +38,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("markdownFilter", markdownFilter);
   eleventyConfig.addFilter("displayDateFilter", displayDateFilter);
   eleventyConfig.addFilter("isoDateFilter", isoDateFilter);
+  eleventyConfig.addFilter("isRecentDate", isRecentDate);
   eleventyConfig.addFilter("onlyToC", onlyToC);
   eleventyConfig.addFilter("noToC", noToC);
   eleventyConfig.addFilter("readingTime", readingTime);

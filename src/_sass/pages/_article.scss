@@ -31,7 +31,7 @@
 
   h1,
   h2,
-  h3:not(.article--title),
+  :not(.article--title) > h3,
   h4 {
     margin-top: vars.$space-xl;
     margin-bottom: vars.$space-lg;

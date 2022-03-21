@@ -64,7 +64,7 @@
     }
   }
 
-  &:not(.article--placeholder) .article--title {
+  &:not(.article--placeholder) .article--title h3 {
     @include mixins.links;
   }
 
@@ -72,6 +72,23 @@
     display: block;
     margin-bottom: vars.$space-xs;
     line-height: 1.35;
+
+    .chiclet--new {
+      display: inline-block;
+      color: #333333;
+      padding: vars.$space-xs vars.$space-sm;
+      border-radius: 4px;
+      border: 2px solid rgba(255, 153, 0, 0.5);
+      background-color: #f9f4d4;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: vars.$font-sm;
+    }
+
+    h3 {
+      display: inline;
+    }
   }
 
   .article--date {
