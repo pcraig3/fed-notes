@@ -5,6 +5,7 @@ leadIn: "A strategy for agile teams in enterprise orgs."
 metaDescription: "A strategy for agile teams in the federal government (or other enterprise orgs)."
 ogDescription: "A strategy for agile teams in enterprise orgs."
 date: "2022-03-22"
+ignore: true
 ---
 
 [[toc]]
