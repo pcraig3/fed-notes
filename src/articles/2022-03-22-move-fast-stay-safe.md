@@ -5,7 +5,6 @@ leadIn: "A strategy for agile teams in enterprise orgs."
 metaDescription: "A strategy for agile teams in the federal government (or other enterprise orgs)."
 ogDescription: "A strategy for agile teams in enterprise orgs."
 date: "2022-03-22"
-ignore: true
 ---
 
 [[toc]]
@@ -76,7 +75,9 @@ Waterfall governance creates extremely long (read: impractical) timelines, which
 
 The less ‘enterprise’ documentation you write, the more you’ll provoke {% footnoteref "docs" "They _could_ look at your open-source codebase instead of relying exclusively on Word docs, but that’s another issue." %}oversight groups who use that documentation to determine how ‘safe’ your product is{% endfootnoteref %}. Oversight committees are used to teams attempting these kinds of shortcuts, and they are justifiably suspicious. To them, you are just another version of ‘let’s skip this boring governance stuff so we can ship a bunch of untested and risky software’, or — more colloquially — ‘let us skip the vegetables and go straight to dessert’. For them, it’s a question of who takes the fall: if there is a problem later on, they are likely to be blamed for not vetting you properly.
 
-Furthermore, these groups will be apprehensive about your ‘empowered product team’ model because, ultimately, it removes them from the picture. Therefore, they have an incentive to prove they are a valuable and necessary part of the IT delivery pipeline by catching you out on any mistakes you make or bugs that slip through.
+‘Real agile’ says that empowered multi-disciplinary teams should have the skills on the team needed to build what they’re building. Governments have a legal obligation to build, say, accessible services, but there’s no legal requirement that mandates a dedicated accessibility team (which is sometimes how it’s presented). Digital teams with a robust workflow can (and do) meet accessibility requirements by following best practices. (In the UK, this is how most public services are built.)
+
+In the here and now though, you need to work productively with a team you are actually trying to replace (even though — really — you are just trying to do your work with minimum fuss). These groups will be apprehensive about your ‘empowered product team’ model because it is a direct challenge to current org structures. Therefore, they have an incentive to prove they are a valuable and necessary part of the IT delivery pipeline by catching you out on any mistakes you make or bugs that slip through.
 
 This means that you are likely to be closely scrutinized for any parts of the existing process that you skip, or are asking to skip. Even with a mandate to “push back” against existing governance, you can be sure that your push back will be pushed back. Any leeway you have is likely to be rolled back if problems are discovered that would theoretically have been prevented if you didn’t get the leeway.
 
@@ -98,7 +99,7 @@ Point 1 has been discussed at length, so let’s look at the other 3.
 
 The risk-phobic approach of trying to prevent problems by layering on committees creates a doom loop (a cycle that gets worse over time). All these layers of governance are created to prevent costly mistakes, but mistakes are now so costly _because_ of excessive governance. By contrast, agile product development _reduces the cost of mistakes_. When you are in the habit of releasing daily, bugs can be fixed within hours of being identified — whereas you could be looking at 3-6 months for more traditional teams.
 
-Unfortunately for you, enterprise organisations don’t have any tolerance at all for risk or bugs — to paraphrase one of my former security advisors, we are always just one typo away from the <abbr title="Chief Information Officer">CIO</abbr> having to resign. Talking about how agile lets you fix stuff faster plays directly into the perception that you are blasé about shipping a higher volume of errors. This is a losing argument for you, so avoid it altogether if possible. Instead, head off this concern by focusing on a rigorous automated testing pipeline that bakes quality into your codebase.
+Unfortunately for you, enterprise organisations don’t have any tolerance at all for risk or bugs — to paraphrase one of my former security advisors, we are always just one typo away from the <abbr title="Chief Information Officer">CIO</abbr> having to resign. Talking about how agile lets you fix stuff faster plays directly into the perception that you are blasé about shipping a higher volume of errors. This is a losing argument for you, so avoid it altogether if possible. Instead, head off this concern by focusing on a **rigorous automated testing pipeline** that bakes quality into your codebase.
 
 ### 3. Agile reduces the likelihood of mistakes
 
