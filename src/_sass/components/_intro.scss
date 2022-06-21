@@ -16,6 +16,10 @@
     margin-bottom: vars.$space-md;
     border-bottom: 2px solid vars.$color-red-dark;
 
+    @include mixins.desktop {
+      padding-right: 170px;
+    }
+
     @include mixins.mobile {
       font-size: vars.$font-xxl;
     }
