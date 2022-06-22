@@ -2,7 +2,7 @@
 title: "You don’t need a Platform, you need One Thing That Works"
 author: "@pcraig3"
 leadIn: "All carts, no horses."
-metaDescription: "All carts, no horses: why to avoid pre-emptive platforms and what to do instead."
+metaDescription: "All carts, no horses: why you should avoid pre-emptive platforms and what to do instead."
 ogDescription: "All carts, no horses."
 date: "2022-06-21"
 ---

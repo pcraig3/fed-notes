@@ -1,6 +1,6 @@
 ---
 title: "About"
-leadIn: "Also some <a href='#frequently-asked-questions'>Frequently Asked Questions</a>, as a bonus."
+leadIn: "Also some <a href='#frequently-asked-questions'>Frequently Asked Questions</a>, as a treat."
 metaDescription: "Federal Field Notes is a newsletter about digital transformation in Canada’s federal government."
 date: "2022-02-01"
 ---
