@@ -17,13 +17,15 @@ And what should we do instead?
 
 ## Platforms, a definition
 
-A platform is a foundational, reusable technological building block — colloquially, “[anything you can build upon](https://www.forbes.com/sites/adrianbridgwater/2015/03/17/whats-the-difference-between-a-software-product-and-a-platform/?sh=c4e0c6356a60).” Think of a platform as [a base “Lego” mat](https://www.google.com/search?q=lego+baseplate&tbm=isch&ved=2ahUKEwjG2sDt_bH4AhWXqHIEHZn9A7AQ2-cCegQIABAA&oq=lego+baseplate) that you can put other pieces on top of. A good _platform_ solves a problem really well for many different _products_. An example of this is your [Google Account](https://www.google.com/account/about/), which signs you into Gmail, Google Calendar, and Youtube (and other apps that use “[Sign in with Google](https://support.google.com/accounts/answer/112802)”). There are lots of things you need to ‘Sign in’ to do, and it would be silly to have all teams everywhere build their own account management system. Better to solve it in one place in a way that everyone can use (otherwise you may end up with [almost 60 separate login systems](https://sboots.ca/2022/04/21/small-hopes-for-the-future-of-digital-id-in-canada/)). Done properly, you save each team from re-building the same stuff and create seamless experiences: eg, once you log into Gmail, you can see your Google Calendar events.
+A platform is a foundational, reusable technological building block — colloquially, “[anything you can build upon](https://www.forbes.com/sites/adrianbridgwater/2015/03/17/whats-the-difference-between-a-software-product-and-a-platform/?sh=c4e0c6356a60).” Think of a platform as [a base “Lego” mat](https://www.google.com/search?q=lego+baseplate&tbm=isch&ved=2ahUKEwjG2sDt_bH4AhWXqHIEHZn9A7AQ2-cCegQIABAA&oq=lego+baseplate) that you put your other pieces on top of.
 
-Ultimately, this is what we want: platforms that enable a scalable and integrated product ecosystem by saving teams time and reducing duplication of effort across an organization — particularly for big organizations with a large portfolio of services. (Hmm, I wonder where we can find one of those?)
+A good _platform_ solves a problem really well for many different _products_. An example of this is your [Google Account](https://www.google.com/account/about/), which signs you into Gmail, Google Calendar, and Youtube (and other apps that use “[Sign in with Google](https://support.google.com/accounts/answer/112802)”). There are lots of things you need to ‘Sign in’ to do, and it would be silly to have all teams everywhere build their own account management system. Better to solve it in one place in a way that everyone can use (otherwise you may end up with [almost 60 separate login systems](https://sboots.ca/2022/04/21/small-hopes-for-the-future-of-digital-id-in-canada/)). Done properly, you save each team from re-building the same stuff and create seamless experiences: eg, once you log into Gmail, you can see your GCal events.
+
+Ultimately, this is what we want: platforms that enable a scalable and integrated product ecosystem by saving teams time and reducing duplication of effort across an organization — particularly for big organizations with a large portfolio of services. (_Hmm, I wonder where we can find one of those?_)
 
 ## Platforms in government
 
-As a devoted reader of this newsletter, you will likely have anticipated that ‘the government’ is exactly the kind of organization that can benefit from the economies of scale you get with platform products. And, indeed, the government already operates lots of platforms: inside most departments you will often find platform-y type products for things like getting or retrieving data, managing user accounts, calculating things — take your pick. At a macro level, many government services can be described in broadly similar terms. If we think about passports, driving licenses, or voting in an election, we can reuse the same sequence of events.
+As a devoted reader of this newsletter, you will likely have anticipated that ‘the government’ is exactly the kind of organization that can benefit from the economies of scale you get with platform products. And, indeed, the government already operates lots of platforms: inside most departments you will often find platform-y type systems for getting or retrieving data, managing user accounts, calculating things — take your pick. At a macro level, many government services can be described in broadly similar terms. If we think about passports, driving licenses, or voting in an election, we can reuse the same sequence of events.
 
 - Learn about the service
   - Do I qualify?
@@ -35,13 +37,13 @@ As a devoted reader of this newsletter, you will likely have anticipated that �
 - Wait for confirmation
 - Receive benefit or service
 
-Each of these steps could be “platformized” (to coin a phrase): maybe “[submit information](https://forms-formulaires.alpha.canada.ca/en/id/1)” is a platform, maybe “[make a payment](https://www.payments.service.gov.uk)” is a platform, maybe “[sending confirmation emails](https://notification.canada.ca)” is a platform, maybe — oh yeah — {% footnoteref "id" "Just a note here that consolidating digital IDs is pretty complicated. For more context, read Michael Karlin’s excellent post which explains some of the nuance and background: https://medium.com/@supergovernance/the-long-road-of-digital-identity-16e8e497c895" %}“signing in” could be a platform{% endfootnoteref %}.
+Each of these steps could be “platformized” (to coin a phrase): maybe “[submit information](https://forms-formulaires.alpha.canada.ca/en/id/1)” is a platform, maybe “[make a payment](https://www.payments.service.gov.uk)” is a platform, maybe “[sending confirmation emails](https://notification.canada.ca)” is a platform, maybe — oh yeah — {% footnoteref "id" "Just a note here that consolidating digital IDs is pretty complicated. For more context, read <a href='https://medium.com/@supergovernance/the-long-road-of-digital-identity-16e8e497c895' target='_blank'>Michael Karlin’s excellent post</a> which explains some of the nuance and background." %}“signing in” could be a platform{% endfootnoteref %}.
 
-But let’s not get ahead of ourselves. While platforms have the potential to enable scalable product delivery, they can just as easily become — perhaps one of the most fun words in the English language — a [boondoggle](https://dictionary.cambridge.org/dictionary/english/boondoggle). The Canadian government is littered with plans for premature ‘platforms’ that suck time and energy from more useful deliverables for years at a time.
+But let’s not get ahead of ourselves. While platforms have _the potential_ to enable scalable product delivery, they can just as easily become — perhaps one of the most fun words in the English language — a [boondoggle](https://dictionary.cambridge.org/dictionary/english/boondoggle). The Canadian government is littered with plans for premature ‘platforms’ that suck time and energy from more useful deliverables for years at a time.
 
 ### Enterprise platforms: Starting backwards
 
-Large departments like to take ([you already know](https://www.youtube.com/watch?v=-Ifnaxi2LQg)) an “enterprise” approach to problem-solving, which leads to quite a novel situation where internal groups absolutely love proposing platforms at the point when they are least needed and most likely to go wrong.
+Large departments like to take ([you already know](https://www.youtube.com/watch?v=-Ifnaxi2LQg)) an “enterprise” approach to problem-solving, leading to a novel situation where internal groups absolutely love proposing platforms at the point when they are least needed and most likely to go wrong.
 
 [In a previous post](/articles/2022-01-24-enterprise-the-wrong-bigger-picture/), I described how “enterprise” organizations make ‘consistency’ their ultimate goal. To pull a quote:
 
@@ -66,10 +68,10 @@ In a lot of enterprise planning, the basic idea is this:
 
 1. Initial plan: let’s build an app, a website, and a chatbot that display a list of benefits.
 2. Therefore, we need to be able to retrieve the same data in 3 different places at once.
-3. Therefore, it would make sense to build a Data Enterprise Retrieval Platform that can support all of our different applications. This is awesome because we won’t have to rebuild similar functionality in different places, and it will make our downstream products simpler.
-4. Therefore, _first_ we should build the Data Enterprise Retrieval Platform (DERP), and _later_ build our app, website, and chatbot, because they all rely on the DERP.
-5. Therefore, let’s book a series of meetings where we spec out the DERP by inviting 80 people to review a PowerPoint deck where there are 100 words on every slide.
-   - Also let’s make sure to always call it the ‘DERP’ from now on, and never explain it to new people.
+3. Therefore, it would make sense to build a data retrieval platform (let’s call it the “Y2K Application Generic Networked Interface”). This is awesome because we won’t have to rebuild similar functionality in different places, and it will make our downstream products simpler.
+4. Therefore, _first_ we should build the Y2K Application Generic Networked Interface (YAGNI), and _later_ build our app, website, and chatbot, because they all rely on the YAGNI.
+5. Therefore, let’s book a series of meetings where we spec out the YAGNI by inviting 80 people to review a PowerPoint deck where there are 100 words on every slide.
+   - Also let’s make sure to always call it the ‘YAGNI’ from now on, and never explain it to new people.
 
 This might sound good in theory, but what has happened here is that **you have committed yourself to a really expensive and complex deliverable that, by itself, doesn’t provide any value to users**. Building platforms to solve some future requirement for a suite of products you haven’t built yet is actually _the opposite_ of what you should do. There are just too many unknowns, and you can’t answer them by making really elaborate slideshows.
 
@@ -86,11 +88,15 @@ Good platforms make life easier for teams building services that make life easie
 
 Let’s reuse the last example. We have 3 products planned (an app, a website, and a chatbot), and they all need the same data in the same format (we think). It seems logical to say we don’t want each team to build its own logic for getting data, because it means 3 different ways of getting the same data (we think). That means **duplication of effort** and **inconsistency** — it’s really not an enterprise approach.
 
-Instead, let’s pause on building the app, website, and chatbot, and instead assemble a ‘strategic’ team to plan out and build our Data Enterprise Retrieval Platform: once we have _that_, it will be our data _platform_.
+Instead, let’s pause on building the app, website, and chatbot, and instead assemble a ‘strategic’ team to plan out and build our Y2K Application Generic Networked Interface: once we have _that_, it will be our data _platform_.
 
-Usually, the platform deliverable is the most complex, which means it is the most expensive _and_ most likely to be delayed. And once it’s delayed, your app, website, and chatbot are _also_ delayed. Oops.
+Typically the platform deliverable is the most complex, which means it is the most expensive _and_ most likely to be delayed. And once it’s delayed, your app, website, and chatbot are _also_ delayed. Oops.
 
-There are definitely variations to this scenario but the essential feature is creating an internal blockage where a bunch of new products (or new approaches) are logjammed. Nobody can build their own testing pipeline until the “automated testing strategy” is ready. Nobody can release a cloud service until the “cloud platform team” has built and assessed their “cloud platform”. Nobody can build their own public-facing API until the “API Gateway” is up and running.
+There are definitely variations to this scenario but the essential feature is creating an internal blockage where a bunch of new products (or new approaches) are logjammed.
+
+- Nobody can build their own testing pipeline until the “automated testing strategy” is ready.
+- Nobody can release a cloud service until the “cloud platform team” has built and assessed their “cloud platform”.
+- Nobody can build their own public-facing API until the “API Gateway” is up and running.
 
 A handful of teams each building something that works is going to get you lots of useful insights (what data is shared, what data is unique, where is the greatest load in the system, etc). But instead, departments often create siloed “platform teams” trying to design a perfect solution without a real-world deliverable. And meanwhile other teams waiting around are told either to (a) wait until the platform is ready (it’s already been delayed twice), or, if you can’t wait, then (b) build another product with the 20-year-old technology we are trying to move away from. Here again, ‘enterprise thinking’ is a backwards approach, leading to ‘platforms’ that block teams instead of enabling them.
 
@@ -102,15 +108,15 @@ In an enterprise department, consistency-bias typically results in a drive to st
 
 Once your costs of experimentation become prohibitive, your organization becomes unable to iteratively introduce new tech, usually restricting experimentation to small ‘innovation groups’ whose projects are rarely released.
 
-When new technologies _are_ being introduced however, it is often in the context of an elaborate ‘strategic’ plan with lots of specific detail about exactly how the implementation will go, what everything will be connected to, and on what timeline everything will be done. So, at the point where you have the _least_ understanding of the technology in question — often before having used it in production — you can wind up with strategic IT groups planning hugely expensive and complex cloud-based platforms. What you get from these teams is a lot (**a lot**) of diagrams, requirements documents, and PowerPoints (often based on consultants’ recommendations), which, problematically, [mask the level of organizational uncertainty](/articles/2022-03-22-move-fast-stay-safe/#the-docs-blocker), creating more risk down the road.
+When new technologies _are_ being introduced however, it is often in the context of an elaborate ‘strategic’ plan with lots of specific detail about exactly how the implementation will go, what will connect to what, and on what timeline everything will be done. So, at the point where you have the _least_ understanding of the technology in question — often before having used it in production — you can wind up with strategic IT groups planning hugely expensive and complex cloud-based platforms. What you get from these teams is a lot (**a lot**) of {% footnoteref "consultants" "Often based on consultant’s recommendations, rather than in-house expertise." %}diagrams, requirements documents, and PowerPoints{% endfootnoteref %}, which, problematically, [mask the level of organizational uncertainty](/articles/2022-03-22-move-fast-stay-safe/#the-docs-blocker), creating more risk down the road.
 
-Paradoxically, while it’s hard for small teams to use new technologies for small experiments, large ‘enterprise-scale’ platform rollouts are justified as long-term investments whose economies of scale are worth the upfront costs. And, sure, it _might_ work out that way, but there’s still a huge downside risk of making the wrong bet. It seems reasonable to run some trials before pushing all your chips into the centre of the table. It’s kind of like saying that you aren’t allowed to see how a specific colour of paint will look on the wall unless you commit in advance to painting your entire house with it.
+Paradoxically, while it’s hard for small teams to use new technologies for small experiments, large ‘enterprise-scale’ platform rollouts are justified as long-term investments whose economies of scale are worth the upfront costs. And, sure, it _might_ work out that way, but there’s still a huge downside risk of making the wrong bet. It seems like you would want to try a few things out first before pushing all your chips into the centre of the table. It’s kind of like saying that you aren’t allowed to see how a specific colour of paint will look on the wall unless you commit in advance to painting your entire house with it.
 
 Once again, it’s the reverse of what you would want. Nothing can be built without there first being a plan, so you end up having to create a plan to build something even before you really understand the thing you’re building.
 
 ## The bear trap of pre-emptive platform planning
 
-Well-executed platforms can save you a lot of time and money. In the best case, you can solve a problem in one place instead of re-doing it 10 different times. However, this reasoning can be inverted. You can end up creating a problem in one place that gets exported to 10 other products.
+Well-executed platforms can save you a lot of time and money. In the best case, you solve a problem in one place instead of re-doing it 10 different times. However, this reasoning can be inverted. You can end up creating a problem in one place that gets exported to 10 other products.
 
 Whenever you make a change to a platform, the knock-on effects are much larger than they are for an individual service. This means that you probably want a lot of domain knowledge before you commit to building a big, honkin’ platform that will undergird your hundreds of millions of dollars digital transformation. And one way to get that domain knowledge is — say it with me — [agile product development](/articles/2022-03-22-move-fast-stay-safe/#moving-fast-why-releasing-early-and-often-is-important).
 
@@ -127,7 +133,7 @@ Agile is a fundamentally iterative approach that leaves space for new informatio
 Let’s use the example of planning for a vacation.
 
 - If you are doing agile vacation planning, you might look up the ‘top ten’ attractions ahead of time, put together a general outline of activities and cool areas to visit for the first few days, and maybe leave a day or two available for excursions you will book once you’re there. You end up with a general outline and you have a pretty good idea how you’re going to start, but you leave some slack in the rope.
-- If you are planning an enterprise vacation, you need to figure out everywhere you will visit, all the routes you will take between every activity, and all the restaurants you are planning to eat at — and get it all down 2 years beforehand. And don’t forget you need to finalize every order at every restaurant you’re visiting, you can’t just walk in and see how you feel. This kind of planning appears to be the safest (every detail is considered), but it doesn’t accomodate for changes down the road.
+- If you are planning an enterprise vacation, you need to figure out everywhere you will visit, all the routes you will take between every activity, and all the restaurants you are planning to eat at — and get it all down 2 years beforehand. And don’t forget you need to finalize every order at every restaurant you’re visiting, you can’t just walk in and see how you feel.
 
 It’s a useful metaphor because some decisions you can really only make once you arrive. Sometimes a restaurant that gets good reviews is closed when you turn up or a street you planned to walk down is blocked off for repaving (ie, ‘replatforming’ 😉).
 
@@ -135,7 +141,7 @@ Agile is about putting together plans that focus on immediate priorities and ori
 
 ### Starting with simple
 
-I am not against planning, not at all. Planning is essential for any project to succeed. But I _am_ against [premature optimization](https://wiki.c2.com/?PrematureOptimization) and overdetermination.
+There’s nothing wrong with planning for the future; planning is essential for any project to succeed. What _is wrong_ is a plan-everything culture of [premature optimization](https://wiki.c2.com/?PrematureOptimization) and overdetermination.
 
 In [_Systemantics_](https://en.wikipedia.org/wiki/Systemantics), John Gall makes the following observation about complex systems:
 
@@ -155,9 +161,9 @@ This is what the essence of agile development is all about. **Pick a well-scoped
 
 ## Can it be so simple?
 
-So that’s it? Build everything as simply as possible and don’t overthink about the wider implications? Just hope it will work out later? Despite the well-written-ness of the article and the charming character of the author, you might still find my recommendation a bit simplistic.
+So that’s it? Build everything as simply as possible and don’t overthink about the wider implications? Just hope it will work out later? Despite the well-written-ness of this article and the charming personality of its author, you might still find my recommendation a bit simplistic.
 
-This is just an article, not an enterprise IT project, so it needs to end sometime. But there are valid concerns worth addressing about my advice, and {% footnoteref "tweet" "If I’ve missed something else that’s obvious, hit me up @pcraig3 on Twitter!" %}I’ll expand on three of them here{% endfootnoteref %}.
+This is just an article, not an enterprise IT project, so it needs to end sometime. But there are valid concerns worth addressing about my advice, and {% footnoteref "tweet" "If I’ve missed something else that’s obvious, hit me up <a href='https://twitter.com/pcraig3' target='_blank'>@pcraig3</a> on Twitter!" %}I’ll expand on three of them here{% endfootnoteref %}.
 
 1. Why would I build something that I already know will need to change later? Isn’t this wasted effort?
 2. Just build _everything_ as simply as possible? Always? When do I generalize then?
@@ -175,15 +181,15 @@ I know ‘enterprise culture’ is planning-centric (often requiring a plan befo
 
 ### 2. The Rule of Three
 
-My advice is to strongly prefer building simple products, but this only gets you so far. Maybe it makes sense to build a couple of services with simple assumptions, but at some point, we are going to need to step back and start refactoring for general functionality. After all, nobody wants [58 different user accounts](https://www.canada.ca/en/government/sign-in-online-account.html#contact-table).
+The central recommendation of this article is to strongly prefer building simple products, but this only gets you so far. Maybe it makes sense to build a couple of services with simple assumptions, but at some point, we are going to need to step back and start refactoring for general functionality. After all, nobody wants [58 different user accounts](https://www.canada.ca/en/government/sign-in-online-account.html#contact-table).
 
 The best general advice I’ve seen is to follow “[The Rule of Three](https://blog.codinghorror.com/rule-of-three/).” It’s a lot of work to build a general solution instead of a purpose-built solution, so hold off initially. Build the straightforward thing the first time, and then do it again. By the third time, you have a good justification to extract common functionality and also plenty of experience with the problem by then.
 
-### 3. Scope ‘vertical’ services
+### 3. Smartly-scoped ‘vertical’ services
 
 Am I really suggesting putting _citizen data_ into a _new database_ in the _cloud_? Has that been assessed? How do we even _begin_ to secure that? What about the SA&A document? It’s going to be a massive undertaking!!
 
-Sure, you’re always going to run into obstacles — either inherent to the problem space or department-imposed — but an important agile scoping principle is to pick vertical slices not horizontal ones, which comes down to smartly scoping your product(s).
+Sure, you’re always going to run into obstacles — either inherent to the problem space or department-imposed — but an important agile principle is to pick vertical slices not horizontal ones, which comes down to smartly scoping your product(s).
 
 - A “vertical” slice means designing a product that provides an end-to-end experience.
 - A “horizontal” slice is just focusing on building one layer, but not a full service.
@@ -196,6 +202,6 @@ So, yes, maybe it’s premature and unworkable to store citizen data in a cloud 
 
 Technology platforms are the foundational building blocks of any well-integrated digital ecosystem, and we should all aspire to them. However, in the context of government IT planning, a ‘platform’ usually means a huge, expensive, abstract deliverable that will theoretically solve lots of problems when it is ready but in the meantime you still have all those problems because it is delayed.
 
-It’s true that well-executed platforms shorten the time and effort needed to build useful products. But in order to get platforms that look like that, we need to start with those useful products, make sure they work really, really well, and then _derive_ platforms from your Actually Existing Services. And it’s good news here too, because building a useful product and testing it early is way easier than building a mega-expensive platform for a bunch of fake services we don’t have yet.
+It’s true that well-executed platforms shorten the time and effort needed to build useful products. But in order to get platforms that look like that, we need to _start_ with those useful products, make sure they work really, really well, and then _derive_ platforms from your Actually Existing Services. And it’s good news here too, because building a useful product and testing it early is way easier than building a mega-expensive platform for a bunch of fake services we don’t have yet.
 
-Look, I am all for a good tech platform. I’ve planned them, connected to them, and even built [a](https://pcraig3.ca/work-govuk-performance-platform) [couple](https://pcraig3.ca/work-govuk-digital-marketplace). But supporting a platform is no joke: once a bunch of products are relying on you, you can never turn one off. So you should _really_ try to avoid introducing a platform until you truly, absolutely need it. And until then, all you need is One Thing That Works.
+Look, I am all for a good tech platform. I’ve planned them, connected to them, and even built [a](https://pcraig3.ca/work-govuk-performance-platform) [couple](https://pcraig3.ca/work-govuk-digital-marketplace). But supporting a platform is no joke: once a bunch of products are relying on you, you can never turn one off. So you should _really_ try to avoid introducing a platform until you truly, absolutely need it. And until then, all you need is [One Thing That Works](#one-thing-that-works).
