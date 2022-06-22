@@ -5,7 +5,6 @@ leadIn: "All carts, no horses."
 metaDescription: "All carts, no horses: why to avoid pre-emptive platforms and what to do instead."
 ogDescription: "All carts, no horses."
 date: "2022-06-21"
-ignore: true
 ---
 
 [[toc]]
