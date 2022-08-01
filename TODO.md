@@ -1,32 +1,23 @@
 # TODO
 
-## Launch
+- Pagespeed
+- Validate HTML
+- Update README, make it a bit nicer
+- Skip link
+- TODO file
+  - Version?
+  - Version in HTML? Last modified?
+- Local fonts?
 
-- Remove Robots.txt
-- Axe the main pages
-
-## Later
+# DONE
 
 - Images?
   - (And on mobile)
 - Axe all the pages
-- Pagespeed
-- Validate HTML
-- Update README, make it a bit nicer
 - 404 page
-- Skip link
-- Comments?
-- TODO file
-  - Version?
-  - Version in HTML? Last modified?
 - RSS feed?
 - Sitemap
   - Submit to search console
-- Local fonts?
-- Reading time? Maybe put it back?
-
-# DONE
-
 - Update README, do the bare minimum
 - Update the package.json stuff
 - Add paperweight article
