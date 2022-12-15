@@ -5,7 +5,6 @@ leadIn: "7 practical principles for winning at digital transformation in Canada.
 metaDescription: "7 practical principles for winning at digital transformation in Canada."
 ogDescription: "7 practical principles for winning at digital transformation in Canada."
 date: "2022-12-15"
-ignore: true
 ---
 
 [[toc]]
