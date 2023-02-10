@@ -96,7 +96,7 @@ The [Canadian Digital Service (CDS)](https://digital.canada.ca) is the Canadian 
 
 **Justice department**
 
-The [Department of Justice (DoJ)](https://www.justice.gc.ca/eng/) is Canada’s tax collection agency, comparable to the [Ministry of Justice (MoJ)](https://www.gov.uk/government/organisations/ministry-of-justice) in the UK.
+The [Department of Justice (DoJ)](https://www.justice.gc.ca/eng/) is responsible for the development of justice policy in Canada, comparable to the [Ministry of Justice (MoJ)](https://www.gov.uk/government/organisations/ministry-of-justice) in the UK.
 
 | Organization                                                                                                           | no. of repos | no. updated in 2022 |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------- |
