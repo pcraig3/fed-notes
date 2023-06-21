@@ -31,7 +31,7 @@ The goal was always that you would end up on this About page.
 
 ### “I have a great idea. Can I contribute a post?”
 
-Email me.
+Email me: <span class="email--swap" data-email="cGF1bEBwY3JhaWcuY2E=">“paul [a] pcraig [dot] ca”</span>
 
 ### Why a newsletter?
 

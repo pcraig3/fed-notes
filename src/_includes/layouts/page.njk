@@ -22,3 +22,7 @@
     {% include "partials/subscribe.njk" %}
 
 {% endblock %}
+
+{% block scripts %}
+  <script src="{{ '/js/email.js' | url }}" defer></script>
+{% endblock %}
