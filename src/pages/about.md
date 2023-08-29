@@ -9,7 +9,7 @@ date: "2022-02-01"
 
 Federal Field Notes is a newsletter about digital transformation in the federal Government of Canada (GoC), drawn from first-hand experience (although very occasionally in the third person). It discusses digital government in Canada in a way that’s honest, insightful, and a little irreverent. [Subscribe](#bd-email) for occasional updates about interesting gov tech stuff.
 
-Federal Field Notes is the brainchild of [Paul Craig](https://pcraig3.ca), a Canadian civil servant whose friends are tired of hearing him whinge about his job after 3 beers, and who has always wanted to try writing in the third person.
+Federal Field Notes is the brainchild of [Paul Craig](https://pcraig.ca), a Canadian civil servant whose friends are tired of hearing him whinge about his job after 3 beers, and who has always wanted to try writing in the third person.
 
 ## Frequently Asked Questions
 
