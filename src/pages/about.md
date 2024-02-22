@@ -43,17 +43,17 @@ Because “[Maple Story](https://maplestory.nexon.net/landing)” was already ta
 
 ### What happens if I subscribe?
 
-Expect great content in your inbox every 2-4 weeks!
-Also, if you are my 1 thousandth subscriber, you win an iPod!!
+Expect great content in your inbox 2-4 times a year!
+Also, if you are my 1 thousandth subscriber, you win an Amazon gift card!!
 
-### I mean, what happens to my data if I subscribe?
+### What happens to my data if I subscribe?
 
 I am using [Buttondown](https://buttondown.email/features/privacy) for the mailing list. If you subscribe, you will get emails from me sometimes. If you unsubscribe, you are gone.
 
-### Are you serious about the iPod?
+### Are you serious about the gift card?
 
 Yes.
 
-### What if I continually subscribe and then unsubscribe to keep increasing my chances of winning the iPod?
+### What if I continually subscribe and then unsubscribe to keep increasing my chances of winning the gift card?
 
 No, that is not allowed.
