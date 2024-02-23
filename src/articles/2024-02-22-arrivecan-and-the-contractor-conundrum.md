@@ -33,7 +33,7 @@ Let’s get into it.
 
 ## “Continued reliance on external resources”
 
-On February 12, 2023, Auditor General Karen Hogan tabled [a report investigating the contracting and delivery of the ArriveCan app](https://www.oag-bvg.gc.ca/internet/English/parl_oag_202402_01_e_44428.html). It’s a punchy  document: very clear, no-nonsense, and commendably plain language — definitely worth a look if you’re the kind of person who reads this blog.
+On February 12, 2024, Auditor General Karen Hogan tabled [a report investigating the contracting and delivery of the ArriveCan app](https://www.oag-bvg.gc.ca/internet/English/parl_oag_202402_01_e_44428.html). It’s a punchy  document: very clear, no-nonsense, and commendably plain language — definitely worth a look if you’re the kind of person who reads this blog.
 
 The overall finding is that ArriveCan cost too much and was poorly overseen: specifically, that the departments involved “failed to follow good management practices in the contracting, development, and implementation of the ArriveCAN application.” Among other reasons, “[[t]he agency’s decision to continue relying on external resources throughout the application’s development, launch and updates, beyond the initial pandemic crisis, increased costs and brings into question the value achieved for money spent.](https://www.oag-bvg.gc.ca/internet/English/mr_20240212_e_44430.html)” 
 
