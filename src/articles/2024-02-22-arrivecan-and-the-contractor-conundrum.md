@@ -13,7 +13,7 @@ date: "2024-02-22"
 
 Hello again to all fabulous fans of Federal Field Notes. It’s been a while since my last post, but given the pace of digital transformation in the federal government (<span aria-hidden="true">🙈</span>), there isn’t much harm in taking the occasional long holiday. Generally there just aren’t that many events to be overtaken by.
 
-Speaking of events though, how about that ArriveCan stuff, eh? What a doozie. 
+Speaking of events though, how about that ArriveCan stuff, eh? What a doozie.
 
 This isn’t a post about what is or isn’t bad about the ArriveCan application — you can get that in [every](https://www.cbc.ca/news/politics/trudeau-says-rules-not-followed-arrivecan-1.7120318) [other](https://www.thestar.com/opinion/editorials/how-did-arrivecan-debacle-go-so-wrong/article_f9dab950-ccfa-11ee-98fb-97fd4dfe010e.html) [newspaper](https://nationalpost.com/news/politics/five-things-to-know-about-the-arrivecan-auditor-report). Nor is this a post about IT procurement; if you’re interested in that, check out [this excellent piece by Amanda Clarke and Sean Boots](https://policyoptions.irpp.org/magazines/february-2024/arrivecan-deeper-reforms/).
 
@@ -33,9 +33,9 @@ Let’s get into it.
 
 ## “Continued reliance on external resources”
 
-On February 12, 2024, Auditor General Karen Hogan tabled [a report investigating the contracting and delivery of the ArriveCan app](https://www.oag-bvg.gc.ca/internet/English/parl_oag_202402_01_e_44428.html). It’s a punchy  document: very clear, no-nonsense, and commendably plain language — definitely worth a look if you’re the kind of person who reads this blog.
+On February 12, 2024, Auditor General Karen Hogan tabled [a report investigating the contracting and delivery of the ArriveCan app](https://www.oag-bvg.gc.ca/internet/English/parl_oag_202402_01_e_44428.html). It’s a punchy document: very clear, no-nonsense, and commendably plain language — definitely worth a look if you’re the kind of person who reads this blog.
 
-The overall finding is that ArriveCan cost too much and was poorly overseen: specifically, that the departments involved “failed to follow good management practices in the contracting, development, and implementation of the ArriveCAN application.” Among other reasons, “[[t]he agency’s decision to continue relying on external resources throughout the application’s development, launch and updates, beyond the initial pandemic crisis, increased costs and brings into question the value achieved for money spent.](https://www.oag-bvg.gc.ca/internet/English/mr_20240212_e_44430.html)” 
+The overall finding is that ArriveCan cost too much and was poorly overseen: specifically, that the departments involved “failed to follow good management practices in the contracting, development, and implementation of the ArriveCAN application.” Among other reasons, “[[t]he agency’s decision to continue relying on external resources throughout the application’s development, launch and updates, beyond the initial pandemic crisis, increased costs and brings into question the value achieved for money spent.](https://www.oag-bvg.gc.ca/internet/English/mr_20240212_e_44430.html)”
 
 This bit about {% footnoteref "contractors" "Note that the report uses the term “external resources” whereas I prefer to say “external contractors” so it’s clear we’re talking about people." %}external contractors{% endfootnoteref %} is what inspired this post, so let’s take a closer look.
 
@@ -76,7 +76,7 @@ Of course, the other thing that GDS did was that they _created the conditions fo
 
 My GDS team was primarily made up of public servants — including myself, I was a UK public servant for 3 years. I worked on a government team building a cloud-native open-source Python application that was open sourced on GitHub and hosted on Amazon Web Services (AWS). We used [Trello](https://trello.com/) for our work tasks, we had a multidisciplinary team (including [Product Managers and Designers](/articles/2022-07-20-hire-a-designer-and-a-product-manager/)), we met with users regularly to test new features, and we released our application(s) multiple times a day: running automated tests before every release. We were building the [Digital Marketplace](https://www.digitalmarketplace.service.gov.uk/): an accessible, nationwide platform that facilitated billions of pounds of transactions.
 
-For 2015, this was pretty forward looking, but in 2023 this kind of workflow is _extremely_ common. It’s not that we were using novel, avant-garde methods; we simply adopted a workflow that was modern, proven, and effective, and has only become more so over time. In my 3 years there, I never had the misfortune of encountering an <abbr title="Security Assessment and Authorization">[SA&A](https://www.canada.ca/en/shared-services/corporate/publications/audit-security-assessment-authorization-march-2020.html)</abbr>: we were too busy solving problems for users to spend our time writing fiction.
+For 2015, this was pretty forward looking, but in 2024 this kind of workflow is _extremely_ common. It’s not that we were using novel, avant-garde methods; we simply adopted a workflow that was modern, proven, and effective, and has only become more so over time. In my 3 years there, I never had the misfortune of encountering an <abbr title="Security Assessment and Authorization">[SA&A](https://www.canada.ca/en/shared-services/corporate/publications/audit-security-assessment-authorization-march-2020.html)</abbr>: we were too busy solving problems for users to spend our time writing fiction.
 
 ## “Zero possibility” the government can stop using contractors
 
@@ -90,7 +90,7 @@ GDS advocated bringing in new roles onto capable multidisciplinary teams, and cl
 
 However, the Canadian federal government does **not** have a systemic or coordinated approach to digital transformation. In Canada, we have [a federated system](/articles/2022-12-15-transforming-better/#federated-departments) where IT departments move at their own pace (ie, [slowly](/articles/2022-12-15-transforming-better/#1-change-is-slow)) and there is no effective coordinating mechanism for introducing systemic modernizing changes. Over time, we have ended up with a digital landscape described by Luelo as “[overloaded with governance measures [where c]ommittees and consensus rule. There is little stomach for risk. No one is responsible, decisions are delayed and projects slide, she said.](https://policyoptions.irpp.org/magazines/january-2024/catherine-luelo-special-advisor)” In this environment, removing contractors is unwise, because we don’t have good answers for what to do instead. In fact, we rely on contractors to get around _our own_ roadblocks.
 
-## Slow and steady 
+## Slow and steady
 
 The ArriveCan report finds that contractors cost more money than internal staff members, but that’s only true if they are working at about the same speed. And from my time as a public servant, releasing a website in a large department feels like hitting every red light in rush hour traffic.
 
@@ -139,7 +139,7 @@ Similar to the ‘buying lemons’ thought experiment, we have created a process
 
 So what am I saying? Scrap the processes and just cross our fingers? Move fast and break things? Of course not. I’m advocating we _change_ our processes, not ignore them. We need to adapt our “[lumbering operational processes and procedures created by outdated rules and policies](https://policyoptions.irpp.org/magazines/november-2021/speaking-tech-to-power/)” to modern realities.
 
-Many of our current government IT processes were a reasonable answer to a problem _when they were created_, but they aren’t what you would do today. They are usually defended on a principles-basis (‘writing this document is important because we care about security’), when instead we should be asking _if they are effective at delivering the outcomes we want_.
+Many of our current government IT processes were a reasonable answer to a problem _when they were created_, but they aren’t what you would do today. They are usually defended on a principles-basis (‘writing this document is important because we care about security’), when instead we should be asking if they are effective at delivering the _outcomes_ we want.
 
 In my experience of working in traditional government IT settings, many of the processes are time consuming and ineffective. They suck time and energy out of teams, and provide little value to the organization. If I build an application in government, I have to write documentation saying my application is secure. I probably _believe_ it is secure, but how have I verified that? Well, in practice, I’ve verified it by asking someone how it works, and then writing down what they say and taking a screenshot. The evidence that it is secure is that I have written down that it is secure, and I have a picture from a week ago. Is this a good process for verifying whether an application is secure?
 
@@ -151,7 +151,7 @@ When I was in the UK, we didn’t write extensive security documentation. What w
 - built an open-source suite of automated tests for critical functionality that ran on every release
 - hired penetration testers to try and breach our application in an near-real-world setting
 
-Both the UK and Canadian governments value the same _principle_: releasing secure applications. In the Canadian case, the process we follow is easily gamed and usually not tested in a real-world scenario prior to release. Given that, security problems may not be discovered until it is too late. If a problem is found, you could argue ‘let’s be sure to write better answers next time,’ but **doubling down on a flawed process doesn’t actually address the root cause**.
+Both the UK and Canadian governments value the same _principle_: releasing secure applications. In the Canadian case, the process we follow is easily gamed and usually not tested in a real-world scenario prior to release. Given that, security problems may not be discovered until it is too late. If a problem _is_ found, you could say something like ‘let’s be sure to write better answers next time,’ but **doubling down on a flawed process doesn’t actually address the root cause**.
 
 In a meeting I once attended, it was asserted that ‘we need all of these security processes because [we are getting exploited all the time](https://www.priv.gc.ca/en/opc-actions-and-decisions/ar_index/202324/sr_pa_20240215_gckey/),’ to which the response was ‘if we’re getting exploited all the time, maybe our processes aren’t actually working that well and we should be open-minded about adapting them.’
 
@@ -175,15 +175,15 @@ I keep circling this point, but this is the part of the ArriveCan report that ma
 
 There’s a tell here though: several places in the report state that the urgency of the pandemic rendered it necessary to relax some of our processes.
 
-- “[[D]epartments and agencies were encouraged to be flexible given the urgent need to respond to the pandemic…](https://www.oag-bvg.gc.ca/internet/English/parl_oag_202402_01_e_44428.html)” 
-- “[Given the urgency created by the pandemic, the Treasury Board of Canada Secretariat encouraged government organizations to focus on results…](https://www.oag-bvg.gc.ca/internet/English/att__e_44429.html#p33)” 
-- “[The Canada Border Services Agency told us that it understood the risks of emphasizing quick delivery, which meant fewer controls and less documentation around new versions of the application.](https://www.oag-bvg.gc.ca/internet/English/att__e_44429.html#p77)” 
+- “[[D]epartments and agencies were encouraged to be flexible given the urgent need to respond to the pandemic…](https://www.oag-bvg.gc.ca/internet/English/parl_oag_202402_01_e_44428.html)”
+- “[Given the urgency created by the pandemic, the Treasury Board of Canada Secretariat encouraged government organizations to focus on results…](https://www.oag-bvg.gc.ca/internet/English/att__e_44429.html#p33)”
+- “[The Canada Border Services Agency told us that it understood the risks of emphasizing quick delivery, which meant fewer controls and less documentation around new versions of the application.](https://www.oag-bvg.gc.ca/internet/English/att__e_44429.html#p77)”
 
 It’s interesting that when we _really_ need something to get done, we don’t follow all the processes. This is an admission that many of our processes _get in the way_ of timely service delivery.
 
 ### Putting our agility to the test
 
-The “[Poor documentation of application testing](https://www.oag-bvg.gc.ca/internet/English/att__e_44429.html#hd4l)” section of the report finds that adequate testing was not completed before every release. [In its response]( https://www.oag-bvg.gc.ca/internet/English/att__e_44429.html#rp81), the Canada Border Services Agency (CBSA) offers an explanation and proposes a solution. It deserves a close analysis.
+The “[Poor documentation of application testing](https://www.oag-bvg.gc.ca/internet/English/att__e_44429.html#hd4l)” section of the report finds that adequate testing was not completed before every release. [In its response](https://www.oag-bvg.gc.ca/internet/English/att__e_44429.html#rp81), the Canada Border Services Agency (CBSA) offers an explanation and proposes a solution. It deserves a close analysis.
 
 Helpfully, the department provides some numbers in its response, stating outright that they were ‘required’ to move at a velocity that was too fast to follow their testing procedures.
 
@@ -191,7 +191,7 @@ Helpfully, the department provides some numbers in its response, stating outrigh
 
 Since 36 months is about 156 weeks, at they are averaging just over 1 release a week.
 
-This release schedule is rare in the Canadian government, but it is normal (or even slow) in the private sector, and it would have been very slow for my team in the UK. My GDS team released our application several times a day, {% footnoteref "releases" "This is a conservative estimate assuming 2 releases a day. Typically, we would release 4-5 times in a day." %}at least _10 times more frequently_ than CBSA{% endfootnoteref %} — and we built out testing procedures that were compatible with this velocity. Rather than manual tests and paperwork, we used automated tests that were fast, reliable, and repeatable. This is what we should be aiming for rather than slowing our velocity to accommodate slow testing procedures, or just — you know — _not testing at all_.
+This release schedule is rare in the Canadian government, but it is normal (or even slow) in the private sector, and it would have been very slow for my team in the UK. My GDS team released our application several times a day, {% footnoteref "releases" "This is a conservative estimate assuming 2 releases a day. Typically, we would release 4-5 times in a day." %}at least _10 times more frequently_ than CBSA{% endfootnoteref %} — and we built out testing procedures that were compatible with this velocity. Rather than manual tests and paperwork, we used automated tests that were fast, reliable, and repeatable. This is what we should be aiming for rather than slowing our velocity to accommodate slow testing procedures, or just — you know — not testing at all.
 
 Here’s a GDS blog post from 2012 called “[Regular Releases Reduce Risk](https://gds.blog.gov.uk/2012/11/02/regular-releases-reduce-risk/)”. They made _100 updates in 2 weeks_ to the UK’s flagship website, GOV.UK. Compared to those numbers, 177 releases in 36 months looks pretty relaxed.
 
@@ -211,11 +211,11 @@ Finally, CBSA concludes:
 
 Why not analyze which existing control steps are bottlenecks, with the goal of **[removing unnecessary steps](https://sboots.ca/2020/01/28/introducing-agile-to-large-organizations-is-a-subtractive-process-not-an-additive-one/)**, in addition to introducing new controls?
 
-[Senator Colin Deacon makes this point in a recent episode of Let’s Think Digital](https://thinkdigital.ca/podcast/building-support-for-digital-government-with-senator-colin-deacon/): 
+[Senator Colin Deacon makes this point in a recent episode of Let’s Think Digital](https://thinkdigital.ca/podcast/building-support-for-digital-government-with-senator-colin-deacon/):
 
 > “In the middle of the pandemic, […] CERB [… was] a digital first delivery. […] To get CERB up and running in three weeks [was p]henomenal. We can do it. It shouldn’t be ‘that was just because of the pandemic.’ That should be what we are, we should have that attitude with everything we're doing right now.”
 
-Senator Deacon is right. The pace at which we were able to deliver during the pandemic is what we should strive to continue in a sustainable manner, rather than returning to our outdated controls that generate enormous documents (and making them **even enormous-er** with new controls).
+Senator Deacon is right. The pace at which we were able to deliver during the pandemic is what we should strive to continue in a sustainable manner, rather than returning to our outdated controls that depend on enormous documents and making them even enormous-er.
 
 ## The Slow and Bad status quo
 
@@ -255,4 +255,3 @@ Obviously, when our choices are either following bad procedures or ignoring them
 Look, all this talk about lemons, maybe it seems like sour grapes, but reader, I beseech you. I, like Senator Deacon, like Catherine Luelo, like you, ardently wish for a vigorous and effective public service, capable of actively improving its processes to deliver better outcomes. As a public servant in the UK, I worked at an adaptable, modern organization that was actively improving processes to deliver better outcomes. It can be done.
 
 The Auditor General’s report consistently finds that by abandoning our processes _completely_, a lot of bad practice was swept under the rug. A good outcome would be taking the opportunity to really look _why_ that happened, and replace some of our bad procedures with good procedures. A bad outcome would be concluding that we need a bigger rug.
-
