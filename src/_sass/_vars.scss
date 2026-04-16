@@ -23,6 +23,7 @@ $font-scale: 1.25;
 
 $font-xs: calc(#{$font-base-size} / 1.15);
 $font-sm: $font-base-size;
+$font-md-sm: calc(#{$font-sm} * 1.125);
 $font-md: calc(#{$font-sm} * 1.25);
 $font-lg: calc(#{$font-md} * 1.25);
 $font-xl: calc(#{$font-lg} * 1.25);

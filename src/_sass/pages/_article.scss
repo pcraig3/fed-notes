@@ -27,7 +27,11 @@
 
 .article-content,
 .article--list__wrapper {
-  font-size: vars.$font-md;
+  font-size: vars.$font-md-sm;
+
+  @include mixins.desktop {
+    font-size: vars.$font-md;
+  }
 
   h1,
   h2,
@@ -81,9 +85,17 @@
 }
 
 .sidebar-content {
-  flex: 1;
+  flex: 1.25;
   margin-left: vars.$space-sm;
   margin-bottom: vars.$space-xxl;
+
+  @include mixins.tablet {
+    margin-top: 30px;
+  }
+
+  @include mixins.desktop {
+    flex: 1;
+  }
 
   .toc {
     position: sticky;
