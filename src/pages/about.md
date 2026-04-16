@@ -9,7 +9,9 @@ date: "2022-02-01"
 
 Federal Field Notes is a newsletter about digital transformation in the federal Government of Canada (GoC), drawn from first-hand experience (although very occasionally in the third person). It discusses digital government in Canada in a way that’s honest, insightful, and a little irreverent. [Subscribe](#bd-email) for occasional updates about interesting gov tech stuff.
 
-Federal Field Notes is the brainchild of [Paul Craig](https://pcraig.ca), a Canadian civil servant whose friends are tired of hearing him whinge about his job after 3 beers, and who has always wanted to try writing in the third person.
+Federal Field Notes is the brainchild of [Paul Craig](https://pcraig.ca), a _former_ Canadian civil servant whose friends do not care about the subject matter of this newsletter. Paul has always wanted to try writing in the third person.
+
+Paul is (like every other Developer you know) an [AI Engineer and Technical Strategist](https://www.linkedin.com/in/pcraig3/) who helps government teams succeed. Paul built a key part of the [COVID Alert](https://pcraig.ca/work-cds-covid-alert-portal) app and [a GoC-branded AI chatbot for the federal Courts Administration Service (CAS)](https://pcraig.ca/work-cas-amicus).
 
 ## Frequently Asked Questions
 
@@ -29,10 +31,6 @@ I am around on Twitter ([@pcraig3](https://twitter.com/pcraig3)), and I have ope
 
 The goal was always that you would end up on this About page.
 
-### “I have a great idea. Can I contribute a post?”
-
-Email me: <span class="email--swap" data-email="cGF1bEBwY3JhaWcuY2E=">“paul [a] pcraig [dot] ca”</span>
-
 ### Why a newsletter?
 
 It sounds more serious than saying “it’s a blog”.
@@ -44,7 +42,7 @@ Because “[Maple Story](https://maplestory.nexon.net/landing)” was already ta
 ### What happens if I subscribe?
 
 Expect great content in your inbox 2-4 times a year!
-Also, if you are my 1 thousandth subscriber, you win an Amazon gift card!!
+Also, if you are my 1 thousandth subscriber, you win a gift card to Canadian business!!
 
 ### What happens to my data if I subscribe?
 
