@@ -1,6 +1,6 @@
 {
   "name": "fed-notes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Federal Field Notes is a newsletter about digital transformation in the federal Government of Canada.",
   "main": "index.html",
   "scripts": {
@@ -21,8 +21,8 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
     "autoprefixer": "^10.5.0",
-    "cross-env": "^7.0.3",
-    "cssnano": "^6.0.3",
+    "cross-env": "^10.1.0",
+    "cssnano": "^7.1.5",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.5.10",
     "postcss-cli": "^11.0.1",
@@ -36,7 +36,7 @@
     "@11ty/eleventy-plugin-rss": "^3.0.0",
     "@aloskutov/eleventy-plugin-external-links": "^2.1.1",
     "eleventy-plugin-footnotes": "^0.11.0",
-    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-anchor": "^9.2.0",
     "markdown-it-toc-done-right": "^4.2.0",
     "prettier": "3.8.3",
     "string": "^3.3.3"
