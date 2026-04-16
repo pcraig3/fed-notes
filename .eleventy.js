@@ -10,7 +10,8 @@ const {
   markdownFilter,
   markdownLib,
 } = require("./src/_filters/markdown-filter.js");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginRssModule = require("@11ty/eleventy-plugin-rss");
+const pluginRss = pluginRssModule.default || pluginRssModule;
 
 const footnotes = require("eleventy-plugin-footnotes");
 const externalLinks = require("@aloskutov/eleventy-plugin-external-links");
