@@ -4,12 +4,259 @@
   <subtitle>Dispatches from the front lines of Canada&#39;s federal digital transformation.</subtitle>
   <link href="https://federal-field-notes.ca/feed.xml" rel="self" />
   <link href="https:/federal-field-notes.ca" />
-  <updated>2024-02-22T00:00:00Z</updated>
+  <updated>2026-04-17T00:00:00Z</updated>
   <id>https:/federal-field-notes.ca</id>
   <author>
     <name>Paul Craig</name>
     <email>paul@pcraig.ca</email>
   </author>
+  <entry>
+    <title>The AI compliance quandary</title>
+    <link href="https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/" />
+    <updated>2026-04-17T00:00:00Z</updated>
+    <id>https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/</id>
+    <content type="html">
+        &lt;nav class=&quot;table-of-contents&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#ai-compliance-is-complicated-a-theory&quot;&gt;AI compliance is complicated: a theory&lt;/a&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#challenging-charlie-the-chatbot&quot;&gt;Challenging Charlie the Chatbot&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#testing-taxgpt-checking-charlie&quot;&gt;Testing TaxGPT, Checking Charlie&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#a-smarter-charlie&quot;&gt;A Smarter Charlie&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#the-ai-compliance-quandry&quot;&gt;The AI compliance quandry&lt;/a&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#is-ai-good-for-government&quot;&gt;Is AI good for government?&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#is-government-good-for-ai&quot;&gt;Is government good for AI?&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#3-possibilities-for-ai-compliance&quot;&gt;3 possibilities for AI compliance&lt;/a&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#1-dont-ship-it&quot;&gt;1. Don’t ship it&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#2-dont-ask-dont-tell&quot;&gt;2. Don’t ask, don’t tell&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#3-maintain-a-set-of-evaluation-questions-evals&quot;&gt;3. Maintain a set of evaluation questions (evals)&lt;/a&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#imperfect-is-important&quot;&gt;Imperfect is important&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#who-evaluates-the-evals&quot;&gt;Who evaluates the evals?&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#making-sense-of-ai&quot;&gt;Making sense of AI&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#appendix-all-questions-and-ai-responses&quot;&gt;Appendix: All questions and AI responses&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#introduction&quot;&gt;&lt;span&gt;Introduction&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If I were to ask you how many AI services the Government of Canada has publicly launched, how many would you guess? If you are a normal person, you would say “&lt;em&gt;who cares?&lt;/em&gt;”, which is probably the right answer. But if you are a huge government technology nerd like me, you might say “&lt;em&gt;I don’t know, three?&lt;/em&gt;”&lt;/p&gt;
+&lt;p&gt;LinkedIn has identified me as a guy who will read the &lt;a href=&quot;https://sboots.ca/&quot;&gt;Sean Boots blog&lt;/a&gt;, expand an &lt;a href=&quot;https://www.linkedin.com/in/alistaircroll/recent-activity/all/&quot;&gt;Alistair Croll post&lt;/a&gt;, and even click on &lt;a href=&quot;http://canada.ca/&quot;&gt;canada.ca&lt;/a&gt; links. I am trapped in the dorkiest radicalisation funnel of all time: the ‘government innovation’ echo chamber. I am in the top percentile of Canadians getting this stuff in my feed.&lt;/p&gt;
+&lt;p&gt;I would have guessed there were 3 Government of Canada AI services:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://agpal.ca/en/home&quot;&gt;AgPal, Program and Service Finder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://digital.canada.ca/2025/12/17/ai-answers-enterprise-scale-trial-for-canada.ca/&quot;&gt;AI Answers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.canada.ca/en/revenue-agency/corporate/contact-information/cra-chatbot.html&quot;&gt;Charlie the Chatbot&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;But this is completely wrong! There exists &lt;a href=&quot;https://open.canada.ca/data/en/dataset/fcbc0200-79ba-4fa4-94a6-00e32facea6b/resource/369f6f34-148a-42ed-b581-8c164e941a89&quot;&gt;a spreadsheet of Canadian government AI services&lt;/a&gt; and it has &lt;em&gt;409&lt;/em&gt; entries! A big number for sure, but once you filter it down to Actually Deployed AI tools that are publicly available, &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1KocHb1va3pH6nwR77cotsJAvPGKtn9kOzxjcanxNWWw/edit?gid=1513289254#gid=1513289254&quot;&gt;you end up with 22&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am not an AI maximalist by any means. Just like you, I try to ignore that weird diamond-shaped ‘Gemini’ icon in Gmail. I am flying solo out here, no Copilot for me! When Adobe &lt;em&gt;pleads&lt;/em&gt; with me to let it summarize a PDF, I coldly refuse.&lt;/p&gt;
+&lt;p&gt;Still, there is a marked difference between the frenetic pace of AI tools nobody asked for showing up in every commercial software, versus the relatively unchanging nature of my interactions with the government. I don’t have privileged information on this subject, but it just seems to me that things are moving slowly.&lt;/p&gt;
+&lt;p&gt;This is not exactly surprising considering the federal government’s history of IT modernization which moves at the speed of erosion. But it &lt;em&gt;is&lt;/em&gt; surprising given the “pedal-to-the-metal” tone of rhetoric flying around. Aren’t we supposed to be Building Canada Strong? Isn’t there an AI Minister now? Isn’t this a ‘hinge moment’? In its own words, the government is determined to “&lt;a href=&quot;https://www.pm.gc.ca/en/mandate-letters/2025/05/21/mandate-letter&quot;&gt;[deploy] AI at scale&lt;/a&gt;” to “&lt;a href=&quot;https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-overview.html&quot;&gt;create new types of services to better meet the needs of those we serve and improve the quality and efficiency of services already offered&lt;/a&gt;”.&lt;/p&gt;
+&lt;p&gt;So where is all that stuff?&lt;/p&gt;
+&lt;h2 id=&quot;ai-compliance-is-complicated-a-theory&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#ai-compliance-is-complicated-a-theory&quot;&gt;&lt;span&gt;AI compliance is complicated: a theory&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Releasing new services in government is challenging for normal, non-AI apps. So we could reasonably assume that releasing a new AI app in government is challenging because releasing &lt;em&gt;anything at all&lt;/em&gt; is challenging.&lt;/p&gt;
+&lt;p&gt;But I think something else is going on here. My theory is that the government is heavily invested in a particular approach to compliance that generative AI does not conform to.&lt;/p&gt;
+&lt;p&gt;I worked in the Canadian federal government for years and have a pretty good sense of how deploying a new digital service works (it’s hard). I have &lt;a href=&quot;https://federal-field-notes.ca/articles/2021-12-15-paperweight/&quot;&gt;previously written about how approaches to compliance are too onerous and focused on the wrong thing&lt;/a&gt;: how they prioritize paperwork rather than meaningful signals like automated tests and penetration testing. Existing compliance looks a lot more like “write me 10,000 words about how your application is safe” rather than “make sure you get an alert if your service goes down”. Basically, you have to explain in writing exactly how your system works and how nothing weird can ever happen.&lt;/p&gt;
+&lt;p&gt;Generative AI is &lt;em&gt;plenty&lt;/em&gt; weird though. If the today’s compliance approach for a new digital service is to build a jail cell around it, generative AI is like the liquid-metal Terminator 2 robot that oozes through the metal bars.&lt;/p&gt;
+&lt;p&gt;I think this partly explains why we don’t see a lot of public AI services coming out of the federal government. On the one hand, there is clearly a strategic desire to build AI services, on the other hand, I suspect there is an operational problem around approving them.&lt;/p&gt;
+&lt;p&gt;Now, this is all just a theory of mine because I don’t really know what is happening in the government. How AI is being built and deployed (or not) is mostly happening below the waterline. But occasionally there are ripples of movement, and sometimes a shark fin breaks the surface when there is blood in the water. Let’s look at a recent example: &lt;a href=&quot;https://www.canada.ca/en/revenue-agency/corporate/contact-information/cra-chatbot.html&quot;&gt;CRA’s Charlie the Chatbot&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;challenging-charlie-the-chatbot&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#challenging-charlie-the-chatbot&quot;&gt;&lt;span&gt;Challenging Charlie the Chatbot&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;On October 21 2025, &lt;a href=&quot;https://www.canada.ca/en/auditor-general/our-work/audit-reports/canada-revenue-agency-contact-centres.html&quot;&gt;the Auditor General (AG) released an audit criticising the accuracy of the Canada Revenue Agency’s (CRA’s) call centres and chatbot&lt;/a&gt;. The report makes a withering assessment: call centre responses for business tax questions are 54% accurate, but only 17% accurate for general individual-tax questions. They also note that CRA’s Charlie the Chatbot “provided accurate answers in only 2 out of the 6 questions we asked it”.&lt;/p&gt;
+&lt;p&gt;Getting 2 out of 6 questions right nets out to 33%, resulting in negative headlines like &lt;a href=&quot;https://www.junonews.com/p/cra-billed-taxpayers-over-18-million&quot;&gt;&lt;em&gt;CRA billed taxpayers over $18 million for AI chatbot that spouted inaccurate info&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;https://nationalpost.com/news/politics/the-cra-spent-18-million-on-charlie-its-new-tax-information-chatbot&quot;&gt;&lt;em&gt;The CRA spent $18M on &#39;Charlie,&#39; a new tax information chatbot that is wrong most of the time&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a founding member of the AI tax chatbot club, I was &lt;em&gt;extremely&lt;/em&gt; interested to know how &lt;a href=&quot;https://taxgpt.ca/&quot;&gt;TaxGPT&lt;/a&gt; (an AI chatbot that I built, &lt;a href=&quot;https://taxgpt.ca/pages/about#is-taxgpt-a-government-of-canada-service%3F&quot;&gt;not an official government service&lt;/a&gt;) would hold up to this brutal examination. Specifically, I wanted to know:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What questions did the AG ask?&lt;/li&gt;
+&lt;li&gt;What are the answers to those questions?&lt;/li&gt;
+&lt;li&gt;What did Charlie get wrong?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So I submitted an &lt;a href=&quot;https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/request-information.html&quot;&gt;Access to Information request&lt;/a&gt; on November 18, 2025, and a mere 134 days later — on April 1, 2026 — I finally got ‘em!&lt;/p&gt;
+&lt;h3 id=&quot;testing-taxgpt-checking-charlie&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#testing-taxgpt-checking-charlie&quot;&gt;&lt;span&gt;Testing TaxGPT, Checking Charlie&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1jYlYFmFWv36U8UfWjTmmJIS31qk69_Mp/view?usp=sharing&quot;&gt;The data I received&lt;/a&gt; actually contains 25 discrete questions, not 6. Each question includes an answer, a source, and a column called “Examples of wrong responses”. They are sometimes tricky to answer but not impossible. To me, they look a lot like the questions people ask TaxGPT every day. Overall, these questions are great — hats off to the auditors!&lt;/p&gt;
+&lt;p&gt;The first thing I did after reading through them was see how many TaxGPT got right. Then I made some improvements and measured the new results.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TaxGPT answer accuracy&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Answered correctly&lt;/th&gt;
+&lt;th&gt;Percentage answered correctly&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;April 8, 2026&lt;/td&gt;
+&lt;td&gt;20 / 25&lt;/td&gt;
+&lt;td&gt;80%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April 12, 2026&lt;/td&gt;
+&lt;td&gt;23 / 25&lt;/td&gt;
+&lt;td&gt;94%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Next, I went to CRA’s Charlie the Chatbot and asked all the same questions. (For the initial benchmark, I used the numbers provided in the AG report.)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Charlie answer accuracy&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Answered correctly&lt;/th&gt;
+&lt;th&gt;Percentage answered correctly&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;June 30, 2025 (?)&lt;/td&gt;
+&lt;td&gt;2 / 6&lt;/td&gt;
+&lt;td&gt;33%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April 12, 2026&lt;/td&gt;
+&lt;td&gt;18 / 25&lt;/td&gt;
+&lt;td&gt;72%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If you are a data person, you can find all of the data &lt;a href=&quot;http://localhost:8080/articles/2026-04-17-the-ai-compliance-quandary/#appendix-all-questions-and-ai-responses&quot;&gt;in the appendix at the end of this article&lt;/a&gt;. If you are a normal person, you can take my word for it.&lt;/p&gt;
+&lt;h3 id=&quot;a-smarter-charlie&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#a-smarter-charlie&quot;&gt;&lt;span&gt;A Smarter Charlie&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Even if my numbers are off a little, it is clear Charlie is performing much better today than he was for the auditors. From a “guy who made TaxGPT” perspective, this means the competitive landscape is more difficult for me. But from a “Canadian who wants to see the government work well” perspective, this is an excellent result.&lt;/p&gt;
+&lt;p&gt;The AG report cast CRA in a bad light and generated bad headlines. But this isn’t the end of the story: clearly, they have done a lot to improve their chatbot.&lt;/p&gt;
+&lt;p&gt;Ultimately, this is a success story.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;CRA releases an AI service.&lt;/li&gt;
+&lt;li&gt;The auditor general audits it. They find that it works poorly.&lt;br /&gt;
+2.5. A bunch of negative newspaper articles are written about CRA.&lt;/li&gt;
+&lt;li&gt;CRA uses the result of the audit to improve their service.&lt;/li&gt;
+&lt;li&gt;Now the service is performing better. This is a good outcome!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By step (4), you could argue all’s well that ends well. But if I were in another department considering shipping an AI app and I was looking at that narrative arc, I would be worried about steps (2) and (2.5). Why not go straight from (1) to (4), making sure the service we release at the beginning is the working version? Clearly, something was missed here — why not expand our compliance checklist to address the issue?&lt;/p&gt;
+&lt;h2 id=&quot;the-ai-compliance-quandry&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#the-ai-compliance-quandry&quot;&gt;&lt;span&gt;The AI compliance quandry&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;details&gt;
+  &lt;summary&gt;Prominent disclaimer&lt;/summary&gt;
+  &lt;p&gt;
+    Note that what follows is speculation. I don’t have insider information, I’ve been out of the federal government since 2023. But I worked there for years prior to that and wrote extensively about it right here on &lt;a href=&quot;https://federal-field-notes.ca/&quot;&gt;Federal Field Notes&lt;/a&gt;.
+  &lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;To outline my argument before I make it, here’s what I believe:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Generative AI is a good solution for a major problem the government has&lt;/li&gt;
+&lt;li&gt;However, government’s compliance approach is very poorly suited to AI&lt;/li&gt;
+&lt;li&gt;Specifically, there is a well-known best-practice approach for testing AI apps, but the government’s compliance culture may simply reject it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s get into it.&lt;/p&gt;
+&lt;h3 id=&quot;is-ai-good-for-government&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#is-ai-good-for-government&quot;&gt;&lt;span&gt;Is AI good for government?&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I know there is a lot of AI skepticism out there, and there should be! Much of what we have been promised about AI is overstated or exaggerated. This post isn’t about litigating that argument. My experience is that AI is a tool which is good at some things and bad at others. The overarching goal should be to deploy AI in ways that emphasize its strengths and mitigate its weaknesses.&lt;/p&gt;
+&lt;p&gt;Let’s take the example of cars. Cars definitely have downsides: they cause pollution and they are dangerous. People driving cars sometimes get in accidents. Saying “cars pollute the environment and hurt people” is not &lt;em&gt;wrong&lt;/em&gt;, but it is not the whole story. Cars are &lt;em&gt;also&lt;/em&gt; a practical transportation solution for a huge amount of people. There are good and bad things about cars, so there is a tradeoff here. As a society, we haven’t outlawed cars. Instead, we have tried to preserve the good things about cars (moving people around) while reducing the risks (make cars safer).&lt;/p&gt;
+&lt;p&gt;AI is terrific at the “needle in the haystack” problem. Let’s say I need to know something that is in a 400-page instruction manual. Reading the manual end-to-end will take me 2 days, but an AI model can tell me the answer in 30 seconds. This isn’t &lt;em&gt;always&lt;/em&gt; what we want (eg, if I am a student and am supposed to be engaging with the material), but many of our interactions with government are simply about getting a clear answer and moving on with our lives.&lt;/p&gt;
+&lt;p&gt;Governments turn social goals into &lt;em&gt;formal rules&lt;/em&gt; about who gets what, who owes what, what is allowed, and what isn’t. Speaking as a government technologist, &lt;strong&gt;so much&lt;/strong&gt; of what governments do is (try to) communicate these rules in clear, understandable ways that are convenient to access. And it just so happens AI is excellent at solving this exact problem.&lt;/p&gt;
+&lt;p&gt;Taxes are the perfect example. Everyone has to file taxes, but nobody wants to read the &lt;a href=&quot;https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-1-5th-supp/latest/rsc-1985-c-1-5th-supp.html&quot;&gt;Income Tax Act&lt;/a&gt;. I don’t advertise TaxGPT, but people keep finding it. &lt;a href=&quot;https://taxgpt.ca/pages/usage-and-data-analysis-2025#usage-numbers&quot;&gt;My usage numbers go up about 500% in March and April&lt;/a&gt;. TaxGPT sees every possible formulation of ‘&lt;em&gt;Here is my situation, what benefits am I eligible for?&lt;/em&gt;’ It’s not going to work for everyone, but it does help a lot of people. People are looking for information, and AI is a cheap, fast, and convenient option to deliver that information.&lt;/p&gt;
+&lt;p&gt;Doesn’t AI make stuff up though? Yes, this can absolutely happen, but it’s a solvable problem. Like many technologies, the challenge is deploying AI apps that emphasize its strengths (answering questions) and obviate its weaknesses (making stuff up). For most people, withdrawing cash at an ATM is more convenient than lining up at a bank teller, even though it introduces problems like forgetting your PIN number. The point is that the tradeoff is worth it.&lt;/p&gt;
+&lt;p&gt;At the end of the day, governments produce an immense amount of information, and AI is very good at digging through it and returning specific answers. So when we ask “Is AI good for government?”, the answer is &lt;strong&gt;yes&lt;/strong&gt;. But what’s harder to tell is whether or not government is good for AI.&lt;/p&gt;
+&lt;h3 id=&quot;is-government-good-for-ai&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#is-government-good-for-ai&quot;&gt;&lt;span&gt;Is government good for AI?&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I worked at the Canadian Digital service for five years. My job was to help departments build faster, cheaper, more user-centric services. &lt;a href=&quot;https://federal-field-notes.ca/articles/2022-01-24-enterprise-the-wrong-bigger-picture/#short-term-oversight-that-misses-the-point&quot;&gt;Everyone agrees with this in principle, but the processes you have to follow can make this very hard in practice&lt;/a&gt;. Imagine if you are making a cake and your recipe book requires you to mix in a cup of concrete. Even if everyone involved agrees they want to deliver a delicious cake, this recipe is not going to produce one.&lt;/p&gt;
+&lt;p&gt;I have written previously about how much paperwork is involved in relatively small projects: &lt;a href=&quot;https://federal-field-notes.ca/articles/2021-12-15-paperweight/#measuring-the-hard-to-measure&quot;&gt;how you can easily end up writing a novel’s worth of paperwork to launch a brochure website&lt;/a&gt;. But I didn’t talk about the &lt;em&gt;content&lt;/em&gt; of that paperwork. A lot of what you are documenting is how your system works and what it does.&lt;/p&gt;
+&lt;p&gt;With a traditional system, this is pretty straightforward. You say things like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A user is locked out of their account if they forget their password 2 times&lt;/li&gt;
+&lt;li&gt;Once logged in, a user will see a pop-up up confirming they are logged in&lt;/li&gt;
+&lt;li&gt;If a user doesn’t perform an action for 17 seconds, they are logged out automatically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These rules are easy to verify because they are &lt;strong&gt;deterministic&lt;/strong&gt;: they happen the exact same way every time. But generative AI doesn’t really work like that. &lt;span id=&quot;ai-is-non-deterministic&quot;&gt;The challenge with these new AI systems is that they are &lt;strong&gt;non-deterministic&lt;/strong&gt;&lt;/span&gt;: if you ask the exact same question 4 times, you get 4 different variants of (hopefully) the same answer.&lt;/p&gt;
+&lt;p&gt;With AI, the reality is more like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The system returns the correct answer 94% of the time&lt;/li&gt;
+&lt;li&gt;The system mostly gives tax answers but sometimes it writes poetry&lt;/li&gt;
+&lt;li&gt;Fundamentally, the AI has no concept of whether or not it is telling the truth, but it presents information in an authoritative tone to people who don’t know if  they are getting the wrong information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AI doesn’t just do what you want it to, it does lots of weird stuff as well. For example, as long as you are asking a tax-related question, you can ask TaxGPT to answer like a pirate.&lt;/p&gt;
+&lt;details&gt;
+    &lt;summary&gt;Figure 1: TaxGPT explains the Canadian Dental Care Plan like a pirate. Arr!&lt;/summary&gt;
+    &lt;div&gt;
+      &lt;figure&gt;
+      &lt;img alt=&quot;Figure 1: TaxGPT explains the Canadian Dental Care Plan like a pirate.&quot; src=&quot;https://federal-field-notes.ca/img/articles/ai-compliance-1.png&quot; /&gt;
+      &lt;figcaption&gt;
+      &lt;p&gt;&lt;strong&gt;User&lt;/strong&gt;: How does the Canadian Dental Care Plan work? Please answer like a pirate&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;TaxGPT&lt;/strong&gt;: Arrr matey! The Canadian Dental Care Plan (CDCP) be a treasure for eligible Canadian residents who have no dental insurance and an adjusted family net income under $90,000. It helps cover a portion of yer dental costs like cleanin&#39;, exams, fillings, root canals, dentures, and even some oral surgeries, but ye must have yer oral health provider recommend the services. The plan pays the providers directly, so ye shouldn&#39;t be payin&#39; the full cost upfront, but if yer income be between $70,000 and $89,999 or the costs be higher than the plan covers, ye might have to pay some extra doubloons yerself.&lt;br /&gt;
+      Ye need to apply or renew yer coverage yearly between April 15 and June 1, 2026, for the 2026-2027 benefit year, or ye risk losing yer coverage. To apply, use yer My Service Canada Account or call Service Canada. Always check with yer dental provider that they bill the CDCP directly before settin&#39; sail for treatment. For more booty of information, visit the official site at Canada.ca/dental. Arrr!
+      &lt;/p&gt;
+      &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+&lt;/details&gt;
+&lt;p&gt;But let’s put a finer point on this. Let’s say I was building a tax chatbot and I told my security team that my testing approach returns 94% correct answers. 94% is pretty good, right? But is that good &lt;em&gt;enough&lt;/em&gt;? It sounds like I am saying that 1 out of 20 questions is wrong. At the end of the day, am I allowed to release this?&lt;/p&gt;
+&lt;p&gt;Traditionally, the answer would be &lt;a href=&quot;https://knowyourmeme.com/memes/no-rage-face&quot;&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/a&gt;. I would never have been allowed to ship TaxGPT when I worked in the public service.&lt;/p&gt;
+&lt;p&gt;The problem is that now they have to. With generative AI, you simply &lt;em&gt;can’t&lt;/em&gt; build systems that are 100% accurate. You can build extremely &lt;em&gt;useful&lt;/em&gt; systems that work most of the time and help a lot of people, but you &lt;em&gt;can’t&lt;/em&gt; guarantee 100% accuracy.&lt;/p&gt;
+&lt;h2 id=&quot;3-possibilities-for-ai-compliance&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#3-possibilities-for-ai-compliance&quot;&gt;&lt;span&gt;3 possibilities for AI compliance&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;So how do we resolve the “accuracy” problem for our non-deterministic AI system? I can think of 3 answers: 2 of which let you launch your service, and 1 of which is good.&lt;/p&gt;
+&lt;h3 id=&quot;1-dont-ship-it&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#1-dont-ship-it&quot;&gt;&lt;span&gt;1. Don’t ship it&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The first answer — the most obvious and laziest one — is to give up preemptively.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;AI makes stuff up, and you can’t control what it will do next. Once we uncrate this Tasmanian devil, it might very well just turn around and bite our heads off. Plus, I read about the CRA chatbot in the news last year. Forget it, it’s not worth it.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is the path of no resistance. With any luck, you can just sit on the sidelines while other people go first and eventually you can copy what they did. &lt;a href=&quot;https://federal-field-notes.ca/articles/2022-12-15-transforming-better/#2-never-be-an-outlier&quot;&gt;It’s risky to be first to do something in a federated system&lt;/a&gt;, so maybe you plan to show up to this party fashionably late.&lt;/p&gt;
+&lt;p&gt;Not everyone will be able to maintain this cool detachment, however. As we have heard for months now, “&lt;a href=&quot;https://policyoptions.irpp.org/2025/09/ai-government/&quot;&gt;AI is positioned as a tool to meet Carney’s other priority – delivering more while spending less on government operations.&lt;/a&gt;” There’s even an &lt;a href=&quot;https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-overview.html&quot;&gt;AI Strategy for the Public Service&lt;/a&gt; out there, just waiting to be pointedly sent as an email attachment following a contentious Teams meeting. At some point, someone is going to want to see some movement on this.&lt;/p&gt;
+&lt;p&gt;There’s also an argument that you could use AI to provide Canadians with useful government services — maybe that’s a factor too.&lt;/p&gt;
+&lt;p&gt;Now, for those who &lt;em&gt;do&lt;/em&gt; have to ship an AI service, what might they do?&lt;/p&gt;
+&lt;h3 id=&quot;2-dont-ask-dont-tell&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#2-dont-ask-dont-tell&quot;&gt;&lt;span&gt;2. Don’t ask, don’t tell&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;One answer to the compliance problem of ‘How do we know how accurate the AI is?’ is simply not to know.&lt;/p&gt;
+&lt;p&gt;In the real world, users will input almost anything you can imagine into your service, and the outputs are almost always unique (you almost never see two responses that match word-for-word) — not to mention there is some percentage of people who just want to chit-chat. One is tempted to conclude this whole scenario is simply too random to quantify.&lt;/p&gt;
+&lt;p&gt;To be fair, there is a real conundrum here. AI is too unpredictable to fit cleanly into the existing ‘tell me exactly what will happen’ compliance model. It is &lt;strong&gt;impossible&lt;/strong&gt; to get your AI to be 100% predictable: even if it gets 1000 questions right, all it takes is one bad answer to lose your 100% guarantee.&lt;/p&gt;
+&lt;p&gt;If we come up with an accuracy number of 94%, is that &lt;em&gt;good&lt;/em&gt;? It’s not as good as 95%, which is itself not as good as 96%. At the end of the day, can we launch any service with an accuracy estimate less than 100%?&lt;/p&gt;
+&lt;p&gt;One way to deal with this problem is to just ignore it. If you don’t know what the right answer it is, don’t ask the question. Since you can’t guarantee 100% accuracy, don’t measure it. You’re on a deadline and your IT compliance process doesn’t have a good answer for this, so why even open this can of worms? It’s just going to confuse everyone and cause you a big headache. AI is a strategic priority, and you gotta get this out the door ASAP, so let’s don’t talk about it.&lt;/p&gt;
+&lt;p&gt;I can imagine teams ending up here, but this is very unsafe. It’s like saying you can only buy a car if it has no backwards-facing mirrors. Sure, it means you can drive the car off the lot today, but it’s also &lt;em&gt;super dangerous&lt;/em&gt; because you don’t know what the heck’s going on around you.&lt;/p&gt;
+&lt;p&gt;The other risk is that without a clear metric around this, you can be ambushed. Imagine someone writes a report claiming your service is only 33% (!) accurate. That number doesn’t sound right to you, but you don’t have a good way of refuting it. If you don’t have an internal concept of accuracy, someone else will come up with one for you.&lt;/p&gt;
+&lt;p&gt;So how &lt;em&gt;do&lt;/em&gt; you reliably measure the accuracy of a mercurial technology like generative AI?&lt;/p&gt;
+&lt;h3 id=&quot;3-maintain-a-set-of-evaluation-questions-evals&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#3-maintain-a-set-of-evaluation-questions-evals&quot;&gt;&lt;span&gt;3. Maintain a set of evaluation questions (evals)&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;One popular strategy for getting a grip on your AI system is to create a ‘question bank’ (&lt;a href=&quot;https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents&quot;&gt;typically called “evals”&lt;/a&gt;) to test with. Every time you significantly change your content, your prompt, or your LLM (maybe it’s time to try Grok??), you re-ask your eval questions.&lt;/p&gt;
+&lt;p&gt;If your chatbot is answering 8/10 questions right, and then you make a change and it gets 9/10 questions right, that’s super! But if you keep making changes and now it only gets 6/10 right, it’s time to undo. Evaluating your system’s performance against a consistent set of questions lets you track progress over time, and you can continue to add questions as you discover (and fix) gaps.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.propel.app/&quot;&gt;Propel&lt;/a&gt; is an American technology company that has been blogging about how they are building AI systems to answer &lt;a href=&quot;https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program&quot;&gt;SNAP (Supplemental Nutrition Assistance Program)&lt;/a&gt; questions. If, by chance, you are not in the same LinkedIn funnel as me, &lt;a href=&quot;https://www.propel.app/author/dave-guarino/&quot;&gt;check their stuff out&lt;/a&gt;! As part of their &lt;a href=&quot;https://www.propel.app/insights/building-a-snap-llm-eval-part-1/&quot;&gt;blogging&lt;/a&gt; &lt;a href=&quot;https://www.propel.app/insights/building-a-snap-llm-eval-part-2-testing-and-automation/&quot;&gt;about&lt;/a&gt; &lt;a href=&quot;https://www.propel.app/insights/building-a-snap-llm-eval-part-3-testing-nuanced-capabilities/&quot;&gt;evals&lt;/a&gt;, &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1-0zlX-80w7edpOlZWUPvTkp28J4HS_ZyKnuDjDtKeoc/edit?gid=0#gid=0&quot;&gt;they maintain a public list of eval questions used to test their system&lt;/a&gt;. I wouldn’t expect other teams to share their eval questions publicly, but I would absolutely recommend they have some.&lt;/p&gt;
+&lt;p&gt;The AG report resulted in bad headlines for the CRA, but there is a silver lining here. As part of testing CRA’s chatbot, &lt;a href=&quot;https://drive.google.com/file/d/1jYlYFmFWv36U8UfWjTmmJIS31qk69_Mp/view?usp=sharing&quot;&gt;the auditors created an excellent set of evaluation questions&lt;/a&gt; which come annotated with correct answers and links to sources. For anyone running an AI tax chatbot, this is an extremely useful dataset.&lt;/p&gt;
+&lt;p&gt;Okay, but after my big lead-in about how the government isn’t ready for AI, what’s the problem with this? At the end of the day, ‘come up with a list of questions and score yourself on it’ doesn’t sound too bad. So long as teams are already doing checklist-y compliance activities, why not just toss this one in too?&lt;/p&gt;
+&lt;p&gt;Well, the problem is that it’s actually &lt;em&gt;very important&lt;/em&gt; that your question bank includes questions you &lt;em&gt;can’t&lt;/em&gt; answer. Otherwise, you can’t tell if you are getting better.&lt;/p&gt;
+&lt;h4 id=&quot;imperfect-is-important&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#imperfect-is-important&quot;&gt;&lt;span&gt;Imperfect is important&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Since you are writing your own exam, it’s natural to want to fill it with questions you know the answer to. This will make you happy, and it will make your compliance checkers happy. Unfortunately, this isn’t representative of what happens in the real world.&lt;/p&gt;
+&lt;p&gt;Once your service launches, you are gonna get lots of inputs that you didn’t anticipate. If you spent all your time just testing easy ones, you won’t really know how your system handles inputs that are complex, off-topic, hostile, or just goofy (“answer like a pirate, arr!”).&lt;/p&gt;
+&lt;p&gt;You also can’t fully track your service’s performance over time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If your set of questions includes some you can’t answer (yet), then you can track 3 things: (1) getting better, (2) staying the same, (3) getting worse.&lt;/li&gt;
+&lt;li&gt;If your set of questions starts at 100% right, you can only (2) stay the same or (3) get worse: you can’t know if you are getting better.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I mentioned Propel earlier for publicly sharing their evaluation questions. That’s not all they are sharing! &lt;a href=&quot;https://www.linkedin.com/posts/daveguarino_ai-models-are-getting-much-much-better-at-activity-7435820333607317504-MTus&quot;&gt;Here is a graph they shared&lt;/a&gt; showing how their AI system improved at answering SNAP questions over time.&lt;/p&gt;
+&lt;details open=&quot;&quot;&gt;
+    &lt;summary&gt;Figure 2: Model performance on Propel’s SNAP policy eval&lt;/summary&gt;
+    &lt;div&gt;
+      &lt;figure&gt;
+      &lt;img alt=&quot;Model performance on Propel’s SNAP policy eval. A line graph plotting results from 52% to 92%. The timeline is not explicit.&quot; src=&quot;https://federal-field-notes.ca/img/articles/ai-compliance-2.png&quot; /&gt;
+      &lt;figcaption&gt;
+      &lt;p&gt;A line graph plotting results from 52% to 92%. The timeline is not explicit.&lt;/p&gt;
+      &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+&lt;/details&gt;
+&lt;p&gt;If Propel had started by cherry-picking only the questions they knew they could answer, it would be impossible to measure how much better they got.&lt;/p&gt;
+&lt;p&gt;This is the fundamental tension I suspect is happening inside government. In order for a set of evals to be indicative of progress, product teams &lt;em&gt;should&lt;/em&gt; include questions their AI service can’t answer. But will compliance enforcers allow that? Surely they would much prefer a 100% accuracy score. Maybe product teams end up selecting a handful of questions they know they will get right, or maybe they avoid evals to skip this compliance pitfall altogether.&lt;/p&gt;
+&lt;h2 id=&quot;who-evaluates-the-evals&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#who-evaluates-the-evals&quot;&gt;&lt;span&gt;Who evaluates the evals?&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;At the end of the day, generative AI does not behave like other technologies that the traditional government compliance approach is designed for. I don’t know how this will shake out, but I expect different teams will land in different places with this.&lt;/p&gt;
+&lt;p&gt;Basically, the tension inherent in creating a set of eval questions is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For honestly evaluating an AI service, you should be scoring less than 100%
+&lt;ul&gt;
+&lt;li&gt;This is what is best for &lt;em&gt;users&lt;/em&gt; of the service&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;For getting an AI service approved, you should always score 100%
+&lt;ul&gt;
+&lt;li&gt;This is what is best for &lt;em&gt;internal stakeholders&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When I was in government, we were expected to produce documentation that invariably claimed that your system was fully locked down and would never do anything unexpected. That’s how you would get approved. Now that the government is being asked to build AI systems, this same approach doesn’t really make sense.&lt;/p&gt;
+&lt;p&gt;With any luck, the novel challenge of assessing AI systems is an opportunity to adapt the compliance regime to prioritize real information about how a service is performing.&lt;/p&gt;
+&lt;p&gt;On the other hand, we may just as easily wind up with a scenario where every new AI product team is asked to create their own exam and then score 100% on it. If this is where it ends up, we should probably get used to seeing Auditor General reports in the news.&lt;/p&gt;
+&lt;h2 id=&quot;making-sense-of-ai&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#making-sense-of-ai&quot;&gt;&lt;span&gt;Making sense of AI&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;My personal opinion is that CRA is doing a good job with AI adoption. AI is a huge rhetorical topic among senior government leaders, but there’s not a lot of evidence of AI improving nuts-and-bolts service delivery. &lt;a href=&quot;https://open.canada.ca/data/en/dataset/fcbc0200-79ba-4fa4-94a6-00e32facea6b/resource/369f6f34-148a-42ed-b581-8c164e941a89&quot;&gt;Most of the AI apps released by the Government of Canada so far&lt;/a&gt; have been very modest. In contrast, CRA has launched a high-volume nationwide AI service targeting a problem that tons of people have. Yes, they have been criticised for it, but they have also been &lt;em&gt;responsive&lt;/em&gt; to that criticism, substantially improving Charlie the Chatbot since last year.&lt;/p&gt;
+&lt;p&gt;It seems to me unfair that CRA suffered a negative news cycle based on the findings of the Auditor General but didn’t get a positive news cycle for improving it. This is the kind of dynamic that encourages timidness from our public service. If mistakes become huge crises while successes are unremarked, leaders learn to keep their heads down and avoid doing anything too ambitious. From my perspective, CRA’s chatbot is an obvious solution for an extremely common problem and I have no doubt that it is helping a lot of people.&lt;/p&gt;
+&lt;p&gt;The AI chatbot I built, &lt;a href=&quot;https://taxgpt.ca/&quot;&gt;TaxGPT&lt;/a&gt;, has answered more than 90,000 questions so far; I bet CRA sees numbers like that every a week.&lt;/p&gt;
+&lt;p&gt;I suspect that the reason CRA was vulnerable is because their compliance process didn’t truly account for how to measure their AI system’s performance. And while CRA’s chatbot provides the most visible example, the ‘how to deploy AI apps safely and responsibly’ problem applies to all of government.&lt;/p&gt;
+&lt;p&gt;Both citizens and the government stand to benefit from AI services that provide accurate answers in a way that is cheap, fast, and convenient. But there is no guarantee that’s what we are going to get.&lt;/p&gt;
+&lt;p&gt;My experience in the federal government was with onerous compliance processes that often prioritize the &lt;em&gt;appearance&lt;/em&gt; of safety rather than real metrics that help you understand how your service is performing. A bad outcome here would be mandating that every AI service has to receive a 100% accuracy score from a deliberately naïve set of evaluation questions. Other bad outcomes would be ignoring the risks and shipping risky systems to production, or concluding the risks are unmanageable and never shipping anything.&lt;/p&gt;
+&lt;p&gt;AI is here and it solves real problems. We are at an inflection point: we have energetic government leaders who are enthusiastic about new approaches, and we have a new technology that solves for a problem that has been very expensive to address thus far. AI is a genuinely useful technology that makes a lot of sense for government. Let’s hope our government can make sense of AI.&lt;/p&gt;
+&lt;h2 id=&quot;appendix-all-questions-and-ai-responses&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#appendix-all-questions-and-ai-responses&quot;&gt;&lt;span&gt;Appendix: All questions and AI responses&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Between April 8 and April 12, I evaluated both TaxGPT and Charlie the Chatbot against a list of questions used by the Auditor General in their report “Canada Revenue Agency Contact Centres”.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The full report: &lt;a href=&quot;https://www.canada.ca/en/auditor-general/our-work/audit-reports/canada-revenue-agency-contact-centres.html&quot;&gt;Canada Revenue Agency Contact Centres&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1jYlYFmFWv36U8UfWjTmmJIS31qk69_Mp/view?usp=sharing&quot;&gt;The list of tax questions used by the Auditor General&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Here are the results of my evaluation:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Jv5NHxI5t81YS2DOYiuFB0oPZGwgeFkASmnewDqjolY/edit?gid=0#gid=0&quot;&gt;TaxGPT (April 8)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Jv5NHxI5t81YS2DOYiuFB0oPZGwgeFkASmnewDqjolY/edit?gid=1038455316#gid=1038455316&quot;&gt;TaxGPT (April 12)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Jv5NHxI5t81YS2DOYiuFB0oPZGwgeFkASmnewDqjolY/edit?gid=961070908#gid=961070908&quot;&gt;Charlie the Chatbot (April 12)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;On accuracy&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I tried my best to use AG’s “Answer” and “Examples of wrong responses” columns to calibrate what they considered a right answer. For example, for the question “Decease on December 21, 2024: final tax return. When is the deceased final tax return due? [sic]”, the answer has to mention that the return is due the next business day because the filing date falls on a weekend.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;On repeatability&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As mentioned above, &lt;a href=&quot;https://federal-field-notes.ca/articles/2026-04-17-the-ai-compliance-quandary/#ai-is-non-deterministic&quot;&gt;generative AI is non-deterministic&lt;/a&gt;, so different answers will be returned for the exact same question. If you repeat this experiment, you will see slightly different results.&lt;/p&gt;
+
+    </content>
+  </entry>
   <entry>
     <title>ArriveCan and the contractor conundrum</title>
     <link href="https://federal-field-notes.ca/articles/2024-02-22-arrivecan-and-the-contractor-conundrum/" />
@@ -842,7 +1089,7 @@
     &lt;summary&gt;Figure 1: Product teams with clear responsibility&lt;/summary&gt;
     &lt;div&gt;
       &lt;figure&gt;
-      &lt;img alt=&quot;Figure 1: Autonomous teams with clear responsibility&quot; src=&quot;https://federal-field-notes.ca/img/articles/pies.png&quot; /&gt;
+      &lt;img alt=&quot;Figure 1: Autonomous product teams with clear responsibility&quot; src=&quot;https://federal-field-notes.ca/img/articles/pies.png&quot; /&gt;
       &lt;figcaption&gt;
       &lt;p&gt;3 autonomous product teams, each responsible for 1 product. Arrows represent responsibility for products. Responsibility is clear: there are 3 arrows, each product team is responsible for 1 product.&lt;/p&gt;
       &lt;/figcaption&gt;
