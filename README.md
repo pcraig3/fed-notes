@@ -18,6 +18,10 @@
 
 Use this as the "Publish command".
 
+### Strikethrough in table-of-contents headings
+
+The Markdown configuration in [`src/_filters/markdown-filter.js`](src/_filters/markdown-filter.js) wraps the `markdown-it-toc-done-right` renderer to preserve bare `<del>…</del>` and Markdown `~~…~~` in TOC labels. The wrapper uses heading IDs to match labels to the generated links. When updating the plugin, check that its `tocBody` renderer still produces links with the matching fragment IDs and that “Slow is <del>safe</del> slow” still shows the strikethrough in the faster-horses post’s sidebar.
+
 ### Publishing to Github Pages
 
 [How to Deploy Eleventy to GitHub Pages With GitHub Actions](https://www.rockyourcode.com/how-to-deploy-eleventy-to-github-pages-with-github-actions/) is super helpful in setting up an eleventy site to publish automatically.
